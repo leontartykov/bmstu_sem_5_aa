@@ -18,9 +18,14 @@ def main():
         distance = recursive_levenstein(str_1, str_2)
         print(f"distance = {distance}")
     elif choice == 3:
-        recursive_levenstein_matrix()
+        len_str_1 = len(str_1); len_str_2 = len(str_2)
+        matrix = create_matrix(len_str_2 + 1, len_str_1 + 1)
+        distance, matrix = recursive_levenstein_matrix(str_1, str_2, len_str_1, len_str_2, matrix)
+        print(f"distance = {distance}")
     elif choice == 4:
-        recursive_dameray_levenstein()
+        distance = recursive_dameray_levenstein(str_1, str_2)
+        print(f"distance = {distance}")
+
 
 
 if __name__ == "__main__":

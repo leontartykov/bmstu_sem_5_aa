@@ -29,11 +29,37 @@ def recursive_levenstein(str_1: str, str_2: str) -> int:
                    recursive_levenstein(str_1[:-1], str_2[:-1]) + match)
     return distance
 
-def recursive_levenstein_matrix():
-    pass
+def recursive_levenstein_matrix(str_1: str, str_2: str, i: int, j: int, matrix: list) -> Tuple[int, list]:
+    if i == 0:
+        return j, matrix
+    if j == 0:
+        return i, matrix
+    if matrix[i][j] != -1:
+        return matrix[i][j], matrix
+    match = 0 if str_1[-1] == str_2[-1] else 1
 
-def recursive_dameray_levenstein():
-    pass
+    insert, matrix = recursive_levenstein_matrix(str_1, str_2[:-1], i, j - 1, matrix)
+    delete, matrix = recursive_levenstein_matrix(str_1[:-1], str_2, i - 1, j, matrix)
+    replace, matrix = recursive_levenstein_matrix(str_1[:-1], str_2[:-1], i - 1, j - 1, matrix)
+    insert += 1; delete += 1; replace += match
+
+    distance = min(insert, delete, replace)
+    matrix[i][j] = distance
+    return distance, matrix
+
+def recursive_dameray_levenstein(str_1: str, str_2: str) -> int:
+    if str_1 == '' or str_2 == '':
+        return abs(len(str_1) - len(str_2))
+    match = 0 if str_1[-1] == str_2[-1] else 1
+    insert = recursive_dameray_levenstein(str_1, str_2[:-1]) + 1
+    delete = recursive_dameray_levenstein(str_1[:-1], str_2) + 1
+    replace = recursive_dameray_levenstein(str_1[:-1], str_2[:-1]) + match
+
+    if len(str_1) > 1 and len(str_2) > 1 and str_1[:-1] == str_2[:-2] and str_2[:-1] == str_1[:-2]:
+        distance = min(insert, delete, replace, recursive_dameray_levenstein(str_1, str_2))
+    else:
+        distance = min(insert, delete, replace)
+    return distance
 
 def create_row(len_row: int, flag_row: int) -> list[int]:
     row = list()
@@ -51,3 +77,9 @@ def swap_rows(row_1: list[int], row_2: list[int]) -> Tuple[list, list]:
     row_1 = deepcopy(row_2)
     row_2 = deepcopy(temp_row)
     return row_1, row_2
+
+def create_matrix(len_str_1: int, len_str_2: int) -> list:
+    matrix = list()
+    for i in range(len_str_2):
+        matrix.append([-1] * len_str_1)
+    return matrix

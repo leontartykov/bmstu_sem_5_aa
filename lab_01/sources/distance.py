@@ -29,7 +29,8 @@ def recursive_levenstein(str_1: str, str_2: str) -> int:
                    recursive_levenstein(str_1[:-1], str_2[:-1]) + match)
     return distance
 
-def recursive_levenstein_matrix(str_1: str, str_2: str, i: int, j: int, matrix: list) -> Tuple[int, list]:
+def recursive_levenstein_matrix(str_1: str, str_2: str, i: int, j: int, matrix: list[list[int]]) \
+                                -> Tuple[int, list[list[int]]]:
     if i == 0:
         return j, matrix
     if j == 0:
@@ -55,8 +56,9 @@ def recursive_dameray_levenstein(str_1: str, str_2: str) -> int:
     delete = recursive_dameray_levenstein(str_1[:-1], str_2) + 1
     replace = recursive_dameray_levenstein(str_1[:-1], str_2[:-1]) + match
 
-    if len(str_1) > 1 and len(str_2) > 1 and str_1[:-1] == str_2[:-2] and str_2[:-1] == str_1[:-2]:
-        distance = min(insert, delete, replace, recursive_dameray_levenstein(str_1, str_2))
+    if len(str_1) > 1 and len(str_2) > 1 and str_1[-1] == str_2[-2] and \
+    str_2[-1] == str_1[-2]:
+        distance = min(insert, delete, replace, recursive_dameray_levenstein(str_1[:-2], str_2[:-2]) + 1)
     else:
         distance = min(insert, delete, replace)
     return distance
@@ -71,14 +73,14 @@ def create_row(len_row: int, flag_row: int) -> list[int]:
             row.append(0)
     return row
 
-def swap_rows(row_1: list[int], row_2: list[int]) -> Tuple[list, list]:
+def swap_rows(row_1: list[int], row_2: list[int]) -> Tuple[list[int], list[int]]:
     temp_row = list()
     temp_row = deepcopy(row_1)
     row_1 = deepcopy(row_2)
     row_2 = deepcopy(temp_row)
     return row_1, row_2
 
-def create_matrix(len_str_1: int, len_str_2: int) -> list:
+def create_matrix(len_str_1: int, len_str_2: int) -> list[list]:
     matrix = list()
     for i in range(len_str_2):
         matrix.append([-1] * len_str_1)

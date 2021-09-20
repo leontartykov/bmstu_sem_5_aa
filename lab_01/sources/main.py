@@ -1,11 +1,14 @@
+from test_time import time_test
 import sys
 from menu import menu
 from distance import *
+from generate_string import generate_random_string
 
 def main():
     
     str_1 = input("Введите первую строку: ")
     str_2 = input("Введите вторую строку: ")
+    
     choice = -1
     while choice != 0:
         menu()
@@ -26,6 +29,11 @@ def main():
         elif choice == 4:
             distance = recursive_dameray_levenstein(str_1, str_2)
             print(f"distance = {distance}")
+        elif choice == 5:
+            count_operations = 5
+            str_rand_1 = generate_random_string(N=count_operations)
+            str_rand_2 = generate_random_string(N=count_operations)
+            time_test(str_rand_1, str_rand_2, count_operations)
 
 
 

@@ -1,6 +1,8 @@
 from typing import Tuple
 from copy import deepcopy
+from memory_profiler import profile
 
+@profile
 def iterative_levenstein_two_rows(str_1: str, str_2: str) -> int:
     len_str_1 = len(str_1); len_str_2 = len(str_2)
     flag_first_row = 1; flag_second_row = 2
@@ -20,6 +22,7 @@ def iterative_levenstein_two_rows(str_1: str, str_2: str) -> int:
     distance = row_1[-1]
     return distance
 
+@profile
 def recursive_levenstein(str_1: str, str_2: str) -> int:
     if str_1 == '' or str_2 == '':
         return abs(len(str_1) - len(str_2))
@@ -29,6 +32,7 @@ def recursive_levenstein(str_1: str, str_2: str) -> int:
                    recursive_levenstein(str_1[:-1], str_2[:-1]) + match)
     return distance
 
+@profile
 def recursive_levenstein_matrix(str_1: str, str_2: str, i: int, j: int, matrix: list[list[int]]) \
                                 -> Tuple[int, list[list[int]]]:
     if i == 0:
@@ -48,6 +52,7 @@ def recursive_levenstein_matrix(str_1: str, str_2: str, i: int, j: int, matrix: 
     matrix[i][j] = distance
     return distance, matrix
 
+@profile
 def recursive_dameray_levenstein(str_1: str, str_2: str) -> int:
     if str_1 == '' or str_2 == '':
         return abs(len(str_1) - len(str_2))

@@ -30,10 +30,12 @@ def main():
             distance = recursive_dameray_levenstein(str_1, str_2)
             print(f"distance = {distance}")
         elif choice == 5:
-            count_operations = 5
-            str_rand_1 = generate_random_string(N=count_operations)
-            str_rand_2 = generate_random_string(N=count_operations)
-            time_test(str_rand_1, str_rand_2, count_operations)
+            for i in range(3, 9):
+                len_rand_str = i
+                count_operations = 1000
+                str_rand_1 = generate_random_string(N=len_rand_str)
+                str_rand_2 = generate_random_string(N=len_rand_str)
+                time_test(str_rand_1, str_rand_2, count_operations)
 
 
 

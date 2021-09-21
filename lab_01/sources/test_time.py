@@ -2,30 +2,45 @@ from distance import *
 import time
 
 def time_test(str_1: str, str_2: str, count_operations: int):
+    len_str = len(str_1)
+    print(f"Длина строки = {len_str}")
+    
     time_start = time.process_time()
     for i in range(count_operations):
         iterative_levenstein_two_rows(str_1, str_2)
     time_stop = time.process_time()
-    average_time = (int(time_stop) - int(time_start)) / count_operations
-    print(f"Замеры времени итеративного Левенштейна для {count_operations} = {average_time}")
-
+    average_time = (time_stop - time_start) / count_operations
+    print("Итеративного Левенштейна для {} = {:.15f}".format(len_str, average_time))
+    
     time_start = time.process_time()
     for i in range(count_operations):
         recursive_levenstein(str_1, str_2)
     time_stop = time.process_time()
     average_time = (time_stop - time_start) / count_operations
-    print(f"Замеры времени рекурсивного Левенштейна для {count_operations} = {average_time}")
-
+    print("Рекурсивного Левенштейна для {} = {:.15f}".format(len_str, average_time))
+    
+    
+    len_str_1 = len(str_1); len_str_2 = len(str_2)
     time_start = time.process_time()
     for i in range(count_operations):
-        recursive_levenstein_matrix(str_1, str_2)
+        matrix = create_matrix(len_str_2 + 1, len_str_1 + 1)
     time_stop = time.process_time()
-    average_time = (time_stop - time_start) / count_operations
-    print(f"Замеры времени рекурсивного Левенштейна с матрицей для {count_operations} = {average_time}")
-
+    average_matrix = (time_stop - time_start) / count_operations
+    print("Создание матрицы {} = {:.15f}".format(len_str, average_matrix))
+    
+    
+    time_start = time.process_time()
+    for i in range(count_operations):
+        matrix = create_matrix(len_str_2 + 1, len_str_1 + 1)
+        recursive_levenstein_matrix(str_1, str_2, len_str_1, len_str_2, matrix)
+    time_stop = time.process_time()
+    average_time = (time_stop - time_start) / count_operations - average_matrix
+    print("Рекурсивного Левенштейна с матрицей для {} = {:.15f}".format(len_str, average_time))
+    
     time_start = time.process_time()
     for i in range(count_operations):
         recursive_dameray_levenstein(str_1, str_2)
     time_stop = time.process_time()
     average_time = (time_stop - time_start) / count_operations
-    print(f"Замеры времени рекурсивного Дамерау-Левенштейна для {count_operations} = {average_time}")
+    print("Рекурсивного Дамерау-Левенштейна для {} = {:.15f}".format(len_str, average_time))
+    

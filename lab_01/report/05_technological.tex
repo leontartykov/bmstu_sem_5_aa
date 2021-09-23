@@ -1,0 +1,136 @@
+\chapter{Технологическая часть}
+\section{Требования к программному обеспечению}
+Программа должна отвечать следующим требованиям:
+\begin{itemize}
+	\item На вход программе подаются две строки на русском или английском языке в любом регистре;
+	\item Осуществляется выбор алгоритма нахождения расстояния из меню
+	\item На выходе программа выдает результат - найденное расстояние между двумя строками выбранным пользователем алгоритмом
+\end{itemize}
+
+\section{Выбор средств реализации}
+Для реализации алгоритмов в данной лабораторной работе был выбран язык программирования python. Он является кроссплатформенный, а также имеется опыт разработки на этом языке. В качестве среды разработки был использован Visual Studio Code, так как в нем можно работать как на операционной системе Windows, так и на дистрибутивах Linux. При замере процессорного времени был использован модуль ***.
+\section{Листинги программ}
+\begin{lstlisting}[label=some-code,caption=Программный код нахождения расстояния Левенштейна итеративно с использованием двух строк]
+	def iterative_levenstein_two_rows(str_1: str, str_2: str) -> int:
+	len_str_1 = len(str_1); len_str_2 = len(str_2)
+	flag_first_row = 1; flag_second_row = 2
+	
+	row_1 = create_row(len_str_1 + 1, flag_first_row)
+	row_2 = create_row(len_str_1 + 1, flag_second_row)
+	
+	for i in range(len_str_2):
+	row_2[0] = i + 1
+	for j in range(len_str_1):
+	deletion_cost = row_1[j + 1] + 1
+	insert_cost = row_2[j] + 1
+	replace_cost = row_1[j] if str_1[j - 1] == str_2[i - 1] \
+	else row_1[j] + 1
+	
+	row_2[j + 1] = min(deletion_cost, insert_cost, replace_cost)
+	row_1, row_2 = swap_rows(row_1, row_2)
+	distance = row_1[-1]
+	return distance
+\end{lstlisting}
+
+\begin{lstlisting}[label=some-code,caption=Программный код нахождения расстояния Левенштейна рекурсивно без использования кэша]
+	def recursive_levenstein(str_1: str, str_2: str) -> int:
+	if str_1 == '' or str_2 == '':
+	return abs(len(str_1) - len(str_2))
+	match = 0 if str_1[-1] == str_2[-1] else 1
+	distance = min(recursive_levenstein(str_1, str_2[:-1]) + 1,
+	recursive_levenstein(str_1[:-1], str_2) + 1,
+	recursive_levenstein(str_1[:-1], str_2[:-1]) + match)
+	return distance
+\end{lstlisting}
+
+\begin{lstlisting}[label=some-code,caption=Программный код нахождения расстояния Левенштейна рекурсивно с использованием матрицы]
+	def recursive_levenstein_matrix(str_1: str, str_2: str, i: int, j: int,
+	matrix: list) -> Tuple[int, list[list[int]]]:
+	if i == 0:
+	return j, matrix
+	if j == 0:
+	return i, matrix
+	if matrix[i][j] != -1:
+	return matrix[i][j], matrix
+	match = 0 if str_1[-1] == str_2[-1] else 1
+	
+	insert, matrix = recursive_levenstein_matrix(str_1, str_2[:-1], i,
+	j-1, matrix)
+	delete, matrix = recursive_levenstein_matrix(str_1[:-1], str_2, i-1,
+	j, matrix)
+	replace, matrix = recursive_levenstein_matrix(str_1[:-1], str_2[:-1],
+	-1, j-1, matrix)
+	insert += 1; delete += 1; replace += match
+	
+	distance = min(insert, delete, replace)
+	matrix[i][j] = distance
+	return distance, matrix
+\end{lstlisting}
+
+\begin{lstlisting}[label=some-code,caption=Программный код нахождения расстояния Дамерау-Левенштейна рекурсивно]
+	def recursive_dameray_levenstein(str_1: str, str_2: str) -> int:
+	if str_1 == '' or str_2 == '':
+	return abs(len(str_1) - len(str_2))
+	match = 0 if str_1[-1] == str_2[-1] else 1
+	insert = recursive_dameray_levenstein(str_1, str_2[:-1]) + 1
+	delete = recursive_dameray_levenstein(str_1[:-1], str_2) + 1
+	replace = recursive_dameray_levenstein(str_1[:-1], str_2[:-1]) + \
+	match
+	
+	if len(str_1) > 1 and len(str_2) > 1 and str_1[-1] == str_2[-2] \
+	and str_2[-1] == str_1[-2]:
+	distance = min(insert, delete, replace,
+	recursive_dameray_levenstein(str_1[:-2], str_2[:-2]) + 1)
+	else:
+	distance = min(insert, delete, replace)
+	return distance
+\end{lstlisting}
+
+\Large Утилиты \\
+\normalsize На листингах представлены программные модули, которые используются в данных функциях:\\
+\begin{lstlisting}[label=some-code,caption=Программный код создания для кэша в виде строки]
+	def create_row(len_row: int, flag_row: int) -> list[int]:
+	row = list()
+	if flag_row == 1:
+	for i in range(len_row):
+	row.append(i)
+	else:
+	for i in range(len_row):
+	row.append(0)
+	return row
+\end{lstlisting}
+
+\begin{lstlisting}[label=some-code,caption=Программный код создания для кэша в виде строки]
+	def swap_rows(row_1: list[int], row_2: list[int]) \
+	-> Tuple[list[int], list[int]]:
+	temp_row = list()
+	temp_row = deepcopy(row_1)
+	row_1 = deepcopy(row_2)
+	row_2 = deepcopy(temp_row)
+	return row_1, row_2
+\end{lstlisting}
+
+\section{Тестирование}
+Для тестирования используется метод черного ящика. В данном разделе приведена таблица \ref{table:ref1}, в которой указаны классы эквивалентностей тестов \\
+
+\begin{table}[ht!]
+	\centering
+	\caption{Таблица тестов}
+	\label{table:ref1}
+	\begin{tabular}{|c|c|c|c|c|c|}
+		\hline
+		\multirow{3}{*}{№} & \multirow{3}{*}{Описание теста} & \multirow{3}{*}{Слово 1}  &  \multirow{3}{*}{Слово 2}   & \multicolumn{2}{|c|}{Алгоритм}\\ \cline{5-6}
+		&                &          &            &\multirow{2}{*}{Левенштейн}   &Дамерау-	\\ 
+		&                &          &            &             &Левенштейн       	        \\ \hline
+		1& Пустые строки  &  ''      &    ''      &   0         &  0 						\\ \hline
+		2& Нет повторяющихся символов & deepcopy & раздел & 8   &  8                       \\ \hline
+		3& Инверсия строк & insert   &tresni      &   6         &  6                       \\ \hline
+		4& Два соседних символа       & heart    & heatr  & 2   &  1                       \\ \hline
+		5& Одинаковые строки          & таблица  & таблица& 0   &  0						\\ \hline
+		6& Одна строка меньше другой  & город    & горо   & 1   &  1						\\ \hline
+	\end{tabular}
+\end{table}
+
+\section{Вывод}
+В данном разделе был выбран язык программирования, среда разработки. Реализованы функции, описанные в аналитическом разделе, и проведено их тестирование методом черного ящика по таблице \ref{table:ref1}. 
+

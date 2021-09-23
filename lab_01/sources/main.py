@@ -7,7 +7,6 @@ from graph import *
 import cProfile, pstats
 
 def main():
-    
     str_1 = input("Введите первую строку: ")
     str_2 = input("Введите вторую строку: ")
     
@@ -49,12 +48,13 @@ def main():
         elif choice == 6:
             str_1 = 'zxc'
             str_2 = 'vbn'
+            
             cProfile.run("iterative_levenstein_two_rows('zxc', 'vbn')", "output.dat")
             with open ("output_time_1.txt", "w") as file:
                 p = pstats.Stats("output.dat", stream=file)
                 p.sort_stats("calls").print_stats()
             print(f"size_1 = {sys.getsizeof(iterative_levenstein_two_rows)}")
-
+            
             cProfile.run("recursive_levenstein('zxc', 'vbn')", "output.dat")
             with open ("output_time_2.txt", "w") as file:
                 p = pstats.Stats("output.dat", stream=file)
@@ -69,6 +69,7 @@ def main():
             with open ("output_time_4.txt", "w") as file:
                 p = pstats.Stats("output.dat", stream=file)
                 p.sort_stats("calls").print_stats()
+            
 
 
 def recursive_levenstein_matrix_input(str_1, str_2):

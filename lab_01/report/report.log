@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.6) (preloaded format=pdflatex 2021.9.14)  24 SEP 2021 01:23
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.6) (preloaded format=pdflatex 2021.9.14)  24 SEP 2021 20:03
 entering extended mode
 **./report.tex
 (report.tex
@@ -616,31 +616,10 @@ Package caption Info: Standard document class detected.
 )
 \c@caption@flags=\count295
 \c@continuedfloat=\count296
-) (C:\Users\Р›РµРІ\AppData\Local\Programs\MiKTeX\tex/latex/listings\listings.st
+) (C:\Users\Р›РµРІ\AppData\Local\Programs\MiKTeX\tex/latex/tools\indentfirst.st
 y
-\lst@mode=\count297
-\lst@gtempboxa=\box103
-\lst@token=\toks31
-\lst@length=\count298
-\lst@currlwidth=\dimen187
-\lst@column=\count299
-\lst@pos=\count300
-\lst@lostspace=\dimen188
-\lst@width=\dimen189
-\lst@newlines=\count301
-\lst@lineno=\count302
-\lst@maxwidth=\dimen190
-(C:\Users\Р›РµРІ\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstmisc.sty
-File: lstmisc.sty 2020/03/24 1.8d (Carsten Heinz)
-\c@lstnumber=\count303
-\lst@skipnumbers=\count304
-\lst@framebox=\box104
-)
-(C:\Users\Р›РµРІ\AppData\Local\Programs\MiKTeX\tex/latex/listings\listings.cfg
-File: listings.cfg 2020/03/24 1.8d listings configuration
-))
-Package: listings 2020/03/24 1.8d (Carsten Heinz)
- (C:\Users\Р›РµРІ\AppData\Local\Programs\MiKTeX\tex/latex/xcolor\xcolor.sty
+Package: indentfirst 1995/11/23 v1.03 Indent first paragraph (DPC)
+) (C:\Users\Р›РµРІ\AppData\Local\Programs\MiKTeX\tex/latex/xcolor\xcolor.sty
 Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
 
 (C:\Users\Р›РµРІ\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\color.cfg
@@ -657,6 +636,31 @@ Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
 Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
 )
+(C:\Users\Р›РµРІ\AppData\Local\Programs\MiKTeX\tex/latex/listings\listings.sty
+\lst@mode=\count297
+\lst@gtempboxa=\box103
+\lst@token=\toks31
+\lst@length=\count298
+\lst@currlwidth=\dimen187
+\lst@column=\count299
+\lst@pos=\count300
+\lst@lostspace=\dimen188
+\lst@width=\dimen189
+\lst@newlines=\count301
+\lst@lineno=\count302
+\lst@maxwidth=\dimen190
+
+(C:\Users\Р›РµРІ\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstmisc.sty
+File: lstmisc.sty 2020/03/24 1.8d (Carsten Heinz)
+\c@lstnumber=\count303
+\lst@skipnumbers=\count304
+\lst@framebox=\box104
+)
+(C:\Users\Р›РµРІ\AppData\Local\Programs\MiKTeX\tex/latex/listings\listings.cfg
+File: listings.cfg 2020/03/24 1.8d listings configuration
+))
+Package: listings 2020/03/24 1.8d (Carsten Heinz)
+
 (C:\Users\Р›РµРІ\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang1.sty
 File: lstlang1.sty 2020/03/24 1.8d listings language file
 ) (C:\Users\Р›РµРІ\AppData\Local\Programs\MiKTeX\tex/latex/titlesec\titlesec.st
@@ -677,11 +681,24 @@ LaTeX Font Info:    Trying to load font information for T2A+cmr on input line 8
 
 (C:\Users\Р›РµРІ\AppData\Local\Programs\MiKTeX\tex/latex/cyrillic\t2acmr.fd
 File: t2acmr.fd 2001/08/11 v1.0a Computer Modern Cyrillic font definitions
-)<<t2a.cmap>> (02_introduction.aux) (03_analysis.aux
+)<<t2a.cmap>> (02_introduction.aux) (03_analysis.aux) (04_design.aux)
+(05_technological.aux
 
-LaTeX Warning: Label `eq' multiply defined.
+LaTeX Warning: Label `some-code' multiply defined.
 
-) (04_design.aux) (05_research.aux))
+
+LaTeX Warning: Label `some-code' multiply defined.
+
+
+LaTeX Warning: Label `some-code' multiply defined.
+
+
+LaTeX Warning: Label `some-code' multiply defined.
+
+
+LaTeX Warning: Label `some-code' multiply defined.
+
+) (06_research.aux) (07_conclusion.aux))
 \openout1 = `report.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 5.
@@ -789,67 +806,66 @@ Package caption Info: End \AtBeginDocument code.
 {C:/Users/Р›РµРІ/AppData/Local/MiKTeX/pdftex/config/pdftex.map}]
 \openout2 = `02_introduction.aux'.
 
- (02_introduction.tex) [2
+ (02_introduction.tex [2
 
 
 
 
-]
+]) [3]
 \openout2 = `03_analysis.aux'.
 
 
 (03_analysis.tex
 {\cyrillictext \CYRG \cyrl \cyra \cyrv \cyra } 1.
-[3
+
+Overfull \hbox (12.13515pt too wide) in paragraph at lines 4--6
+[]\T2A/cmr/m/n/14.4 Расстояние Ле-вен-штей-на (ре-дак-тор-ское рас-сто-я-ние) м
+еж-ду дву-мя стро-
+ []
+
+[4
 
 
 
 
 ]
-Overfull \hbox (1.4917pt too wide) in paragraph at lines 47--47
+Overfull \hbox (5.8686pt too wide) in paragraph at lines 47--48
+[]\T2A/cmr/m/n/14.4 Модификацией ис-поль-зо-ва-нию мат-ри-цы яв-ля-ет-ся ис-пол
+ь-зо-ва-ние толь-
+ []
+
+[5]
+Overfull \hbox (1.4917pt too wide) in paragraph at lines 49--49
  |[]\T2A/cmr/m/n/20.74 Рекурсивный ал-го-ритм с кэ-шем в фор-ме мат-
  []
 
-
-Overfull \hbox (25.45564pt too wide) in paragraph at lines 51--55
-\T2A/cmr/m/n/14.4 но-во-го сим-во-ла или оши-боч-ный сим-вол. Та-ким об-ра-зом,
- рас-сто-я-ние Дамерау-
- []
-
-[4]
-Overfull \hbox (118.73596pt too wide) detected at line 73
-\OML/cmm/m/it/14.4 D\OT1/cmr/m/n/14.4 (\OML/cmm/m/it/14.4 s\OT1/cmr/m/n/14.4 1[
-1\OML/cmm/m/it/14.4 ::i\OT1/cmr/m/n/14.4 ]\OML/cmm/m/it/14.4 ; s\OT1/cmr/m/n/14
-.4 2[1\OML/cmm/m/it/14.4 ::j\OT1/cmr/m/n/14.4 ]) = [][]
- []
-
-) [5]
+[6]) [7]
 \openout2 = `04_design.aux'.
 
  (04_design.tex
 {\cyrillictext \CYRG \cyrl \cyra \cyrv \cyra } 2.
 
-Overfull \hbox (1.26088pt too wide) in paragraph at lines 3--7
-\T2A/cmr/m/n/14.4 рис []2.3[] - схе-ма ал-го-рит-ма ре-кур-сив-но-го ал-го-рит-
-ма Дамерау-Левенштейна
+Overfull \hbox (22.41063pt too wide) in paragraph at lines 9--10
+[]\T2A/cmr/m/n/14.4 рис []2.3[] - схе-ма ал-го-рит-ма ре-кур-сив-но-го ал-го-ри
+т-ма Дамерау-Левенштейна
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 3--7
+Underfull \hbox (badness 10000) in paragraph at lines 11--12
 
  []
 
 <../../../../../../../msys64/home/Р›РµРІ/bmstu_sem_5_aa/lab_01/report/diagrams/
-iterative_two_rows.png, id=33, 667.49374pt x 1086.0575pt>
+iterative_two_rows.png, id=40, 667.49374pt x 1086.0575pt>
 File: ../../../../../../../msys64/home/Р›РµРІ/bmstu_sem_5_aa/lab_01/report/diag
 rams/iterative_two_rows.png Graphic file (type png)
 <use ../../../../../../../msys64/home/Р›РµРІ/bmstu_sem_5_aa/lab_01/report/diagr
 ams/iterative_two_rows.png>
 Package pdftex.def Info: ../../../../../../../msys64/home/Р›РµРІ/bmstu_sem_5_aa
-/lab_01/report/diagrams/iterative_two_rows.png  used on input line 13.
+/lab_01/report/diagrams/iterative_two_rows.png  used on input line 18.
 (pdftex.def)             Requested size: 415.4104pt x 675.91733pt.
 <../../../../../../../msys64/home/Р›РµРІ/bmstu_sem_5_aa/lab_01/report/diagrams/
-Р РµРєСѓСЂСЃРёРІРЅС‹Р№ Р›РµРІРµРЅС€С‚РµР№РЅ Р±РµР· РєСЌС€Р°.png, id=35, 794.97p
+Р РµРєСѓСЂСЃРёРІРЅС‹Р№ Р›РµРІРµРЅС€С‚РµР№РЅ Р±РµР· РєСЌС€Р°.png, id=42, 794.97p
 t x 664.4825pt>
 File: ../../../../../../../msys64/home/Р›РµРІ/bmstu_sem_5_aa/lab_01/report/diag
 rams/Р РµРєСѓСЂСЃРёРІРЅС‹Р№ Р›РµРІРµРЅС€С‚РµР№РЅ Р±РµР· РєСЌС€Р°.png Graphic fi
@@ -858,10 +874,10 @@ le (type png)
 ams/Р РµРєСѓСЂСЃРёРІРЅС‹Р№ Р›РµРІРµРЅС€С‚РµР№РЅ Р±РµР· РєСЌС€Р°.png>
 Package pdftex.def Info: ../../../../../../../msys64/home/Р›РµРІ/bmstu_sem_5_aa
 /lab_01/report/diagrams/Р РµРєСѓСЂСЃРёРІРЅС‹Р№ Р›РµРІРµРЅС€С‚РµР№РЅ Р±РµР· РєСЌ
-С€Р°.png  used on input line 20.
+С€Р°.png  used on input line 25.
 (pdftex.def)             Requested size: 415.4104pt x 347.23627pt.
 <../../../../../../../msys64/home/Р›РµРІ/bmstu_sem_5_aa/lab_01/report/diagrams/
-Р РµРєСѓСЂСЃРёРІРЅС‹Р№ Р›РµРІРµРЅС€С‚РµР№РЅ СЃ РјР°С‚СЂРёС†РµР№1.png, id=36, 75
+Р РµРєСѓСЂСЃРёРІРЅС‹Р№ Р›РµРІРµРЅС€С‚РµР№РЅ СЃ РјР°С‚СЂРёС†РµР№1.png, id=43, 75
 4.82pt x 710.655pt>
 File: ../../../../../../../msys64/home/Р›РµРІ/bmstu_sem_5_aa/lab_01/report/diag
 rams/Р РµРєСѓСЂСЃРёРІРЅС‹Р№ Р›РµРІРµРЅС€С‚РµР№РЅ СЃ РјР°С‚СЂРёС†РµР№1.png Graph
@@ -870,10 +886,10 @@ ic file (type png)
 ams/Р РµРєСѓСЂСЃРёРІРЅС‹Р№ Р›РµРІРµРЅС€С‚РµР№РЅ СЃ РјР°С‚СЂРёС†РµР№1.png>
 Package pdftex.def Info: ../../../../../../../msys64/home/Р›РµРІ/bmstu_sem_5_aa
 /lab_01/report/diagrams/Р РµРєСѓСЂСЃРёРІРЅС‹Р№ Р›РµРІРµРЅС€С‚РµР№РЅ СЃ РјР°С‚СЂ
-РёС†РµР№1.png  used on input line 27.
+РёС†РµР№1.png  used on input line 32.
 (pdftex.def)             Requested size: 415.4104pt x 391.10002pt.
 <../../../../../../../msys64/home/Р›РµРІ/bmstu_sem_5_aa/lab_01/report/diagrams/
-Р РµРєСѓСЂСЃРёРІРЅС‹Р№ Р›РµРІРµРЅС€С‚РµР№РЅ СЃ РјР°С‚СЂРёС†РµР№2.png, id=37, 62
+Р РµРєСѓСЂСЃРёРІРЅС‹Р№ Р›РµРІРµРЅС€С‚РµР№РЅ СЃ РјР°С‚СЂРёС†РµР№2.png, id=44, 62
 2.325pt x 865.2325pt>
 File: ../../../../../../../msys64/home/Р›РµРІ/bmstu_sem_5_aa/lab_01/report/diag
 rams/Р РµРєСѓСЂСЃРёРІРЅС‹Р№ Р›РµРІРµРЅС€С‚РµР№РЅ СЃ РјР°С‚СЂРёС†РµР№2.png Graph
@@ -882,23 +898,23 @@ ic file (type png)
 ams/Р РµРєСѓСЂСЃРёРІРЅС‹Р№ Р›РµРІРµРЅС€С‚РµР№РЅ СЃ РјР°С‚СЂРёС†РµР№2.png>
 Package pdftex.def Info: ../../../../../../../msys64/home/Р›РµРІ/bmstu_sem_5_aa
 /lab_01/report/diagrams/Р РµРєСѓСЂСЃРёРІРЅС‹Р№ Р›РµРІРµРЅС€С‚РµР№РЅ СЃ РјР°С‚СЂ
-РёС†РµР№2.png  used on input line 34.
+РёС†РµР№2.png  used on input line 39.
 (pdftex.def)             Requested size: 415.4104pt x 577.56398pt.
-[6
+[8
 
 
 
 
-] [7 <../../../../../../../msys64/home/Р›РµРІ/bmstu_sem_5_aa/lab_01/report/diag
-rams/iterative_two_rows.png>] [8 <../../../../../../../msys64/home/Р›РµРІ/bmstu
-_sem_5_aa/lab_01/report/diagrams/Р РµРєСѓСЂСЃРёРІРЅС‹Р№ Р›РµРІРµРЅС€С‚РµР№РЅ Р±
-РµР· РєСЌС€Р°.png>] [9 <../../../../../../../msys64/home/Р›РµРІ/bmstu_sem_5_aa/
-lab_01/report/diagrams/Р РµРєСѓСЂСЃРёРІРЅС‹Р№ Р›РµРІРµРЅС€С‚РµР№РЅ СЃ РјР°С‚СЂР
-ёС†РµР№1.png>] [10 <../../../../../../../msys64/home/Р›РµРІ/bmstu_sem_5_aa/lab_
-01/report/diagrams/Р РµРєСѓСЂСЃРёРІРЅС‹Р№ Р›РµРІРµРЅС€С‚РµР№РЅ СЃ РјР°С‚СЂРёС†Р
-µР№2.png>]
+] [9 <../../../../../../../msys64/home/Р›РµРІ/bmstu_sem_5_aa/lab_01/report/diag
+rams/iterative_two_rows.png>] [10 <../../../../../../../msys64/home/Р›РµРІ/bmst
+u_sem_5_aa/lab_01/report/diagrams/Р РµРєСѓСЂСЃРёРІРЅС‹Р№ Р›РµРІРµРЅС€С‚РµР№РЅ Р
+±РµР· РєСЌС€Р°.png>] [11 <../../../../../../../msys64/home/Р›РµРІ/bmstu_sem_5_a
+a/lab_01/report/diagrams/Р РµРєСѓСЂСЃРёРІРЅС‹Р№ Р›РµРІРµРЅС€С‚РµР№РЅ СЃ РјР°С‚С
+ЂРёС†РµР№1.png>] [12 <../../../../../../../msys64/home/Р›РµРІ/bmstu_sem_5_aa/la
+b_01/report/diagrams/Р РµРєСѓСЂСЃРёРІРЅС‹Р№ Р›РµРІРµРЅС€С‚РµР№РЅ СЃ РјР°С‚СЂРёС
+†РµР№2.png>]
 <../../../../../../../msys64/home/Р›РµРІ/bmstu_sem_5_aa/lab_01/report/diagrams/
-Р РµРєСѓСЂСЃРёРІРЅС‹Р№ Р”Р°РјРµСЂР°Сѓ-Р›РµРІРµРЅС€С‚РµР№РЅ.png, id=58, 761.8462
+Р РµРєСѓСЂСЃРёРІРЅС‹Р№ Р”Р°РјРµСЂР°Сѓ-Р›РµРІРµРЅС€С‚РµР№РЅ.png, id=64, 761.8462
 5pt x 1005.7575pt>
 File: ../../../../../../../msys64/home/Р›РµРІ/bmstu_sem_5_aa/lab_01/report/diag
 rams/Р РµРєСѓСЂСЃРёРІРЅС‹Р№ Р”Р°РјРµСЂР°Сѓ-Р›РµРІРµРЅС€С‚РµР№РЅ.png Graphic fil
@@ -907,47 +923,160 @@ e (type png)
 ams/Р РµРєСѓСЂСЃРёРІРЅС‹Р№ Р”Р°РјРµСЂР°Сѓ-Р›РµРІРµРЅС€С‚РµР№РЅ.png>
 Package pdftex.def Info: ../../../../../../../msys64/home/Р›РµРІ/bmstu_sem_5_aa
 /lab_01/report/diagrams/Р РµРєСѓСЂСЃРёРІРЅС‹Р№ Р”Р°РјРµСЂР°Сѓ-Р›РµРІРµРЅС€С‚РµР
-№РЅ.png  used on input line 42.
+№РЅ.png  used on input line 47.
 (pdftex.def)             Requested size: 415.4104pt x 548.39554pt.
-) [11 <../../../../../../../msys64/home/Р›РµРІ/bmstu_sem_5_aa/lab_01/report/dia
+) [13 <../../../../../../../msys64/home/Р›РµРІ/bmstu_sem_5_aa/lab_01/report/dia
 grams/Р РµРєСѓСЂСЃРёРІРЅС‹Р№ Р”Р°РјРµСЂР°Сѓ-Р›РµРІРµРЅС€С‚РµР№РЅ.png>]
-\openout2 = `05_techonological.aux'.
+\openout2 = `05_technological.aux'.
+
+ (05_technological.tex
+{\cyrillictext \CYRG \cyrl \cyra \cyrv \cyra } 3.
+
+Overfull \hbox (0.3463pt too wide) in paragraph at lines 13--14
+[]\T2A/cmr/m/n/14.4 Ниже пред-став-ле-ны ли-стин-ги раз-ра-бо-тан-ных ал-го-рит
+-мов Ле-вен-штей-
+ []
+
+LaTeX Font Info:    Trying to load font information for T2A+cmtt on input line 
+15.
+(C:\Users\Р›РµРІ\AppData\Local\Programs\MiKTeX\tex/latex/cyrillic\t2acmtt.fd
+File: t2acmtt.fd 2001/08/11 v1.0a Computer Modern Cyrillic font definitions
+)
+[14
 
 
-No file 05_techonological.tex.
-\openout2 = `05_research.aux'.
 
-No file 05_research.tex.
-(report.aux (00_title.aux) (01_contents.aux) (02_introduction.aux)
-(03_analysis.aux) (04_design.aux) (05_techonological.aux) (05_research.aux))
+
+]
+Overfull \hbox (17.14511pt too wide) in paragraph at lines 49--50
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (4.54807pt too wide) in paragraph at lines 63--64
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+[15]
+Overfull \hbox (4.54807pt too wide) in paragraph at lines 85--86
+[][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+[16]
+Underfull \hbox (badness 10000) in paragraph at lines 116--117
+
+ []
+
+
+Overfull \hbox (26.57298pt too wide) in paragraph at lines 123--139
+ [][] 
+ []
+
+) [17]
+\openout2 = `06_research.aux'.
+
+ (06_research.tex
+{\cyrillictext \CYRG \cyrl \cyra \cyrv \cyra } 4.
+<../../../../../../../msys64/home/Р›РµРІ/bmstu_sem_5_aa/lab_01/report/image/gra
+ph.png, id=84, 483.0045pt x 415.5525pt>
+File: ../../../../../../../msys64/home/Р›РµРІ/bmstu_sem_5_aa/lab_01/report/imag
+e/graph.png Graphic file (type png)
+<use ../../../../../../../msys64/home/Р›РµРІ/bmstu_sem_5_aa/lab_01/report/image
+/graph.png>
+Package pdftex.def Info: ../../../../../../../msys64/home/Р›РµРІ/bmstu_sem_5_aa
+/lab_01/report/image/graph.png  used on input line 18.
+(pdftex.def)             Requested size: 301.59938pt x 259.47871pt.
+<../../../../../../../msys64/home/Р›РµРІ/bmstu_sem_5_aa/lab_01/report/image/gra
+ph_2.png, id=85, 483.0045pt x 415.5525pt>
+File: ../../../../../../../msys64/home/Р›РµРІ/bmstu_sem_5_aa/lab_01/report/imag
+e/graph_2.png Graphic file (type png)
+<use ../../../../../../../msys64/home/Р›РµРІ/bmstu_sem_5_aa/lab_01/report/image
+/graph_2.png>
+Package pdftex.def Info: ../../../../../../../msys64/home/Р›РµРІ/bmstu_sem_5_aa
+/lab_01/report/image/graph_2.png  used on input line 27.
+(pdftex.def)             Requested size: 301.59938pt x 259.47871pt.
+
+Overfull \hbox (0.8909pt too wide) in paragraph at lines 23--31
+\T2A/cmr/m/n/14.4 Выполнив ана-лиз двух осталь-ных ал-го-рит-мов на зна-че-ния 
+вход-ных строк
+ []
+
+[18
+
+
+
+
+]
+Overfull \hbox (9.63905pt too wide) in paragraph at lines 32--33
+\T2A/cmr/m/n/14.4 пол-ня-ет-ся быст-рее, неже-ли чем ите-ра-тив-ный с ис-поль-з
+о-ва-ни-ем двух строк.
+ []
+
+[19 <../../../../../../../msys64/home/Р›РµРІ/bmstu_sem_5_aa/lab_01/report/image
+/graph.png> <../../../../../../../msys64/home/Р›РµРІ/bmstu_sem_5_aa/lab_01/repo
+rt/image/graph_2.png>]
+Overfull \hbox (6.08217pt too wide) in paragraph at lines 41--51
+ [][] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 35--54
+
+ []
+
+[20])
+Overfull \hbox (0.15848pt too wide) in paragraph at lines 69--12
+[]\T2A/cmr/m/n/14.4 Сравнивая меж-ду со-бой ре-кур-сив-ные вы-зо-вы ал-го-рит-м
+ов Ле-вен-штей-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 69--12
+
+ []
+
+[21]
+\openout2 = `07_conclusion.aux'.
+
+ (07_conclusion.tex) [22
+
+
+
+
+] (report.aux (00_title.aux) (01_contents.aux)
+(02_introduction.aux) (03_analysis.aux) (04_design.aux) (05_technological.aux)
+(06_research.aux) (07_conclusion.aux))
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 10324 strings out of 478864
- 177535 string characters out of 2848186
- 689448 words of memory out of 3000000
- 28005 multiletter control sequences out of 15000+600000
- 410966 words of font info for 41 fonts, out of 8000000 for 9000
+ 10846 strings out of 478864
+ 185259 string characters out of 2848186
+ 750893 words of memory out of 3000000
+ 28498 multiletter control sequences out of 15000+600000
+ 412080 words of font info for 43 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 77i,19n,86p,1235b,355s stack positions out of 5000i,500n,10000p,200000b,80000s
- <C:\Users\Р›РµРІ\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\larm2
-074.pk> <C:\Users\Р›РµРІ\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi60
-0\tcrm1440.pk> <C:\Users\Р›РµРІ\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/
-dpi600\larm1440.pk> <C:\Users\Р›РµРІ\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh
--t2a/dpi600\labx1440.pk> <C:\Users\Р›РµРІ\AppData\Local\MiKTeX\fonts/pk/ljfour/
-lh/lh-t2a/dpi600\larm3583.pk><C:/Users/Р›РµРІ/AppData/Local/Programs/MiKTeX/fon
-ts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/Р›РµРІ/AppData/Local/Programs/
-MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/Р›РµРІ/AppData/Local
-/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/Р›РµРІ/App
-Data/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/Р
-›РµРІ/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C
-:/Users/Р›РµРІ/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cms
-y10.pfb>
-Output written on report.pdf (11 pages, 261682 bytes).
+ 77i,19n,86p,1808b,1803s stack positions out of 5000i,500n,10000p,200000b,80000s
+ <C:\Users\Р›РµРІ\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\latt1
+000.pk> <C:\Users\Р›РµРІ\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\
+larm0600.pk> <C:\Users\Р›РµРІ\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dp
+i600\larm2074.pk> <C:\Users\Р›РµРІ\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappe
+n/ec/dpi600\tcrm1440.pk> <C:\Users\Р›РµРІ\AppData\Local\MiKTeX\fonts/pk/ljfour/
+lh/lh-t2a/dpi600\larm1440.pk> <C:\Users\Р›РµРІ\AppData\Local\MiKTeX\fonts/pk/lj
+four/lh/lh-t2a/dpi600\labx1440.pk> <C:\Users\Р›РµРІ\AppData\Local\MiKTeX\fonts/
+pk/ljfour/lh/lh-t2a/dpi600\larm3583.pk><C:/Users/Р›РµРІ/AppData/Local/Programs/
+MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/Р›РµРІ/AppData/Local
+/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/Р›РµРІ/App
+Data/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/
+Р›РµРІ/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><
+C:/Users/Р›РµРІ/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cm
+r12.pfb><C:/Users/Р›РµРІ/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfo
+nts/cm/cmsy10.pfb>
+Output written on report.pdf (22 pages, 480413 bytes).
 PDF statistics:
- 281 PDF objects out of 1000 (max. 8388607)
+ 431 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 46 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 56 words of extra memory for PDF output out of 10000 (max. 10000000)
 

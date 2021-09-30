@@ -1,4 +1,4 @@
-\chapter{Технологическая часть}
+\chapter{Технологический раздел}
 \section{Требования к программному обеспечению}
 Программа должна отвечать следующим требованиям:
 \begin{itemize}
@@ -46,8 +46,8 @@ def recursive_levenstein(str_1: str, str_2: str) -> int:
 \end{lstlisting}
 
 \begin{lstlisting}[label=some-code,caption=Программный код нахождения расстояния Левенштейна рекурсивно с использованием матрицы]
-	def recursive_levenstein_matrix(str_1: str, str_2: str, i: int, j: int,
-		matrix: list) -> Tuple[int, list[list[int]]]:
+	def recursive_levenstein_matrix(str_1: str, str_2: str, i: int, 
+		j: int, matrix: list) -> Tuple[int, list[list[int]]]:
 	if i == 0:
 		return j, matrix
 	if j == 0:
@@ -88,7 +88,7 @@ def recursive_dameray_levenstein(str_1: str, str_2: str) -> int:
 	return distance
 \end{lstlisting}
 
-\section{Утилиты}
+\section{Вспомогательные функции}
 На листингах представлены программные модули, которые используются в данных функциях:
 \begin{lstlisting}[label=some-code,caption=Программный код создания для кэша в виде строки]
 def create_row(len_row: int, flag_row: int) -> list[int]:
@@ -102,7 +102,7 @@ def create_row(len_row: int, flag_row: int) -> list[int]:
 	return row
 \end{lstlisting}
 
-\begin{lstlisting}[label=some-code,caption=Программный код создания для кэша в виде строки]
+\begin{lstlisting}[label=some-code,caption=Программный код обмена двух строк]
 def swap_rows(row_1: list[int], row_2: list[int]) \
 				-> Tuple[list[int], list[int]]:
 	temp_row = list()
@@ -113,7 +113,7 @@ def swap_rows(row_1: list[int], row_2: list[int]) \
 \end{lstlisting}
 
 \section{Тестирование}
-Для тестирования используется метод черного ящика. В данном разделе приведена таблица \ref{table:ref1}, в которой указаны классы эквивалентностей тестов \\
+Для тестирования используется метод черного ящика. В данном разделе приведена таблица \ref{table:ref1}, в которой указаны классы эквивалентностей тестов: \\
 
 \begin{table}[ht!]
 	\centering

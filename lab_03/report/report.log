@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.6) (preloaded format=pdflatex 2021.9.14)  1 OCT 2021 11:47
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.6) (preloaded format=pdflatex 2021.9.14)  2 OCT 2021 02:03
 entering extended mode
 **./report.tex
 (report.tex
@@ -885,96 +885,59 @@ Overfull \hbox (11.90053pt too wide) in paragraph at lines 48--53
 
 
 ]
-Overfull \hbox (3.0101pt too wide) in paragraph at lines 48--49
-[]\T2A/cmr/m/n/14.4 ������������ ��-����-��-��-��� ���-��-�� ��-��-��-�� ��-���
-�-��-��-��� ����-
+Overfull \hbox (11.57874pt too wide) in paragraph at lines 23--24
+[]\T2A/cmr/m/n/14.4 ������ ��-��-���� ��-��-��-�� ��-��-��-��-��-�� ���-��-���-
+�� ���-���-�� �����-
  []
 
-[5]
-Overfull \hbox (1.4917pt too wide) in paragraph at lines 50--50
- |[]\T2A/cmr/m/n/20.74 ����������� ��-��-���� � ��-��� � ���-�� ���-
- []
-
-[6]) [7]
+[5]) [6]
 \openout2 = `04_design.aux'.
 
  (04_design.tex
 {\cyrillictext \CYRG \cyrl \cyra \cyrv \cyra } 2.
-<../../../../../../../msys64/home/Лев/bmstu_sem_5_aa/lab_01/report/diagrams/
-iterative_two_rows.png, id=48, 667.49374pt x 1086.0575pt>
-File: ../../../../../../../msys64/home/Лев/bmstu_sem_5_aa/lab_01/report/diag
-rams/iterative_two_rows.png Graphic file (type png)
-<use ../../../../../../../msys64/home/Лев/bmstu_sem_5_aa/lab_01/report/diagr
-ams/iterative_two_rows.png>
+<../../../../../../../msys64/home/Лев/bmstu_sem_5_aa/lab_03/report/diagrams/
+bubble.png, id=38, 610.28pt x 744.7825pt>
+File: ../../../../../../../msys64/home/Лев/bmstu_sem_5_aa/lab_03/report/diag
+rams/bubble.png Graphic file (type png)
+<use ../../../../../../../msys64/home/Лев/bmstu_sem_5_aa/lab_03/report/diagr
+ams/bubble.png>
 Package pdftex.def Info: ../../../../../../../msys64/home/Лев/bmstu_sem_5_aa
-/lab_01/report/diagrams/iterative_two_rows.png  used on input line 13.
-(pdftex.def)             Requested size: 415.4104pt x 675.91733pt.
-<../../../../../../../msys64/home/Лев/bmstu_sem_5_aa/lab_01/report/diagrams/
-Рекурсивный Левенштейн без кэша.png, id=50, 794.97p
-t x 664.4825pt>
-File: ../../../../../../../msys64/home/Лев/bmstu_sem_5_aa/lab_01/report/diag
-rams/Рекурсивный Левенштейн без кэша.png Graphic fi
-le (type png)
-<use ../../../../../../../msys64/home/Лев/bmstu_sem_5_aa/lab_01/report/diagr
-ams/Рекурсивный Левенштейн без кэша.png>
+/lab_03/report/diagrams/bubble.png  used on input line 12.
+(pdftex.def)             Requested size: 415.4104pt x 506.97954pt.
+<../../../../../../../msys64/home/Лев/bmstu_sem_5_aa/lab_03/report/diagrams/
+insert.png, id=40, 570.13pt x 965.6075pt>
+File: ../../../../../../../msys64/home/Лев/bmstu_sem_5_aa/lab_03/report/diag
+rams/insert.png Graphic file (type png)
+<use ../../../../../../../msys64/home/Лев/bmstu_sem_5_aa/lab_03/report/diagr
+ams/insert.png>
 Package pdftex.def Info: ../../../../../../../msys64/home/Лев/bmstu_sem_5_aa
-/lab_01/report/diagrams/Рекурсивный Левенштейн без кэ
-ша.png  used on input line 20.
-(pdftex.def)             Requested size: 415.4104pt x 347.23627pt.
-<../../../../../../../msys64/home/Лев/bmstu_sem_5_aa/lab_01/report/diagrams/
-Рекурсивный Левенштейн с матрицей1.png, id=51, 75
-3.81625pt x 746.79pt>
-File: ../../../../../../../msys64/home/Лев/bmstu_sem_5_aa/lab_01/report/diag
-rams/Рекурсивный Левенштейн с матрицей1.png Graph
-ic file (type png)
-<use ../../../../../../../msys64/home/Лев/bmstu_sem_5_aa/lab_01/report/diagr
-ams/Рекурсивный Левенштейн с матрицей1.png>
+/lab_03/report/diagrams/insert.png  used on input line 19.
+(pdftex.def)             Requested size: 415.4104pt x 703.56157pt.
+<../../../../../../../msys64/home/Лев/bmstu_sem_5_aa/lab_03/report/diagrams/
+shell.png, id=41, 610.28pt x 1025.8325pt>
+File: ../../../../../../../msys64/home/Лев/bmstu_sem_5_aa/lab_03/report/diag
+rams/shell.png Graphic file (type png)
+<use ../../../../../../../msys64/home/Лев/bmstu_sem_5_aa/lab_03/report/diagr
+ams/shell.png>
 Package pdftex.def Info: ../../../../../../../msys64/home/Лев/bmstu_sem_5_aa
-/lab_01/report/diagrams/Рекурсивный Левенштейн с матр
-ицей1.png  used on input line 27.
-(pdftex.def)             Requested size: 415.4104pt x 411.53342pt.
-<../../../../../../../msys64/home/Лев/bmstu_sem_5_aa/lab_01/report/diagrams/
-Рекурсивный Левенштейн с матрицей2.png, id=52, 62
-2.325pt x 865.2325pt>
-File: ../../../../../../../msys64/home/Лев/bmstu_sem_5_aa/lab_01/report/diag
-rams/Рекурсивный Левенштейн с матрицей2.png Graph
-ic file (type png)
-<use ../../../../../../../msys64/home/Лев/bmstu_sem_5_aa/lab_01/report/diagr
-ams/Рекурсивный Левенштейн с матрицей2.png>
-Package pdftex.def Info: ../../../../../../../msys64/home/Лев/bmstu_sem_5_aa
-/lab_01/report/diagrams/Рекурсивный Левенштейн с матр
-ицей2.png  used on input line 34.
-(pdftex.def)             Requested size: 415.4104pt x 577.56398pt.
-[8
+/lab_03/report/diagrams/shell.png  used on input line 26.
+(pdftex.def)             Requested size: 415.4104pt x 698.29257pt.
+
+LaTeX Warning: Float too large for page by 11.05673pt on input line 29.
+
+[7
 
 
 
 
-] [9 <../../../../../../../msys64/home/Лев/bmstu_sem_5_aa/lab_01/report/diag
-rams/iterative_two_rows.png>] [10 <../../../../../../../msys64/home/Лев/bmst
-u_sem_5_aa/lab_01/report/diagrams/Рекурсивный Левенштейн �
-�ез кэша.png>] [11 <../../../../../../../msys64/home/Лев/bmstu_sem_5_a
-a/lab_01/report/diagrams/Рекурсивный Левенштейн с мат�
-�ицей1.png>] [12 <../../../../../../../msys64/home/Лев/bmstu_sem_5_aa/la
-b_01/report/diagrams/Рекурсивный Левенштейн с матри�
-�ей2.png>]
-<../../../../../../../msys64/home/Лев/bmstu_sem_5_aa/lab_01/report/diagrams/
-Рекурсивный Дамерау-Левенштейн.png, id=72, 761.8462
-5pt x 1005.7575pt>
-File: ../../../../../../../msys64/home/Лев/bmstu_sem_5_aa/lab_01/report/diag
-rams/Рекурсивный Дамерау-Левенштейн.png Graphic fil
-e (type png)
-<use ../../../../../../../msys64/home/Лев/bmstu_sem_5_aa/lab_01/report/diagr
-ams/Рекурсивный Дамерау-Левенштейн.png>
-Package pdftex.def Info: ../../../../../../../msys64/home/Лев/bmstu_sem_5_aa
-/lab_01/report/diagrams/Рекурсивный Дамерау-Левенште�
-�н.png  used on input line 42.
-(pdftex.def)             Requested size: 415.4104pt x 548.39554pt.
-) [13 <../../../../../../../msys64/home/Лев/bmstu_sem_5_aa/lab_01/report/dia
-grams/Рекурсивный Дамерау-Левенштейн.png>]
+] [8 <../../../../../../../msys64/home/Лев/bmstu_sem_5_aa/lab_03/report/diag
+rams/bubble.png>] [9 <../../../../../../../msys64/home/Лев/bmstu_sem_5_aa/la
+b_03/report/diagrams/insert.png>] [10 <../../../../../../../msys64/home/Лев/
+bmstu_sem_5_aa/lab_03/report/diagrams/shell.png>] [11]) [12]
 \openout2 = `05_technological.aux'.
 
- (05_technological.tex
+
+(05_technological.tex
 {\cyrillictext \CYRG \cyrl \cyra \cyrv \cyra } 3.
 
 Overfull \hbox (0.3463pt too wide) in paragraph at lines 12--13
@@ -987,7 +950,7 @@ LaTeX Font Info:    Trying to load font information for T2A+cmtt on input line
 (C:\Users\Лев\AppData\Local\Programs\MiKTeX\tex/latex/cyrillic\t2acmtt.fd
 File: t2acmtt.fd 2001/08/11 v1.0a Computer Modern Cyrillic font definitions
 )
-[14
+[13
 
 
 
@@ -1008,13 +971,13 @@ Overfull \hbox (26.57298pt too wide) in paragraph at lines 53--69
  [][] 
  []
 
-[15]) [16]
+[14]) [15]
 \openout2 = `06_research.aux'.
 
  (06_research.tex
 {\cyrillictext \CYRG \cyrl \cyra \cyrv \cyra } 4.
 <../../../../../../../msys64/home/Лев/bmstu_sem_5_aa/lab_03/report/images/1.
-png, id=89, 501.072pt x 358.941pt>
+png, id=82, 501.072pt x 358.941pt>
 File: ../../../../../../../msys64/home/Лев/bmstu_sem_5_aa/lab_03/report/imag
 es/1.png Graphic file (type png)
 <use ../../../../../../../msys64/home/Лев/bmstu_sem_5_aa/lab_03/report/image
@@ -1022,14 +985,14 @@ s/1.png>
 Package pdftex.def Info: ../../../../../../../msys64/home/Лев/bmstu_sem_5_aa
 /lab_03/report/images/1.png  used on input line 16.
 (pdftex.def)             Requested size: 301.59938pt x 216.05087pt.
-[17
+[16
 
 
 
 
 ]
 <../../../../../../../msys64/home/Лев/bmstu_sem_5_aa/lab_03/report/images/2.
-png, id=93, 523.9575pt x 353.52075pt>
+png, id=86, 523.9575pt x 353.52075pt>
 File: ../../../../../../../msys64/home/Лев/bmstu_sem_5_aa/lab_03/report/imag
 es/2.png Graphic file (type png)
 <use ../../../../../../../msys64/home/Лев/bmstu_sem_5_aa/lab_03/report/image
@@ -1038,7 +1001,7 @@ Package pdftex.def Info: ../../../../../../../msys64/home/Лев/bmstu_sem_5_aa
 /lab_03/report/images/2.png  used on input line 26.
 (pdftex.def)             Requested size: 301.59938pt x 203.4994pt.
 <../../../../../../../msys64/home/Лев/bmstu_sem_5_aa/lab_03/report/images/3.
-png, id=94, 500.46976pt x 366.168pt>
+png, id=87, 500.46976pt x 366.168pt>
 File: ../../../../../../../msys64/home/Лев/bmstu_sem_5_aa/lab_03/report/imag
 es/3.png Graphic file (type png)
 <use ../../../../../../../msys64/home/Лев/bmstu_sem_5_aa/lab_03/report/image
@@ -1046,7 +1009,7 @@ s/3.png>
 Package pdftex.def Info: ../../../../../../../msys64/home/Лев/bmstu_sem_5_aa
 /lab_03/report/images/3.png  used on input line 33.
 (pdftex.def)             Requested size: 301.59938pt x 220.67467pt.
- [18 <../../../../../../../msys64/home/Лев/bmstu_sem_5_aa/lab_03/report/imag
+ [17 <../../../../../../../msys64/home/Лев/bmstu_sem_5_aa/lab_03/report/imag
 es/1.png> <../../../../../../../msys64/home/Лев/bmstu_sem_5_aa/lab_03/report
 /images/2.png>]
 Overfull \hbox (6.08217pt too wide) in paragraph at lines 47--57
@@ -1058,7 +1021,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 41--60
 
  []
 
-[19 <../../../../../../../msys64/home/Лев/bmstu_sem_5_aa/lab_03/report/image
+[18 <../../../../../../../msys64/home/Лев/bmstu_sem_5_aa/lab_03/report/image
 s/3.png>]
 Overfull \hbox (7.74431pt too wide) in paragraph at lines 70--71
 \T2A/cmr/m/n/14.4 �� ��-����-��-��� ��-���-��-��-��� ��-��-�� ��-��-���-�� ��-�
@@ -1076,10 +1039,10 @@ Underfull \hbox (badness 10000) in paragraph at lines 75--12
 
  []
 
-[20]
+[19]
 \openout2 = `07_conclusion.aux'.
 
- (07_conclusion.tex) [21
+ (07_conclusion.tex) [20
 
 
 
@@ -1088,21 +1051,21 @@ Underfull \hbox (badness 10000) in paragraph at lines 75--12
 \openout2 = `08_bibliography.aux'.
 
  (08_bibliography.tex (report.bbl
-Underfull \hbox (badness 10000) in paragraph at lines 38--41
+Underfull \hbox (badness 10000) in paragraph at lines 12--15
 []\T2A/cmr/m/n/14.4 Python. [����-����-��� ��-����].  ��-��� ��-���-��:
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 50--55
+Underfull \hbox (badness 10000) in paragraph at lines 24--29
 []\T2A/cmr/m/n/14.4 time  Time access and conversions  Python 3.9.7
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 50--55
+Underfull \hbox (badness 10000) in paragraph at lines 24--29
 \T2A/cmr/m/n/14.4 documentation. [����-����-��� ��-����].  ��-��� ��-���-��:
  []
 
-)) [22
+)) [21
 
 
 
@@ -1115,12 +1078,39 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 10969 strings out of 478864
- 188805 string characters out of 2848186
+ 10961 strings out of 478864
+ 184571 string characters out of 2848186
  726314 words of memory out of 3000000
- 28580 multiletter control sequences out of 15000+600000
+ 28575 multiletter control sequences out of 15000+600000
  420115 words of font info for 58 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  77i,19n,86p,2011b,1686s stack positions out of 5000i,500n,10000p,200000b,80000s
  <C:\Users\Лев\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\larm1
-200.pk> <
+200.pk> <C:\Users\Лев\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\
+latt1000.pk> <C:\Users\Лев\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dp
+i600\larm0600.pk> <C:\Users\Лев\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t
+2a/dpi600\larm2074.pk> <C:\Users\Лев\AppData\Local\MiKTeX\fonts/pk/ljfour/jk
+nappen/ec/dpi600\tcrm1440.pk> <C:\Users\Лев\AppData\Local\MiKTeX\fonts/pk/lj
+four/lh/lh-t2a/dpi600\labx1440.pk> <C:\Users\Лев\AppData\Local\MiKTeX\fonts/
+pk/ljfour/lh/lh-t2a/dpi600\larm3583.pk> <C:\Users\Лев\AppData\Local\MiKTeX\f
+onts/pk/ljfour/lh/lh-t2a/dpi600\lati1728.pk> <C:\Users\Лев\AppData\Local\MiK
+TeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\larm1000.pk> <C:\Users\Лев\AppData\Loca
+l\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\larm1728.pk> <C:\Users\Лев\AppData
+\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\labx1728.pk> <C:\Users\Лев\Ap
+pData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\labx2074.pk> <C:\Users\Ле
+в\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\labx2986.pk> <C:\Users
+\Лев\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\larm1440.pk> <C:\
+Users\Лев\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\labx1000.pk>
+<C:/Users/Лев/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/c
+mex10.pfb><C:/Users/Лев/AppData/Local/Programs/MiKTeX/fonts/type1/public/ams
+fonts/cm/cmmi10.pfb><C:/Users/Лев/AppData/Local/Programs/MiKTeX/fonts/type1/
+public/amsfonts/cm/cmmi12.pfb><C:/Users/Лев/AppData/Local/Programs/MiKTeX/fo
+nts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/Лев/AppData/Local/Programs/
+MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/Лев/AppData/Local/
+Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
+Output written on report.pdf (21 pages, 1307490 bytes).
+PDF statistics:
+ 605 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 56 words of extra memory for PDF output out of 10000 (max. 10000000)
+

@@ -22,6 +22,9 @@ def main():
         elif choice == 2:
             matrix_result = multiply_matrixes_vinograd(matrix_a, matrix_b)
             matrix_result.output_matrix()
+        elif choice == 3:
+            matrix_result = multiply_matrixes_vinograd_optimized(matrix_a, matrix_b)
+            matrix_result.output_matrix()
 
 if __name__ == "__main__":
     main()

@@ -1,6 +1,6 @@
 def bubble_sort(array: list[int], N: int) -> list[int]:
     for i in range(N):
-        for j in range(N - i):
+        for j in range(N - i - 1):
             if array[j] > array[j + 1]:
                 array[j], array[j + 1] = array[j + 1], array[j]
 

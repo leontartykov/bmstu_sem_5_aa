@@ -28,3 +28,4 @@ def output_array(array: list[int], count: int) -> None:
             print(array[i], end = ',')
         else:
             print(array[i])
+    print()

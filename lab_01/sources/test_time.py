@@ -5,8 +5,7 @@ def time_test(str_1: str, str_2: str, count_operations: int,
               iterative_levenstein_list, recursive_levenstein_list,
               recursive_levenstein_matrix_list, recursive_dameray_levenstein_list):
     len_str = len(str_1)
-    print(f"Длина строки = {len_str}")
-    
+        
     time_start = time.process_time()
     for i in range(count_operations):
         iterative_levenstein_two_rows(str_1, str_2)

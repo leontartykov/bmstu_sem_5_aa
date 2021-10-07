@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.6) (preloaded format=pdflatex 2021.9.14)  2 OCT 2021 19:02
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.6) (preloaded format=pdflatex 2021.9.14)  2 OCT 2021 18:38
 entering extended mode
 **./report.tex
 (report.tex
@@ -690,14 +690,23 @@ LaTeX Font Info:    Trying to load font information for T2A+cmr on input line 7
 (C:\Users\Р›РµРІ\AppData\Local\Programs\MiKTeX\tex/latex/cyrillic\t2acmr.fd
 File: t2acmr.fd 2001/08/11 v1.0a Computer Modern Cyrillic font definitions
 )<<t2a.cmap>> (01_contents.aux) (02_introduction.aux) (03_analysis.aux)
-(04_design.aux
+(04_design.aux) (05_technological.aux
 
-LaTeX Warning: Label `eq12' multiply defined.
+LaTeX Warning: Label `some-code' multiply defined.
 
 
-LaTeX Warning: Label `eq13' multiply defined.
+LaTeX Warning: Label `some-code' multiply defined.
 
-) (05_technological.aux) (06_research.aux) (07_conclusion.aux) (08_biblio.aux))
+
+LaTeX Warning: Label `some-code' multiply defined.
+
+
+LaTeX Warning: Label `some-code' multiply defined.
+
+
+LaTeX Warning: Label `some-code' multiply defined.
+
+) (06_research.aux) (07_conclusion.aux) (08_bibliography.aux))
 \openout1 = `report.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 5.
@@ -717,6 +726,7 @@ LaTeX Font Info:    ... okay on input line 5.
 LaTeX Font Info:    Checking defaults for T2A/cmr/m/n on input line 5.
 LaTeX Font Info:    ... okay on input line 5.
 LaTeX Info: Redefining \th on input line 5.
+
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
@@ -855,13 +865,7 @@ Overfull \hbox (11.90053pt too wide) in paragraph at lines 48--53
 /../../msys64/home/Р›РµРІ/bmstu_sem_5_aa/lab_01/report/image/bmstu_eblem.png>]
 \openout2 = `01_contents.aux'.
 
- (01_contents.tex (report.toc
-Overfull \hbox (11.86134pt too wide) in paragraph at lines 15--15
- [][] []\T2A/cmr/m/n/14.4 Трудоемкость ал-го-рит-ма сор-ти-ров-ки про-сты-ми вс
-тав- 
- []
-
-)
+ (01_contents.tex (report.toc)
 \tf@toc=\write4
 \openout4 = `report.toc'.
 
@@ -873,206 +877,260 @@ Overfull \hbox (11.86134pt too wide) in paragraph at lines 15--15
 ]
 \openout2 = `02_introduction.aux'.
 
- (02_introduction.tex) [3
+ (02_introduction.tex [3
 
 
 
 
-]
+]) [4]
 \openout2 = `03_analysis.aux'.
 
- (03_analysis.tex
+
+(03_analysis.tex
 {\cyrillictext \CYRG \cyrl \cyra \cyrv \cyra } 1.
-[4
+
+Overfull \hbox (12.13515pt too wide) in paragraph at lines 4--5
+[]\T2A/cmr/m/n/14.4 Расстояние Ле-вен-штей-на (ре-дак-тор-ское рас-сто-я-ние) м
+еж-ду дву-мя стро-
+ []
+
+[5
 
 
 
 
 ]
-Overfull \hbox (11.57874pt too wide) in paragraph at lines 23--24
-[]\T2A/cmr/m/n/14.4 Данный ал-го-ритм яв-ля-ет-ся мо-ди-фи-ка-ци-ей сор-ти-ров-
-ки про-сты-ми встав-
+Overfull \hbox (3.0101pt too wide) in paragraph at lines 50--51
+[]\T2A/cmr/m/n/14.4 Модификацией ис-поль-зо-ва-ния мат-ри-цы яв-ля-ет-ся ис-пол
+ь-зо-ва-ние толь-
  []
 
-[5]) [6]
+[6]
+Overfull \hbox (1.4917pt too wide) in paragraph at lines 52--52
+ |[]\T2A/cmr/m/n/20.74 Рекурсивный ал-го-ритм с кэ-шем в фор-ме мат-
+ []
+
+[7]) [8]
 \openout2 = `04_design.aux'.
 
  (04_design.tex
 {\cyrillictext \CYRG \cyrl \cyra \cyrv \cyra } 2.
-<../../../../../../../msys64/home/Р›РµРІ/bmstu_sem_5_aa/lab_03/report/diagrams/
-bubble.png, id=38, 610.28pt x 744.7825pt>
-File: ../../../../../../../msys64/home/Р›РµРІ/bmstu_sem_5_aa/lab_03/report/diag
-rams/bubble.png Graphic file (type png)
-<use ../../../../../../../msys64/home/Р›РµРІ/bmstu_sem_5_aa/lab_03/report/diagr
-ams/bubble.png>
+<../../../../../../../msys64/home/Р›РµРІ/bmstu_sem_5_aa/lab_01/report/diagrams/
+iterative_two_rows.png, id=51, 667.49374pt x 1086.0575pt>
+File: ../../../../../../../msys64/home/Р›РµРІ/bmstu_sem_5_aa/lab_01/report/diag
+rams/iterative_two_rows.png Graphic file (type png)
+<use ../../../../../../../msys64/home/Р›РµРІ/bmstu_sem_5_aa/lab_01/report/diagr
+ams/iterative_two_rows.png>
 Package pdftex.def Info: ../../../../../../../msys64/home/Р›РµРІ/bmstu_sem_5_aa
-/lab_03/report/diagrams/bubble.png  used on input line 12.
-(pdftex.def)             Requested size: 415.4104pt x 506.97954pt.
-[7
-
-
-
-
-]
-<../../../../../../../msys64/home/Р›РµРІ/bmstu_sem_5_aa/lab_03/report/diagrams/
-insert.png, id=44, 570.13pt x 965.6075pt>
-File: ../../../../../../../msys64/home/Р›РµРІ/bmstu_sem_5_aa/lab_03/report/diag
-rams/insert.png Graphic file (type png)
-<use ../../../../../../../msys64/home/Р›РµРІ/bmstu_sem_5_aa/lab_03/report/diagr
-ams/insert.png>
+/lab_01/report/diagrams/iterative_two_rows.png  used on input line 13.
+(pdftex.def)             Requested size: 415.4104pt x 675.91733pt.
+<../../../../../../../msys64/home/Р›РµРІ/bmstu_sem_5_aa/lab_01/report/diagrams/
+Р РµРєСѓСЂСЃРёРІРЅС‹Р№ Р›РµРІРµРЅС€С‚РµР№РЅ Р±РµР· РєСЌС€Р°.png, id=53, 794.97p
+t x 664.4825pt>
+File: ../../../../../../../msys64/home/Р›РµРІ/bmstu_sem_5_aa/lab_01/report/diag
+rams/Р РµРєСѓСЂСЃРёРІРЅС‹Р№ Р›РµРІРµРЅС€С‚РµР№РЅ Р±РµР· РєСЌС€Р°.png Graphic fi
+le (type png)
+<use ../../../../../../../msys64/home/Р›РµРІ/bmstu_sem_5_aa/lab_01/report/diagr
+ams/Р РµРєСѓСЂСЃРёРІРЅС‹Р№ Р›РµРІРµРЅС€С‚РµР№РЅ Р±РµР· РєСЌС€Р°.png>
 Package pdftex.def Info: ../../../../../../../msys64/home/Р›РµРІ/bmstu_sem_5_aa
-/lab_03/report/diagrams/insert.png  used on input line 19.
-(pdftex.def)             Requested size: 415.4104pt x 703.56157pt.
- [8 <../../../../../../../msys64/home/Р›РµРІ/bmstu_sem_5_aa/lab_03/report/diagr
-ams/bubble.png>]
-<../../../../../../../msys64/home/Р›РµРІ/bmstu_sem_5_aa/lab_03/report/diagrams/
-shell.png, id=49, 599.23875pt x 991.705pt>
-File: ../../../../../../../msys64/home/Р›РµРІ/bmstu_sem_5_aa/lab_03/report/diag
-rams/shell.png Graphic file (type png)
-<use ../../../../../../../msys64/home/Р›РµРІ/bmstu_sem_5_aa/lab_03/report/diagr
-ams/shell.png>
+/lab_01/report/diagrams/Р РµРєСѓСЂСЃРёРІРЅС‹Р№ Р›РµРІРµРЅС€С‚РµР№РЅ Р±РµР· РєСЌ
+С€Р°.png  used on input line 20.
+(pdftex.def)             Requested size: 415.4104pt x 347.23627pt.
+<../../../../../../../msys64/home/Р›РµРІ/bmstu_sem_5_aa/lab_01/report/diagrams/
+Р РµРєСѓСЂСЃРёРІРЅС‹Р№ Р›РµРІРµРЅС€С‚РµР№РЅ СЃ РјР°С‚СЂРёС†РµР№1.png, id=54, 75
+3.81625pt x 746.79pt>
+File: ../../../../../../../msys64/home/Р›РµРІ/bmstu_sem_5_aa/lab_01/report/diag
+rams/Р РµРєСѓСЂСЃРёРІРЅС‹Р№ Р›РµРІРµРЅС€С‚РµР№РЅ СЃ РјР°С‚СЂРёС†РµР№1.png Graph
+ic file (type png)
+<use ../../../../../../../msys64/home/Р›РµРІ/bmstu_sem_5_aa/lab_01/report/diagr
+ams/Р РµРєСѓСЂСЃРёРІРЅС‹Р№ Р›РµРІРµРЅС€С‚РµР№РЅ СЃ РјР°С‚СЂРёС†РµР№1.png>
 Package pdftex.def Info: ../../../../../../../msys64/home/Р›РµРІ/bmstu_sem_5_aa
-/lab_03/report/diagrams/shell.png  used on input line 26.
-(pdftex.def)             Requested size: 415.4104pt x 687.50035pt.
- [9 <../../../../../../../msys64/home/Р›РµРІ/bmstu_sem_5_aa/lab_03/report/diagr
-ams/insert.png>] [10 <../../../../../../../msys64/home/Р›РµРІ/bmstu_sem_5_aa/la
-b_03/report/diagrams/shell.png>]
-Overfull \hbox (18.41727pt too wide) in paragraph at lines 72--72
- |[]\T2A/cmr/m/n/20.74 Трудоемкость ал-го-рит-ма сор-ти-ров-ки пу-зырь-
- []
+/lab_01/report/diagrams/Р РµРєСѓСЂСЃРёРІРЅС‹Р№ Р›РµРІРµРЅС€С‚РµР№РЅ СЃ РјР°С‚СЂ
+РёС†РµР№1.png  used on input line 27.
+(pdftex.def)             Requested size: 415.4104pt x 411.53342pt.
+<../../../../../../../msys64/home/Р›РµРІ/bmstu_sem_5_aa/lab_01/report/diagrams/
+Р РµРєСѓСЂСЃРёРІРЅС‹Р№ Р›РµРІРµРЅС€С‚РµР№РЅ СЃ РјР°С‚СЂРёС†РµР№2.png, id=55, 62
+2.325pt x 865.2325pt>
+File: ../../../../../../../msys64/home/Р›РµРІ/bmstu_sem_5_aa/lab_01/report/diag
+rams/Р РµРєСѓСЂСЃРёРІРЅС‹Р№ Р›РµРІРµРЅС€С‚РµР№РЅ СЃ РјР°С‚СЂРёС†РµР№2.png Graph
+ic file (type png)
+<use ../../../../../../../msys64/home/Р›РµРІ/bmstu_sem_5_aa/lab_01/report/diagr
+ams/Р РµРєСѓСЂСЃРёРІРЅС‹Р№ Р›РµРІРµРЅС€С‚РµР№РЅ СЃ РјР°С‚СЂРёС†РµР№2.png>
+Package pdftex.def Info: ../../../../../../../msys64/home/Р›РµРІ/bmstu_sem_5_aa
+/lab_01/report/diagrams/Р РµРєСѓСЂСЃРёРІРЅС‹Р№ Р›РµРІРµРЅС€С‚РµР№РЅ СЃ РјР°С‚СЂ
+РёС†РµР№2.png  used on input line 34.
+(pdftex.def)             Requested size: 415.4104pt x 577.56398pt.
+[9
 
-[11] [12]
-Overfull \hbox (7.64302pt too wide) detected at line 146
-\OML/cmm/m/it/14.4 f[] \OT1/cmr/m/n/14.4 = [] + [] + [] + [] + [] = 4 + []
- []
 
-[13]) [14]
+
+
+] [10 <../../../../../../../msys64/home/Р›РµРІ/bmstu_sem_5_aa/lab_01/report/dia
+grams/iterative_two_rows.png>] [11 <../../../../../../../msys64/home/Р›РµРІ/bms
+tu_sem_5_aa/lab_01/report/diagrams/Р РµРєСѓСЂСЃРёРІРЅС‹Р№ Р›РµРІРµРЅС€С‚РµР№РЅ 
+Р±РµР· РєСЌС€Р°.png>] [12 <../../../../../../../msys64/home/Р›РµРІ/bmstu_sem_5_
+aa/lab_01/report/diagrams/Р РµРєСѓСЂСЃРёРІРЅС‹Р№ Р›РµРІРµРЅС€С‚РµР№РЅ СЃ РјР°С‚
+СЂРёС†РµР№1.png>] [13 <../../../../../../../msys64/home/Р›РµРІ/bmstu_sem_5_aa/l
+ab_01/report/diagrams/Р РµРєСѓСЂСЃРёРІРЅС‹Р№ Р›РµРІРµРЅС€С‚РµР№РЅ СЃ РјР°С‚СЂРё
+С†РµР№2.png>]
+<../../../../../../../msys64/home/Р›РµРІ/bmstu_sem_5_aa/lab_01/report/diagrams/
+Р РµРєСѓСЂСЃРёРІРЅС‹Р№ Р”Р°РјРµСЂР°Сѓ-Р›РµРІРµРЅС€С‚РµР№РЅ.png, id=76, 761.8462
+5pt x 1005.7575pt>
+File: ../../../../../../../msys64/home/Р›РµРІ/bmstu_sem_5_aa/lab_01/report/diag
+rams/Р РµРєСѓСЂСЃРёРІРЅС‹Р№ Р”Р°РјРµСЂР°Сѓ-Р›РµРІРµРЅС€С‚РµР№РЅ.png Graphic fil
+e (type png)
+<use ../../../../../../../msys64/home/Р›РµРІ/bmstu_sem_5_aa/lab_01/report/diagr
+ams/Р РµРєСѓСЂСЃРёРІРЅС‹Р№ Р”Р°РјРµСЂР°Сѓ-Р›РµРІРµРЅС€С‚РµР№РЅ.png>
+Package pdftex.def Info: ../../../../../../../msys64/home/Р›РµРІ/bmstu_sem_5_aa
+/lab_01/report/diagrams/Р РµРєСѓСЂСЃРёРІРЅС‹Р№ Р”Р°РјРµСЂР°Сѓ-Р›РµРІРµРЅС€С‚РµР
+№РЅ.png  used on input line 42.
+(pdftex.def)             Requested size: 415.4104pt x 548.39554pt.
+) [14 <../../../../../../../msys64/home/Р›РµРІ/bmstu_sem_5_aa/lab_01/report/dia
+grams/Р РµРєСѓСЂСЃРёРІРЅС‹Р№ Р”Р°РјРµСЂР°Сѓ-Р›РµРІРµРЅС€С‚РµР№РЅ.png>]
 \openout2 = `05_technological.aux'.
 
  (05_technological.tex
 {\cyrillictext \CYRG \cyrl \cyra \cyrv \cyra } 3.
+
+Overfull \hbox (0.3463pt too wide) in paragraph at lines 13--14
+[]\T2A/cmr/m/n/14.4 Ниже пред-став-ле-ны ли-стин-ги раз-ра-бо-тан-ных ал-го-рит
+-мов Ле-вен-штей-
+ []
+
+LaTeX Font Info:    Trying to load font information for T2A+cmtt on input line 
+15.
+(C:\Users\Р›РµРІ\AppData\Local\Programs\MiKTeX\tex/latex/cyrillic\t2acmtt.fd
+File: t2acmtt.fd 2001/08/11 v1.0a Computer Modern Cyrillic font definitions
+)
 [15
 
 
 
 
 ]
-LaTeX Font Info:    Trying to load font information for T2A+cmtt on input line 
-16.
-
-(C:\Users\Р›РµРІ\AppData\Local\Programs\MiKTeX\tex/latex/cyrillic\t2acmtt.fd
-File: t2acmtt.fd 2001/08/11 v1.0a Computer Modern Cyrillic font definitions
-)
-Overfull \hbox (4.54807pt too wide) in paragraph at lines 42--43
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
-][][][][][][][][][][][][][] 
+Overfull \hbox (4.54807pt too wide) in paragraph at lines 63--64
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
  []
 
 [16]
-Underfull \hbox (badness 10000) in paragraph at lines 77--78
+Overfull \hbox (4.54807pt too wide) in paragraph at lines 85--86
+[][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+[17]
+Underfull \hbox (badness 10000) in paragraph at lines 116--117
 
  []
 
-[17]) [18]
+
+Overfull \hbox (26.57298pt too wide) in paragraph at lines 123--139
+ [][] 
+ []
+
+) [18]
 \openout2 = `06_research.aux'.
 
  (06_research.tex
 {\cyrillictext \CYRG \cyrl \cyra \cyrv \cyra } 4.
-<../../../../../../../msys64/home/Р›РµРІ/bmstu_sem_5_aa/lab_03/report/images/1.
-png, id=91, 501.072pt x 358.941pt>
-File: ../../../../../../../msys64/home/Р›РµРІ/bmstu_sem_5_aa/lab_03/report/imag
-es/1.png Graphic file (type png)
-<use ../../../../../../../msys64/home/Р›РµРІ/bmstu_sem_5_aa/lab_03/report/image
-s/1.png>
+<../../../../../../../msys64/home/Р›РµРІ/bmstu_sem_5_aa/lab_01/report/image/gra
+ph.png, id=95, 483.0045pt x 415.5525pt>
+File: ../../../../../../../msys64/home/Р›РµРІ/bmstu_sem_5_aa/lab_01/report/imag
+e/graph.png Graphic file (type png)
+<use ../../../../../../../msys64/home/Р›РµРІ/bmstu_sem_5_aa/lab_01/report/image
+/graph.png>
 Package pdftex.def Info: ../../../../../../../msys64/home/Р›РµРІ/bmstu_sem_5_aa
-/lab_03/report/images/1.png  used on input line 18.
-(pdftex.def)             Requested size: 301.59938pt x 216.05087pt.
+/lab_01/report/image/graph.png  used on input line 16.
+(pdftex.def)             Requested size: 301.59938pt x 259.47871pt.
 [19
 
 
 
 
 ]
-<../../../../../../../msys64/home/Р›РµРІ/bmstu_sem_5_aa/lab_03/report/images/2.
-png, id=96, 486.01575pt x 349.90726pt>
-File: ../../../../../../../msys64/home/Р›РµРІ/bmstu_sem_5_aa/lab_03/report/imag
-es/2.png Graphic file (type png)
-<use ../../../../../../../msys64/home/Р›РµРІ/bmstu_sem_5_aa/lab_03/report/image
-s/2.png>
+<../../../../../../../msys64/home/Р›РµРІ/bmstu_sem_5_aa/lab_01/report/image/gra
+ph_2.png, id=100, 483.0045pt x 415.5525pt>
+File: ../../../../../../../msys64/home/Р›РµРІ/bmstu_sem_5_aa/lab_01/report/imag
+e/graph_2.png Graphic file (type png)
+<use ../../../../../../../msys64/home/Р›РµРІ/bmstu_sem_5_aa/lab_01/report/image
+/graph_2.png>
 Package pdftex.def Info: ../../../../../../../msys64/home/Р›РµРІ/bmstu_sem_5_aa
-/lab_03/report/images/2.png  used on input line 28.
-(pdftex.def)             Requested size: 301.59938pt x 217.13779pt.
-<../../../../../../../msys64/home/Р›РµРІ/bmstu_sem_5_aa/lab_03/report/images/3.
-png, id=97, 475.7775pt x 349.90726pt>
-File: ../../../../../../../msys64/home/Р›РµРІ/bmstu_sem_5_aa/lab_03/report/imag
-es/3.png Graphic file (type png)
-<use ../../../../../../../msys64/home/Р›РµРІ/bmstu_sem_5_aa/lab_03/report/image
-s/3.png>
-Package pdftex.def Info: ../../../../../../../msys64/home/Р›РµРІ/bmstu_sem_5_aa
-/lab_03/report/images/3.png  used on input line 38.
-(pdftex.def)             Requested size: 301.59938pt x 221.82022pt.
- [20 <../../../../../../../msys64/home/Р›РµРІ/bmstu_sem_5_aa/lab_03/report/imag
-es/1.png> <../../../../../../../msys64/home/Р›РµРІ/bmstu_sem_5_aa/lab_03/report
-/images/2.png>]) [21 <../../../../../../../msys64/home/Р›РµРІ/bmstu_sem_5_aa/la
-b_03/report/images/3.png>]
+/lab_01/report/image/graph_2.png  used on input line 26.
+(pdftex.def)             Requested size: 301.59938pt x 259.47871pt.
+ [20 <../../../../../../../msys64/home/Р›РµРІ/bmstu_sem_5_aa/lab_01/report/imag
+e/graph.png>]
+Overfull \hbox (6.08217pt too wide) in paragraph at lines 40--50
+ [][] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 34--53
+
+ []
+
+[21 <../../../../../../../msys64/home/Р›РµРІ/bmstu_sem_5_aa/lab_01/report/image
+/graph_2.png>]
+Overfull \hbox (7.74431pt too wide) in paragraph at lines 63--64
+\T2A/cmr/m/n/14.4 По ре-зуль-та-там ис-сле-до-ва-ния па-мя-ти ал-го-рит-мы Ле-в
+ен-штей-на и Дамерау-
+ []
+
+)
+Overfull \hbox (0.15848pt too wide) in paragraph at lines 68--12
+[]\T2A/cmr/m/n/14.4 Сравнивая меж-ду со-бой ре-кур-сив-ные вы-зо-вы ал-го-рит-м
+ов Ле-вен-штей-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 68--12
+
+ []
+
+[22]
 \openout2 = `07_conclusion.aux'.
 
- (07_conclusion.tex) [22
+ (07_conclusion.tex) [23
 
 
 
 
 ]
-\openout2 = `08_biblio.aux'.
+\openout2 = `08_bibliography.aux'.
 
- (08_biblio.tex
-(report.bbl
-Underfull \hbox (badness 10000) in paragraph at lines 20--24
-[]\T2A/cmr/m/n/14.4 Insertion sort. [Элек-трон-ный ре-сурс].  Ре-жим до-сту-па:
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 20--24
-\T2A/cmr/m/n/12 https://www.khanacademy.org/computing/computer-science/algorith
-ms/insertion-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 27--30
+ (08_bibliography.tex (report.bbl
+Underfull \hbox (badness 10000) in paragraph at lines 38--41
 []\T2A/cmr/m/n/14.4 Python. [Элек-трон-ный ре-сурс].  Ре-жим до-сту-па:
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 39--44
+Underfull \hbox (badness 10000) in paragraph at lines 50--55
 []\T2A/cmr/m/n/14.4 time  Time access and conversions  Python 3.9.7
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 39--44
+Underfull \hbox (badness 10000) in paragraph at lines 50--55
 \T2A/cmr/m/n/14.4 documentation. [Элек-трон-ный ре-сурс].  Ре-жим до-сту-па:
  []
 
-)) [23
+)) [24
 
 
 
 
 ] (report.aux (00_title.aux) (01_contents.aux) (02_introduction.aux)
 (03_analysis.aux) (04_design.aux) (05_technological.aux) (06_research.aux)
-(07_conclusion.aux) (08_biblio.aux))
+(07_conclusion.aux) (08_bibliography.aux))
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 10985 strings out of 478864
- 184800 string characters out of 2848186
- 735323 words of memory out of 3000000
- 28599 multiletter control sequences out of 15000+600000
+ 10978 strings out of 478864
+ 188223 string characters out of 2848186
+ 752314 words of memory out of 3000000
+ 28592 multiletter control sequences out of 15000+600000
  420115 words of font info for 58 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 77i,19n,86p,1701b,1266s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 77i,19n,86p,2011b,1803s stack positions out of 5000i,500n,10000p,200000b,80000s
  <C:\Users\Р›РµРІ\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\larm1
 200.pk> <C:\Users\Р›РµРІ\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\
 latt1000.pk> <C:\Users\Р›РµРІ\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dp
@@ -1096,9 +1154,9 @@ public/amsfonts/cm/cmmi12.pfb><C:/Users/Р›РµРІ/AppData/Local/Programs/MiKTeX/fo
 nts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/Р›РµРІ/AppData/Local/Programs/
 MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/Р›РµРІ/AppData/Local/
 Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on report.pdf (23 pages, 1307415 bytes).
+Output written on report.pdf (24 pages, 1328890 bytes).
 PDF statistics:
- 620 PDF objects out of 1000 (max. 8388607)
+ 638 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 56 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 61 words of extra memory for PDF output out of 10000 (max. 10000000)
 

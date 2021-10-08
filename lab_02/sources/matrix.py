@@ -87,6 +87,8 @@ def multiply_matrixes_vinograd_optimized(matrix_a, matrix_b) -> list[list[int]]:
         is_odd = m % 2
         dec_m = m - 1
         mul_u = [0] * n
+        if is_odd:
+            m -= 1
         for i in range(n):
             buf = 0
             for j in range(0, m, 2):

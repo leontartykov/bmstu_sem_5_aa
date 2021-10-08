@@ -1,0 +1,1116 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.6) (preloaded format=pdflatex 2021.9.14)  9 OCT 2021 01:53
+entering extended mode
+**./report.tex
+(report.tex
+LaTeX2e <2021-06-01>
+L3 programming layer <2021-06-01>
+(C:\Users\Лев\AppData\Local\Programs\MiKTeX\tex/latex/extsizes\extreport.cls
+Document Class: extreport 1996/10/08 v1.0 Non Standard LaTeX document class
+(C:\Users\Лев\AppData\Local\Programs\MiKTeX\tex/latex/extsizes\size14.clo
+File: size14.clo 1999/11/11 v1.4a NON-Standard LaTeX file (size option)
+)
+(C:\Users\Лев\AppData\Local\Programs\MiKTeX\tex/latex/base\exscale.sty
+Package: exscale 2018/09/24 v2.1i Standard LaTeX package exscale
+LaTeX Font Info:    Redeclaring symbol font `largesymbols' on input line 57.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
+(Font)                  OMX/cmex/m/n --> OMX/cmex/m/n on input line 57.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
+(Font)                  OMX/cmex/m/n --> OMX/cmex/m/n on input line 57.
+\big@size=\dimen138
+)
+\c@part=\count182
+\c@chapter=\count183
+\c@section=\count184
+\c@subsection=\count185
+\c@subsubsection=\count186
+\c@paragraph=\count187
+\c@subparagraph=\count188
+\c@figure=\count189
+\c@table=\count190
+\abovecaptionskip=\skip47
+\belowcaptionskip=\skip48
+\bibindent=\dimen139
+)
+\@input{preambule.inc.aux}
+\openout2 = `preambule.inc.aux'.
+
+(preambule.inc.tex
+(C:\Users\Лев\AppData\Local\Programs\MiKTeX\tex/latex/cmap\cmap.sty
+Package: cmap 2021/02/06 v1.0j CMap support: searchable PDF
+)
+(C:\Users\Лев\AppData\Local\Programs\MiKTeX\tex/latex/base\inputenc.sty
+Package: inputenc 2021/02/14 v1.3d Input encoding file
+\inpenc@prehook=\toks16
+\inpenc@posthook=\toks17
+)
+(C:\Users\Лев\AppData\Local\Programs\MiKTeX\tex/generic/babel\babel.sty
+Package: babel 2021/06/02 3.60 The Babel package
+
+(C:\Users\Лев\AppData\Local\Programs\MiKTeX\tex/generic/babel\babel.def
+File: babel.def 2021/06/02 3.60 Babel common definitions
+\babel@savecnt=\count191
+\U@D=\dimen140
+\l@unhyphenated=\language79
+
+(C:\Users\Лев\AppData\Local\Programs\MiKTeX\tex/generic/babel\txtbabel.def)
+\bbl@readstream=\read2
+)
+\bbl@dirlevel=\count192
+*************************************
+* Local config file bblopts.cfg used
+*
+(C:\Users\Лев\AppData\Local\Programs\MiKTeX\tex/latex/arabi\bblopts.cfg
+File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of
+ babel
+)
+(C:\Users\Лев\AppData\Local\Programs\MiKTeX\tex/latex/babel-english\english.
+ldf
+Language: english 2017/06/06 v3.3r English support from the babel system
+Package babel Info: Hyphen rules for 'canadian' set to \l@english
+(babel)             (\language0). Reported on input line 102.
+Package babel Info: Hyphen rules for 'australian' set to \l@ukenglish
+(babel)             (\language73). Reported on input line 105.
+Package babel Info: Hyphen rules for 'newzealand' set to \l@ukenglish
+(babel)             (\language73). Reported on input line 108.
+)
+(C:\Users\Лев\AppData\Local\Programs\MiKTeX\tex/latex/babel-russian\russianb
+.ldf
+File: russianb.ldf 2021/01/10 1.3m Russian support for the Babel system
+Language: russian 2020/09/09 1.3k Russian support for the Babel system
+
+
+Package babel Warning: No Cyrillic font encoding has been loaded so far.
+(babel)                A font encoding should be declared before babel.
+(babel)                Default `T2A' encoding will be loaded  on input line 78.
+
+
+(C:\Users\Лев\AppData\Local\Programs\MiKTeX\tex/latex/cyrillic\t2aenc.def
+File: t2aenc.def 2005/09/27 v1.0i Cyrillic encoding definition file
+Now handling font encoding T2A ...
+... processing UTF-8 mapping file for font encoding T2A
+
+(C:\Users\Лев\AppData\Local\Programs\MiKTeX\tex/latex/base\t2aenc.dfu
+File: t2aenc.dfu 2021/01/27 v1.2l UTF-8 support for inputenc
+   defining Unicode char U+00A4 (decimal 164)
+   defining Unicode char U+00A7 (decimal 167)
+   defining Unicode char U+00AB (decimal 171)
+   defining Unicode char U+00BB (decimal 187)
+   defining Unicode char U+0131 (decimal 305)
+   defining Unicode char U+0237 (decimal 567)
+   defining Unicode char U+0400 (decimal 1024)
+   defining Unicode char U+0401 (decimal 1025)
+   defining Unicode char U+0402 (decimal 1026)
+   defining Unicode char U+0403 (decimal 1027)
+   defining Unicode char U+0404 (decimal 1028)
+   defining Unicode char U+0405 (decimal 1029)
+   defining Unicode char U+0406 (decimal 1030)
+   defining Unicode char U+0407 (decimal 1031)
+   defining Unicode char U+0408 (decimal 1032)
+   defining Unicode char U+0409 (decimal 1033)
+   defining Unicode char U+040A (decimal 1034)
+   defining Unicode char U+040B (decimal 1035)
+   defining Unicode char U+040C (decimal 1036)
+   defining Unicode char U+040D (decimal 1037)
+   defining Unicode char U+040E (decimal 1038)
+   defining Unicode char U+040F (decimal 1039)
+   defining Unicode char U+0410 (decimal 1040)
+   defining Unicode char U+0411 (decimal 1041)
+   defining Unicode char U+0412 (decimal 1042)
+   defining Unicode char U+0413 (decimal 1043)
+   defining Unicode char U+0414 (decimal 1044)
+   defining Unicode char U+0415 (decimal 1045)
+   defining Unicode char U+0416 (decimal 1046)
+   defining Unicode char U+0417 (decimal 1047)
+   defining Unicode char U+0418 (decimal 1048)
+   defining Unicode char U+0419 (decimal 1049)
+   defining Unicode char U+041A (decimal 1050)
+   defining Unicode char U+041B (decimal 1051)
+   defining Unicode char U+041C (decimal 1052)
+   defining Unicode char U+041D (decimal 1053)
+   defining Unicode char U+041E (decimal 1054)
+   defining Unicode char U+041F (decimal 1055)
+   defining Unicode char U+0420 (decimal 1056)
+   defining Unicode char U+0421 (decimal 1057)
+   defining Unicode char U+0422 (decimal 1058)
+   defining Unicode char U+0423 (decimal 1059)
+   defining Unicode char U+0424 (decimal 1060)
+   defining Unicode char U+0425 (decimal 1061)
+   defining Unicode char U+0426 (decimal 1062)
+   defining Unicode char U+0427 (decimal 1063)
+   defining Unicode char U+0428 (decimal 1064)
+   defining Unicode char U+0429 (decimal 1065)
+   defining Unicode char U+042A (decimal 1066)
+   defining Unicode char U+042B (decimal 1067)
+   defining Unicode char U+042C (decimal 1068)
+   defining Unicode char U+042D (decimal 1069)
+   defining Unicode char U+042E (decimal 1070)
+   defining Unicode char U+042F (decimal 1071)
+   defining Unicode char U+0430 (decimal 1072)
+   defining Unicode char U+0431 (decimal 1073)
+   defining Unicode char U+0432 (decimal 1074)
+   defining Unicode char U+0433 (decimal 1075)
+   defining Unicode char U+0434 (decimal 1076)
+   defining Unicode char U+0435 (decimal 1077)
+   defining Unicode char U+0436 (decimal 1078)
+   defining Unicode char U+0437 (decimal 1079)
+   defining Unicode char U+0438 (decimal 1080)
+   defining Unicode char U+0439 (decimal 1081)
+   defining Unicode char U+043A (decimal 1082)
+   defining Unicode char U+043B (decimal 1083)
+   defining Unicode char U+043C (decimal 1084)
+   defining Unicode char U+043D (decimal 1085)
+   defining Unicode char U+043E (decimal 1086)
+   defining Unicode char U+043F (decimal 1087)
+   defining Unicode char U+0440 (decimal 1088)
+   defining Unicode char U+0441 (decimal 1089)
+   defining Unicode char U+0442 (decimal 1090)
+   defining Unicode char U+0443 (decimal 1091)
+   defining Unicode char U+0444 (decimal 1092)
+   defining Unicode char U+0445 (decimal 1093)
+   defining Unicode char U+0446 (decimal 1094)
+   defining Unicode char U+0447 (decimal 1095)
+   defining Unicode char U+0448 (decimal 1096)
+   defining Unicode char U+0449 (decimal 1097)
+   defining Unicode char U+044A (decimal 1098)
+   defining Unicode char U+044B (decimal 1099)
+   defining Unicode char U+044C (decimal 1100)
+   defining Unicode char U+044D (decimal 1101)
+   defining Unicode char U+044E (decimal 1102)
+   defining Unicode char U+044F (decimal 1103)
+   defining Unicode char U+0450 (decimal 1104)
+   defining Unicode char U+0451 (decimal 1105)
+   defining Unicode char U+0452 (decimal 1106)
+   defining Unicode char U+0453 (decimal 1107)
+   defining Unicode char U+0454 (decimal 1108)
+   defining Unicode char U+0455 (decimal 1109)
+   defining Unicode char U+0456 (decimal 1110)
+   defining Unicode char U+0457 (decimal 1111)
+   defining Unicode char U+0458 (decimal 1112)
+   defining Unicode char U+0459 (decimal 1113)
+   defining Unicode char U+045A (decimal 1114)
+   defining Unicode char U+045B (decimal 1115)
+   defining Unicode char U+045C (decimal 1116)
+   defining Unicode char U+045D (decimal 1117)
+   defining Unicode char U+045E (decimal 1118)
+   defining Unicode char U+045F (decimal 1119)
+   defining Unicode char U+0490 (decimal 1168)
+   defining Unicode char U+0491 (decimal 1169)
+   defining Unicode char U+0492 (decimal 1170)
+   defining Unicode char U+0493 (decimal 1171)
+   defining Unicode char U+0496 (decimal 1174)
+   defining Unicode char U+0497 (decimal 1175)
+   defining Unicode char U+0498 (decimal 1176)
+   defining Unicode char U+0499 (decimal 1177)
+   defining Unicode char U+049A (decimal 1178)
+   defining Unicode char U+049B (decimal 1179)
+   defining Unicode char U+049C (decimal 1180)
+   defining Unicode char U+049D (decimal 1181)
+   defining Unicode char U+04A0 (decimal 1184)
+   defining Unicode char U+04A1 (decimal 1185)
+   defining Unicode char U+04A2 (decimal 1186)
+   defining Unicode char U+04A3 (decimal 1187)
+   defining Unicode char U+04A4 (decimal 1188)
+   defining Unicode char U+04A5 (decimal 1189)
+   defining Unicode char U+04AA (decimal 1194)
+   defining Unicode char U+04AB (decimal 1195)
+   defining Unicode char U+04AE (decimal 1198)
+   defining Unicode char U+04AF (decimal 1199)
+   defining Unicode char U+04B0 (decimal 1200)
+   defining Unicode char U+04B1 (decimal 1201)
+   defining Unicode char U+04B2 (decimal 1202)
+   defining Unicode char U+04B3 (decimal 1203)
+   defining Unicode char U+04B6 (decimal 1206)
+   defining Unicode char U+04B7 (decimal 1207)
+   defining Unicode char U+04B8 (decimal 1208)
+   defining Unicode char U+04B9 (decimal 1209)
+   defining Unicode char U+04BA (decimal 1210)
+   defining Unicode char U+04BB (decimal 1211)
+   defining Unicode char U+04C0 (decimal 1216)
+   defining Unicode char U+04C1 (decimal 1217)
+   defining Unicode char U+04C2 (decimal 1218)
+   defining Unicode char U+04D0 (decimal 1232)
+   defining Unicode char U+04D1 (decimal 1233)
+   defining Unicode char U+04D2 (decimal 1234)
+   defining Unicode char U+04D3 (decimal 1235)
+   defining Unicode char U+04D4 (decimal 1236)
+   defining Unicode char U+04D5 (decimal 1237)
+   defining Unicode char U+04D6 (decimal 1238)
+   defining Unicode char U+04D7 (decimal 1239)
+   defining Unicode char U+04D8 (decimal 1240)
+   defining Unicode char U+04D9 (decimal 1241)
+   defining Unicode char U+04DA (decimal 1242)
+   defining Unicode char U+04DB (decimal 1243)
+   defining Unicode char U+04DC (decimal 1244)
+   defining Unicode char U+04DD (decimal 1245)
+   defining Unicode char U+04DE (decimal 1246)
+   defining Unicode char U+04DF (decimal 1247)
+   defining Unicode char U+04E2 (decimal 1250)
+   defining Unicode char U+04E3 (decimal 1251)
+   defining Unicode char U+04E4 (decimal 1252)
+   defining Unicode char U+04E5 (decimal 1253)
+   defining Unicode char U+04E6 (decimal 1254)
+   defining Unicode char U+04E7 (decimal 1255)
+   defining Unicode char U+04E8 (decimal 1256)
+   defining Unicode char U+04E9 (decimal 1257)
+   defining Unicode char U+04EC (decimal 1260)
+   defining Unicode char U+04ED (decimal 1261)
+   defining Unicode char U+04EE (decimal 1262)
+   defining Unicode char U+04EF (decimal 1263)
+   defining Unicode char U+04F0 (decimal 1264)
+   defining Unicode char U+04F1 (decimal 1265)
+   defining Unicode char U+04F2 (decimal 1266)
+   defining Unicode char U+04F3 (decimal 1267)
+   defining Unicode char U+04F4 (decimal 1268)
+   defining Unicode char U+04F5 (decimal 1269)
+   defining Unicode char U+04F8 (decimal 1272)
+   defining Unicode char U+04F9 (decimal 1273)
+   defining Unicode char U+200C (decimal 8204)
+   defining Unicode char U+2013 (decimal 8211)
+   defining Unicode char U+2014 (decimal 8212)
+   defining Unicode char U+2018 (decimal 8216)
+   defining Unicode char U+2019 (decimal 8217)
+   defining Unicode char U+201C (decimal 8220)
+   defining Unicode char U+201D (decimal 8221)
+   defining Unicode char U+201E (decimal 8222)
+   defining Unicode char U+2030 (decimal 8240)
+   defining Unicode char U+2031 (decimal 8241)
+   defining Unicode char U+2116 (decimal 8470)
+   defining Unicode char U+2329 (decimal 9001)
+   defining Unicode char U+232A (decimal 9002)
+   defining Unicode char U+2423 (decimal 9251)
+   defining Unicode char U+27E8 (decimal 10216)
+   defining Unicode char U+27E9 (decimal 10217)
+   defining Unicode char U+FB00 (decimal 64256)
+   defining Unicode char U+FB01 (decimal 64257)
+   defining Unicode char U+FB02 (decimal 64258)
+   defining Unicode char U+FB03 (decimal 64259)
+   defining Unicode char U+FB04 (decimal 64260)
+   defining Unicode char U+FB05 (decimal 64261)
+   defining Unicode char U+FB06 (decimal 64262)
+))
+Package babel Info: Making " an active character on input line 124.
+Package babel Info: Default for \cyrdash is provided on input line 163.
+))
+(C:\Users\Лев\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.sty
+Package: geometry 2020/01/02 v5.9 Page Geometry
+
+(C:\Users\Лев\AppData\Local\Programs\MiKTeX\tex/latex/graphics\keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks18
+)
+(C:\Users\Лев\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifvtex.sty
+Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
+
+(C:\Users\Лев\AppData\Local\Programs\MiKTeX\tex/generic/iftex\iftex.sty
+Package: iftex 2020/03/06 v1.0d TeX engine tests
+))
+\Gm@cnth=\count193
+\Gm@cntv=\count194
+\c@Gm@tempcnt=\count195
+\Gm@bindingoffset=\dimen141
+\Gm@wd@mp=\dimen142
+\Gm@odd@mp=\dimen143
+\Gm@even@mp=\dimen144
+\Gm@layoutwidth=\dimen145
+\Gm@layoutheight=\dimen146
+\Gm@layouthoffset=\dimen147
+\Gm@layoutvoffset=\dimen148
+\Gm@dimlist=\toks19
+
+(C:\Users\Лев\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.cfg)
+)
+(C:\Users\Лев\AppData\Local\Programs\MiKTeX\tex/latex/setspace\setspace.sty
+Package: setspace 2011/12/19 v6.7a set line spacing
+) (C:\Users\Лев\AppData\Local\Programs\MiKTeX\tex/latex/enumitem\enumitem.st
+y
+Package: enumitem 2019/06/20 v3.9 Customized lists
+\labelindent=\skip49
+\enit@outerparindent=\dimen149
+\enit@toks=\toks20
+\enit@inbox=\box50
+\enit@count@id=\count196
+\enitdp@description=\count197
+) (C:\Users\Лев\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsmath.sty
+Package: amsmath 2021/04/20 v2.17j AMS math features
+\@mathmargin=\skip50
+
+For additional information on amsmath, use the `?' option.
+(C:\Users\Лев\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amstext.sty
+Package: amstext 2000/06/29 v2.01 AMS text
+
+(C:\Users\Лев\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks21
+\ex@=\dimen150
+))
+(C:\Users\Лев\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen151
+)
+(C:\Users\Лев\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsopn.sty
+Package: amsopn 2016/03/08 v2.02 operator names
+)
+\inf@bad=\count198
+LaTeX Info: Redefining \frac on input line 234.
+\uproot@=\count199
+\leftroot@=\count266
+LaTeX Info: Redefining \overline on input line 399.
+\classnum@=\count267
+\DOTSCASE@=\count268
+LaTeX Info: Redefining \ldots on input line 496.
+LaTeX Info: Redefining \dots on input line 499.
+LaTeX Info: Redefining \cdots on input line 620.
+\Mathstrutbox@=\box51
+\strutbox@=\box52
+\big@size=\dimen152
+LaTeX Font Info:    Redeclaring font encoding OML on input line 743.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
+\macc@depth=\count269
+\c@MaxMatrixCols=\count270
+\dotsspace@=\muskip16
+\c@parentequation=\count271
+\dspbrk@lvl=\count272
+\tag@help=\toks22
+\row@=\count273
+\column@=\count274
+\maxfields@=\count275
+\andhelp@=\toks23
+\eqnshift@=\dimen153
+\alignsep@=\dimen154
+\tagshift@=\dimen155
+\tagwidth@=\dimen156
+\totwidth@=\dimen157
+\lineht@=\dimen158
+\@envbody=\toks24
+\multlinegap=\skip51
+\multlinetaggap=\skip52
+\mathdisplay@stack=\toks25
+LaTeX Info: Redefining \[ on input line 2923.
+LaTeX Info: Redefining \] on input line 2924.
+)
+(C:\Users\Лев\AppData\Local\Programs\MiKTeX\tex/latex/autonum\autonum.sty
+Package: autonum 2015/01/18 v0.3.11 Automatic numbering of equations
+
+(C:\Users\Лев\AppData\Local\Programs\MiKTeX\tex/latex/etoolbox\etoolbox.sty
+Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count276
+)
+(C:\Users\Лев\AppData\Local\Programs\MiKTeX\tex/latex/etextools\etextools.st
+y
+Package: etextools 2010/12/07 v3.1415926 e-TeX more useful tools for LaTeX pack
+age writers
+ (C:\Users\Лев\AppData\Local\Programs\MiKTeX\tex/latex/etex-pkg\etex.sty
+Package: etex 2016/08/01 v2.7 eTeX basic definition package (PEB,DPC)
+
+
+Package etex Warning: Extended allocation already in use.
+(etex)                etex.sty code will not be used.
+(etex)                To force etex package to load, add
+(etex)                \RequirePackage{etex}
+(etex)                at the start of the document.
+
+)
+(C:\Users\Лев\AppData\Local\Programs\MiKTeX\tex/latex/letltxmacro\letltxmacr
+o.sty
+Package: letltxmacro 2019/12/03 v1.6 Let assignment for LaTeX macros (HO)
+)
+\ettl@fter=\count277
+\ettl@for@nested=\count278
+)
+(C:\Users\Лев\AppData\Local\Programs\MiKTeX\tex/latex/textpos\textpos.sty
+Package: textpos 2020/09/26 v1.10
+
+Package: textpos 2020/09/26 1.10, absolute positioning of text on the page
+Package textpos Info: choosing support for LaTeX3 on input line 61.
+\TP@textbox=\box53
+\TP@holdbox=\box54
+\TPHorizModule=\dimen159
+\TPVertModule=\dimen160
+\TP@margin=\dimen161
+\TP@absmargin=\dimen162
+Grid set 16 x 16 = 37.34424pt x 52.81541pt
+\TPboxrulesize=\dimen163
+\TP@ox=\dimen164
+\TP@oy=\dimen165
+\TP@tbargs=\toks26
+TextBlockOrigin set to 0pt x 0pt
+)
+\c@autonum@counter=\count279
+) (C:\Users\Лев\AppData\Local\Programs\MiKTeX\tex/latex/tools\multicol.sty
+Package: multicol 2019/12/09 v1.8y multicolumn formatting (FMi)
+\c@tracingmulticols=\count280
+\mult@box=\box55
+\multicol@leftmargin=\dimen166
+\c@unbalance=\count281
+\c@collectmore=\count282
+\doublecol@number=\count283
+\multicoltolerance=\count284
+\multicolpretolerance=\count285
+\full@width=\dimen167
+\page@free=\dimen168
+\premulticols=\dimen169
+\postmulticols=\dimen170
+\multicolsep=\skip53
+\multicolbaselineskip=\skip54
+\partial@page=\box56
+\last@line=\box57
+\maxbalancingoverflow=\dimen171
+\mult@rightbox=\box58
+\mult@grightbox=\box59
+\mult@gfirstbox=\box60
+\mult@firstbox=\box61
+\@tempa=\box62
+\@tempa=\box63
+\@tempa=\box64
+\@tempa=\box65
+\@tempa=\box66
+\@tempa=\box67
+\@tempa=\box68
+\@tempa=\box69
+\@tempa=\box70
+\@tempa=\box71
+\@tempa=\box72
+\@tempa=\box73
+\@tempa=\box74
+\@tempa=\box75
+\@tempa=\box76
+\@tempa=\box77
+\@tempa=\box78
+\@tempa=\box79
+\@tempa=\box80
+\@tempa=\box81
+\@tempa=\box82
+\@tempa=\box83
+\@tempa=\box84
+\@tempa=\box85
+\@tempa=\box86
+\@tempa=\box87
+\@tempa=\box88
+\@tempa=\box89
+\@tempa=\box90
+\@tempa=\box91
+\@tempa=\box92
+\@tempa=\box93
+\@tempa=\box94
+\@tempa=\box95
+\@tempa=\box96
+\@tempa=\box97
+\@tempa=\box98
+\c@minrows=\count286
+\c@columnbadness=\count287
+\c@finalcolumnbadness=\count288
+\last@try=\dimen172
+\multicolovershoot=\dimen173
+\multicolundershoot=\dimen174
+\mult@nat@firstbox=\box99
+\colbreak@box=\box100
+\mc@col@check@num=\count289
+) (C:\Users\Лев\AppData\Local\Programs\MiKTeX\tex/latex/multirow\multirow.st
+y
+Package: multirow 2021/03/15 v2.8 Span multiple rows of a table
+\multirow@colwidth=\skip55
+\multirow@cntb=\count290
+\multirow@dima=\skip56
+\bigstrutjot=\dimen175
+)
+(C:\Users\Лев\AppData\Local\Programs\MiKTeX\tex/latex/csvsimple\csvsimple.st
+y
+(C:\Users\Лев\AppData\Local\Programs\MiKTeX\tex/latex/l3packages/l3keys2e\l3
+keys2e.sty
+(C:\Users\Лев\AppData\Local\Programs\MiKTeX\tex/latex/l3kernel\expl3.sty
+Package: expl3 2021-06-01 L3 programming layer (loader) 
+
+(C:\Users\Лев\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pd
+ftex.def
+File: l3backend-pdftex.def 2021-05-07 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count291
+\l__pdf_internal_box=\box101
+))
+Package: l3keys2e 2021-06-01 LaTeX2e option processing using LaTeX3 keys
+)
+Package: csvsimple 2021/09/09 v2.2.0 LaTeX CSV file processing
+)
+(C:\Users\Лев\AppData\Local\Programs\MiKTeX\tex/latex/csvsimple\csvsimple-le
+gacy.sty
+Package: csvsimple-legacy 2021/09/09 version 2.2.0 LaTeX2e CSV file processing
+
+(C:\Users\Лев\AppData\Local\Programs\MiKTeX\tex/latex/pgf/utilities\pgfrcs.s
+ty
+(C:\Users\Лев\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfuti
+l-common.tex
+\pgfutil@everybye=\toks27
+\pgfutil@tempdima=\dimen176
+\pgfutil@tempdimb=\dimen177
+
+(C:\Users\Лев\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfuti
+l-common-lists.tex))
+(C:\Users\Лев\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfuti
+l-latex.def
+\pgfutil@abb=\box102
+)
+(C:\Users\Лев\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfrcs
+.code.tex
+(C:\Users\Лев\AppData\Local\Programs\MiKTeX\tex/generic/pgf\pgf.revision.tex
+)
+Package: pgfrcs 2021/05/15 v3.1.9a (3.1.9a)
+))
+(C:\Users\Лев\AppData\Local\Programs\MiKTeX\tex/latex/pgf/utilities\pgfkeys.
+sty
+(C:\Users\Лев\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfkey
+s.code.tex
+\pgfkeys@pathtoks=\toks28
+\pgfkeys@temptoks=\toks29
+
+(C:\Users\Лев\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfkey
+sfiltered.code.tex
+\pgfkeys@tmptoks=\toks30
+)))
+(C:\Users\Лев\AppData\Local\Programs\MiKTeX\tex/latex/base\ifthen.sty
+Package: ifthen 2020/11/24 v1.1c Standard LaTeX ifthen package (DPC)
+)
+(C:\Users\Лев\AppData\Local\Programs\MiKTeX\tex/latex/tools\shellesc.sty
+Package: shellesc 2019/11/08 v1.0c unified shell escape interface for LaTeX
+Package shellesc Info: Restricted shell escape enabled on input line 77.
+)
+\csv@file=\read3
+\c@csvinputline=\count292
+\c@csvrow=\count293
+\c@csvcol=\count294
+\csv@out=\write3
+)
+(C:\Users\Лев\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphicx.sty
+Package: graphicx 2020/12/05 v1.2c Enhanced LaTeX Graphics (DPC,SPQR)
+
+(C:\Users\Лев\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphics.sty
+Package: graphics 2021/03/04 v1.4d Standard LaTeX Graphics (DPC,SPQR)
+
+(C:\Users\Лев\AppData\Local\Programs\MiKTeX\tex/latex/graphics\trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+(C:\Users\Лев\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\graphics.
+cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 107.
+
+(C:\Users\Лев\AppData\Local\Programs\MiKTeX\tex/latex/graphics-def\pdftex.de
+f
+File: pdftex.def 2020/10/05 v1.2a Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen178
+\Gin@req@width=\dimen179
+)
+(C:\Users\Лев\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption.sty
+Package: caption 2020/10/26 v3.5g Customizing captions (AR)
+
+(C:\Users\Лев\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption3.sty
+Package: caption3 2020/10/21 v2.2e caption3 kernel (AR)
+\captionmargin=\dimen180
+\captionmargin@=\dimen181
+\captionwidth=\dimen182
+\caption@tempdima=\dimen183
+\caption@indent=\dimen184
+\caption@parindent=\dimen185
+\caption@hangindent=\dimen186
+Package caption Info: Standard document class detected.
+)
+\c@caption@flags=\count295
+\c@continuedfloat=\count296
+) (C:\Users\Лев\AppData\Local\Programs\MiKTeX\tex/latex/tools\indentfirst.st
+y
+Package: indentfirst 1995/11/23 v1.03 Indent first paragraph (DPC)
+) (C:\Users\Лев\AppData\Local\Programs\MiKTeX\tex/latex/float\float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count297
+\float@exts=\toks31
+\float@box=\box103
+\@float@everytoks=\toks32
+\@floatcapt=\box104
+)
+(C:\Users\Лев\AppData\Local\Programs\MiKTeX\tex/latex/umoline\umoline.sty
+Package: umoline 2000/07/11 v1.1 
+\UnderlineDepth=\dimen187
+\MidlineHeight=\dimen188
+\OverlineHeight=\dimen189
+\UMOlineThickness=\dimen190
+\UMO@height=\dimen191
+\UMO@depth=\dimen192
+\UMO@spacefactor=\count298
+)
+(C:\Users\Лев\AppData\Local\Programs\MiKTeX\tex/latex/xcolor\xcolor.sty
+Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
+
+(C:\Users\Лев\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 225.
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1352.
+Package xcolor Info: Model `RGB' extended on input line 1364.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1366.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1367.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1368.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
+)
+(C:\Users\Лев\AppData\Local\Programs\MiKTeX\tex/latex/listings\listings.sty
+\lst@mode=\count299
+\lst@gtempboxa=\box105
+\lst@token=\toks33
+\lst@length=\count300
+\lst@currlwidth=\dimen193
+\lst@column=\count301
+\lst@pos=\count302
+\lst@lostspace=\dimen194
+\lst@width=\dimen195
+\lst@newlines=\count303
+\lst@lineno=\count304
+\lst@maxwidth=\dimen196
+
+(C:\Users\Лев\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstmisc.sty
+File: lstmisc.sty 2020/03/24 1.8d (Carsten Heinz)
+\c@lstnumber=\count305
+\lst@skipnumbers=\count306
+\lst@framebox=\box106
+)
+(C:\Users\Лев\AppData\Local\Programs\MiKTeX\tex/latex/listings\listings.cfg
+File: listings.cfg 2020/03/24 1.8d listings configuration
+))
+Package: listings 2020/03/24 1.8d (Carsten Heinz)
+
+(C:\Users\Лев\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang1.sty
+File: lstlang1.sty 2020/03/24 1.8d listings language file
+) (C:\Users\Лев\AppData\Local\Programs\MiKTeX\tex/latex/titlesec\titlesec.st
+y
+Package: titlesec 2021/07/05 v2.14 Sectioning titles
+\ttl@box=\box107
+\beforetitleunit=\skip57
+\aftertitleunit=\skip58
+\ttl@plus=\dimen197
+\ttl@minus=\dimen198
+\ttl@toksa=\toks34
+\titlewidth=\dimen199
+\titlewidthlast=\dimen256
+\titlewidthfirst=\dimen257
+)) (report.aux (00_title.aux)
+LaTeX Font Info:    Trying to load font information for T2A+cmr on input line 7
+.
+
+(C:\Users\Лев\AppData\Local\Programs\MiKTeX\tex/latex/cyrillic\t2acmr.fd
+File: t2acmr.fd 2001/08/11 v1.0a Computer Modern Cyrillic font definitions
+)<<t2a.cmap>> (01_contents.aux) (02_introduction.aux) (03_analysis.aux)
+(04_design.aux) (05_technological.aux) (06_research.aux) (07_conclusion.aux)
+(08_biblio.aux))
+\openout1 = `report.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for T2A/cmr/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Info: Redefining \th on input line 5.
+
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(85.35826pt, 455.24411pt, 56.9055pt)
+* v-part:(T,H,B)=(56.9055pt, 731.23584pt, 56.9055pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=455.24411pt
+* \textheight=731.23584pt
+* \oddsidemargin=13.08827pt
+* \evensidemargin=13.08827pt
+* \topmargin=-54.36449pt
+* \headheight=14.0pt
+* \headsep=25.0pt
+* \topskip=14.0pt
+* \footskip=30.0pt
+* \marginparwidth=15.0pt
+* \marginparsep=10.0pt
+* \columnsep=10.0pt
+* \skip\footins=12.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+\autonum@environmentWidth=\skip59
+<<ot1.cmap>><<oml.cmap>><<oms.cmap>><<omx.cmap>>
+(C:\Users\Лев\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.m
+kii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count307
+\scratchdimen=\dimen258
+\scratchbox=\box108
+\nofMPsegments=\count308
+\nofMParguments=\count309
+\everyMPshowfont=\toks35
+\MPscratchCnt=\count310
+\MPscratchDim=\dimen259
+\MPnumerator=\count311
+\makeMPintoPDFobject=\count312
+\everyMPtoPDFconversion=\toks36
+)
+(C:\Users\Лев\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-
+base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+85.
+
+(C:\Users\Лев\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-sys.
+cfg
+File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
+))
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: float package is loaded.
+Package caption Info: listings package is loaded.
+Package caption Info: End \AtBeginDocument code.
+\c@lstlisting=\count313
+\openout2 = `00_title.aux'.
+
+ (00_title.tex
+<../../../../../../../msys64/home/Лев/bmstu_sem_5_aa/lab_01/report/image/bms
+tu_eblem.png, id=6, 155.6214pt x 178.7478pt>
+File: ../../../../../../../msys64/home/Лев/bmstu_sem_5_aa/lab_01/report/imag
+e/bmstu_eblem.png Graphic file (type png)
+<use ../../../../../../../msys64/home/Лев/bmstu_sem_5_aa/lab_01/report/image
+/bmstu_eblem.png>
+Package pdftex.def Info: ../../../../../../../msys64/home/Лев/bmstu_sem_5_aa
+/lab_01/report/image/bmstu_eblem.png  used on input line 5.
+(pdftex.def)             Requested size: 57.57901pt x 66.13564pt.
+
+Overfull \hbox (26.33493pt too wide) in paragraph at lines 3--9
+ [][] 
+ []
+
+
+Overfull \hbox (94.43843pt too wide) in paragraph at lines 10--21
+[][] 
+ []
+
+
+Overfull \hbox (75.01442pt too wide) in paragraph at lines 10--21
+[][] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 10--21
+
+ []
+
+
+Overfull \hbox (104.45601pt too wide) in paragraph at lines 31--34
+[] [] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 31--34
+
+ []
+
+
+Overfull \hbox (129.1488pt too wide) in paragraph at lines 35--38
+[] [] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 35--38
+
+ []
+
+
+Overfull \hbox (12.04547pt too wide) in paragraph at lines 40--45
+[] 
+ []
+
+
+Overfull \hbox (11.90053pt too wide) in paragraph at lines 48--53
+[] 
+ []
+
+) [1
+
+
+
+
+
+{C:/Users/Лев/AppData/Local/MiKTeX/pdftex/config/pdftex.map} <../../../../..
+/../../msys64/home/Лев/bmstu_sem_5_aa/lab_01/report/image/bmstu_eblem.png>]
+\openout2 = `01_contents.aux'.
+
+ (01_contents.tex (report.toc)
+\tf@toc=\write4
+\openout4 = `report.toc'.
+
+) [2
+
+
+
+
+]
+\openout2 = `02_introduction.aux'.
+
+ (02_introduction.tex
+Overfull \hbox (1.09805pt too wide) in paragraph at lines 5--6
+\T2A/cmr/m/n/14.4 ���-��-�-��� ���-��-��-��-��, ��-���-��-�� ��-���-��-��� �� �
+�-��� ����-��� ���-
+ []
+
+) [3
+
+
+
+
+]
+\openout2 = `03_analysis.aux'.
+
+ (03_analysis.tex
+{\cyrillictext \CYRG \cyrl \cyra \cyrv \cyra } 1.
+[4
+
+
+
+
+]) [5]
+\openout2 = `04_design.aux'.
+
+ (04_design.tex
+{\cyrillictext \CYRG \cyrl \cyra \cyrv \cyra } 2.
+[6
+
+
+
+
+]
+
+LaTeX Warning: Command \cyrs invalid in math mode on input line 62.
+
+
+LaTeX Warning: Command \cyrt invalid in math mode on input line 62.
+
+
+LaTeX Warning: Command \cyra invalid in math mode on input line 62.
+
+
+LaTeX Warning: Command \cyrn invalid in math mode on input line 62.
+
+
+LaTeX Warning: Command \cyrd invalid in math mode on input line 62.
+
+Missing character: There is no � in font cmr10!
+Missing character: There is no � in font cmr10!
+Missing character: There is no � in font cmr10!
+Missing character: There is no � in font cmr10!
+Missing character: There is no � in font cmr10!
+
+LaTeX Warning: Command \cyrs invalid in math mode on input line 62.
+
+
+LaTeX Warning: Command \cyrt invalid in math mode on input line 62.
+
+
+LaTeX Warning: Command \cyra invalid in math mode on input line 62.
+
+
+LaTeX Warning: Command \cyrn invalid in math mode on input line 62.
+
+
+LaTeX Warning: Command \cyrd invalid in math mode on input line 62.
+
+Missing character: There is no � in font cmr10!
+Missing character: There is no � in font cmr10!
+Missing character: There is no � in font cmr10!
+Missing character: There is no � in font cmr10!
+Missing character: There is no � in font cmr10!
+[7]
+Overfull \hbox (7.71837pt too wide) detected at line 89
+ []$[]  \OML/cmm/m/it/14.4 f[] \OT1/cmr/m/n/14.4 = \OML/cmm/m/it/14.4 f[] \OT1/
+cmr/m/n/14.4 + \OML/cmm/m/it/14.4 f[] \OT1/cmr/m/n/14.4 = [] + [] + \OML/cmm/m/
+it/14.4 m\OT1/cmr/m/n/14.4 ([] + [] + [] + []([] + [] + [] + [] + []))+$ 
+ []
+
+[8]
+
+LaTeX Warning: Command \cyro invalid in math mode on input line 121.
+
+
+LaTeX Warning: Command \cyrp invalid in math mode on input line 121.
+
+
+LaTeX Warning: Command \cyrt invalid in math mode on input line 121.
+
+Missing character: There is no � in font cmr10!
+Missing character: There is no � in font cmr10!
+Missing character: There is no � in font cmr10!
+<../../../../../../../msys64/home/Лев/bmstu_sem_5_aa/lab_02/report/diagrams/
+classic.png, id=51, 669.50125pt x 1056.94875pt>
+File: ../../../../../../../msys64/home/Лев/bmstu_sem_5_aa/lab_02/report/diag
+rams/classic.png Graphic file (type png)
+<use ../../../../../../../msys64/home/Лев/bmstu_sem_5_aa/lab_02/report/diagr
+ams/classic.png>
+Package pdftex.def Info: ../../../../../../../msys64/home/Лев/bmstu_sem_5_aa
+/lab_02/report/diagrams/classic.png  used on input line 132.
+(pdftex.def)             Requested size: 401.70384pt x 634.17415pt.
+[9] [10 <../../../../../../../msys64/home/Лев/bmstu_sem_5_aa/lab_02/report/d
+iagrams/classic.png>]
+<../../../../../../../msys64/home/Лев/bmstu_sem_5_aa/lab_02/report/diagrams/
+vinograd_1.png, id=60, 688.5725pt x 961.5925pt>
+File: ../../../../../../../msys64/home/Лев/bmstu_sem_5_aa/lab_02/report/diag
+rams/vinograd_1.png Graphic file (type png)
+<use ../../../../../../../msys64/home/Лев/bmstu_sem_5_aa/lab_02/report/diagr
+ams/vinograd_1.png>
+Package pdftex.def Info: ../../../../../../../msys64/home/Лев/bmstu_sem_5_aa
+/lab_02/report/diagrams/vinograd_1.png  used on input line 141.
+(pdftex.def)             Requested size: 415.4104pt x 580.11458pt.
+<../../../../../../../msys64/home/Лев/bmstu_sem_5_aa/lab_02/report/diagrams/
+vinograd_2.png, id=61, 212.795pt x 1115.16624pt>
+File: ../../../../../../../msys64/home/Лев/bmstu_sem_5_aa/lab_02/report/diag
+rams/vinograd_2.png Graphic file (type png)
+<use ../../../../../../../msys64/home/Лев/bmstu_sem_5_aa/lab_02/report/diagr
+ams/vinograd_2.png>
+Package pdftex.def Info: ../../../../../../../msys64/home/Лев/bmstu_sem_5_aa
+/lab_02/report/diagrams/vinograd_2.png  used on input line 148.
+(pdftex.def)             Requested size: 127.67796pt x 669.10492pt.
+ [11 <../../../../../../../msys64/home/Лев/bmstu_sem_5_aa/lab_02/report/diag
+rams/vinograd_1.png>]
+<../../../../../../../msys64/home/Лев/bmstu_sem_5_aa/lab_02/report/diagrams/
+vinograd_3.png, id=66, 613.29124pt x 721.69624pt>
+File: ../../../../../../../msys64/home/Лев/bmstu_sem_5_aa/lab_02/report/diag
+rams/vinograd_3.png Graphic file (type png)
+<use ../../../../../../../msys64/home/Лев/bmstu_sem_5_aa/lab_02/report/diagr
+ams/vinograd_3.png>
+Package pdftex.def Info: ../../../../../../../msys64/home/Лев/bmstu_sem_5_aa
+/lab_02/report/diagrams/vinograd_3.png  used on input line 156.
+(pdftex.def)             Requested size: 415.4104pt x 488.84186pt.
+ [12 <../../../../../../../msys64/home/Лев/bmstu_sem_5_aa/lab_02/report/diag
+rams/vinograd_2.png>] [13 <../../../../../../../msys64/home/Лев/bmstu_sem_5_
+aa/lab_02/report/diagrams/vinograd_3.png>]
+<../../../../../../../msys64/home/Лев/bmstu_sem_5_aa/lab_02/report/diagrams/
+optimized_vinograd_1.png, id=76, 811.03pt x 906.38625pt>
+File: ../../../../../../../msys64/home/Лев/bmstu_sem_5_aa/lab_02/report/diag
+rams/optimized_vinograd_1.png Graphic file (type png)
+<use ../../../../../../../msys64/home/Лев/bmstu_sem_5_aa/lab_02/report/diagr
+ams/optimized_vinograd_1.png>
+Package pdftex.def Info: ../../../../../../../msys64/home/Лев/bmstu_sem_5_aa
+/lab_02/report/diagrams/optimized_vinograd_1.png  used on input line 166.
+(pdftex.def)             Requested size: 486.62175pt x 543.83594pt.
+
+Overfull \hbox (31.37764pt too wide) in paragraph at lines 166--167
+ [][] 
+ []
+
+<../../../../../../../msys64/home/Лев/bmstu_sem_5_aa/lab_02/report/diagrams/
+optimized_vinograd_2.png, id=77, 445.665pt x 696.6025pt>
+File: ../../../../../../../msys64/home/Лев/bmstu_sem_5_aa/lab_02/report/diag
+rams/optimized_vinograd_2.png Graphic file (type png)
+<use ../../../../../../../msys64/home/Лев/bmstu_sem_5_aa/lab_02/report/diagr
+ams/optimized_vinograd_2.png>
+Package pdftex.def Info: ../../../../../../../msys64/home/Лев/bmstu_sem_5_aa
+/lab_02/report/diagrams/optimized_vinograd_2.png  used on input line 174.
+(pdftex.def)             Requested size: 311.96336pt x 487.61842pt.
+[14 <../../../../../../../msys64/home/Лев/bmstu_sem_5_aa/lab_02/report/diagr
+ams/optimized_vinograd_1.png>]
+<../../../../../../../msys64/home/Лев/bmstu_sem_5_aa/lab_02/report/diagrams/
+optimized_vinograd_3.png, id=82, 467.7475pt x 696.6025pt>
+File: ../../../../../../../msys64/home/Лев/bmstu_sem_5_aa/lab_02/report/diag
+rams/optimized_vinograd_3.png Graphic file (type png)
+<use ../../../../../../../msys64/home/Лев/bmstu_sem_5_aa/lab_02/report/diagr
+ams/optimized_vinograd_3.png>
+Package pdftex.def Info: ../../../../../../../msys64/home/Лев/bmstu_sem_5_aa
+/lab_02/report/diagrams/optimized_vinograd_3.png  used on input line 182.
+(pdftex.def)             Requested size: 327.421pt x 487.61842pt.
+ [15 <../../../../../../../msys64/home/Лев/bmstu_sem_5_aa/lab_02/report/diag
+rams/optimized_vinograd_2.png>]
+<../../../../../../../msys64/home/Лев/bmstu_sem_5_aa/lab_02/report/diagrams/
+optimized_vinograd_4.png, id=87, 653.44125pt x 1012.78375pt>
+File: ../../../../../../../msys64/home/Лев/bmstu_sem_5_aa/lab_02/report/diag
+rams/optimized_vinograd_4.png Graphic file (type png)
+<use ../../../../../../../msys64/home/Лев/bmstu_sem_5_aa/lab_02/report/diagr
+ams/optimized_vinograd_4.png>
+Package pdftex.def Info: ../../../../../../../msys64/home/Лев/bmstu_sem_5_aa
+/lab_02/report/diagrams/optimized_vinograd_4.png  used on input line 190.
+(pdftex.def)             Requested size: 457.40576pt x 708.9438pt.
+
+Overfull \hbox (2.16165pt too wide) in paragraph at lines 190--191
+ [][] 
+ []
+
+[16 <../../../../../../../msys64/home/Лев/bmstu_sem_5_aa/lab_02/report/diagr
+ams/optimized_vinograd_3.png>]
+Overfull \vbox (4.70796pt too high) has occurred while \output is active []
+
+
+[17 <../../../../../../../msys64/home/Лев/bmstu_sem_5_aa/lab_02/report/diagr
+ams/optimized_vinograd_4.png>])
+\openout2 = `05_technological.aux'.
+
+
+No file 05_technological.tex.
+\openout2 = `06_research.aux'.
+
+No file 06_research.tex.
+\openout2 = `07_conclusion.aux'.
+
+No file 07_conclusion.tex.
+\openout2 = `08_biblio.aux'.
+
+(08_biblio.tex (report.bbl)) (report.aux (00_title.aux) (01_contents.aux)
+(02_introduction.aux) (03_analysis.aux) (04_design.aux) (05_technological.aux)
+(06_research.aux) (07_conclusion.aux) (08_biblio.aux)) ) 
+Here is how much of TeX's memory you used:
+ 10602 strings out of 478864
+ 183744 string characters out of 2848186
+ 701189 words of memory out of 3000000
+ 28227 multiletter control sequences out of 15000+600000
+ 418199 words of font info for 55 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 77i,19n,86p,1032b,465s stack positions out of 5000i,500n,10000p,200000b,80000s
+ <C:\Users\Лев\AppDa
+ta\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\larm2074.pk> <C:\Users\Лев\
+AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1440.pk> <C:\Users\
+Лев\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\labx1440.pk> <C:\U
+sers\Лев\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\larm3583.pk> 
+<C:\Users\Лев\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\lati1728
+.pk> <C:\Users\Лев\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\lar
+m1000.pk> <C:\Users\Лев\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi60
+0\larm1728.pk> <C:\Users\Лев\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/
+dpi600\labx1728.pk> <C:\Users\Лев\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh
+-t2a/dpi600\labx2074.pk> <C:\Users\Лев\AppData\Local\MiKTeX\fonts/pk/ljfour/
+lh/lh-t2a/dpi600\labx2986.pk> <C:\Users\Лев\AppData\Local\MiKTeX\fonts/pk/lj
+four/lh/lh-t2a/dpi600\larm1440.pk> <C:\Users\Лев\AppData\Local\MiKTeX\fonts/
+pk/ljfour/lh/lh-t2a/dpi600\labx1000.pk><C:/Users/Лев/AppData/Local/Programs/
+MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/Лев/AppData/Local
+/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/Лев/App
+Data/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/
+Лев/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><
+C:/Users/Лев/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cm
+r12.pfb><C:/Users/Лев/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfo
+nts/cm/cmsy10.pfb>
+Output written on report.pdf (17 pages, 1144571 bytes).
+PDF statistics:
+ 437 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 66 words of extra memory for PDF output out of 10000 (max. 10000000)
+

@@ -14,6 +14,7 @@ class Matrix():
             for j in range(self.__m):
                 print(self.matrix[i][j], end=' ')
             print()
+        print()
 
     def __getitem__(self, index):
         return self.matrix[index]
@@ -28,6 +29,9 @@ class Matrix():
         for i in range(self.__n):
             for j in range(self.__m):
                 self.matrix[i][j] = randint(MIN_RAND, MAX_RAND)
+
+def input_size_matrixes():
+     size = input('Введите размер матрицы А через пробел: ')
 
 def multiply_matrixes_ordinary(matrix_a, matrix_b) -> list[list[int]]:
     n, m = matrix_a.get_size()

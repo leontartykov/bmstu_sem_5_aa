@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.6) (preloaded format=pdflatex 2021.9.14)  10 OCT 2021 14:32
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.6) (preloaded format=pdflatex 2021.9.14)  11 OCT 2021 01:56
 entering extended mode
 **./report.tex
 (report.tex
@@ -637,6 +637,66 @@ Package: umoline 2000/07/11 v1.1
 \UMO@depth=\dimen192
 \UMO@spacefactor=\count298
 )
+(C:\Users\Лев\AppData\Local\Programs\MiKTeX\tex/latex/pgf/frontendlayer\tikz
+.sty
+(C:\Users\Лев\AppData\Local\Programs\MiKTeX\tex/latex/pgf/basiclayer\pgf.sty
+Package: pgf 2021/05/15 v3.1.9a (3.1.9a)
+
+(C:\Users\Лев\AppData\Local\Programs\MiKTeX\tex/latex/pgf/basiclayer\pgfcore
+.sty
+(C:\Users\Лев\AppData\Local\Programs\MiKTeX\tex/latex/pgf/systemlayer\pgfsys
+.sty
+(C:\Users\Лев\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfs
+ys.code.tex
+Package: pgfsys 2021/05/15 v3.1.9a (3.1.9a)
+
+(C:\Users\Лев\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfkey
+s.code.tex)
+\pgf@x=\dimen193
+\pgf@y=\dimen194
+\pgf@xa=\dimen195
+\pgf@ya=\dimen196
+\pgf@xb=\dimen197
+\pgf@yb=\dimen198
+\pgf@xc=\dimen199
+\pgf@yc=\dimen256
+\pgf@xd=\dimen257
+\pgf@yd=\dimen258
+\w@pgf@writea=\write4
+\r@pgf@reada=\read4
+\c@pgf@counta=\count299
+\c@pgf@countb=\count300
+\c@pgf@countc=\count301
+\c@pgf@countd=\count302
+\t@pgf@toka=\toks33
+\t@pgf@tokb=\toks34
+\t@pgf@tokc=\toks35
+\pgf@sys@id@count=\count303
+
+(C:\Users\Лев\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgf.
+cfg
+File: pgf.cfg 2021/05/15 v3.1.9a (3.1.9a)
+)
+Driver file for pgf: pgfsys-pdftex.def
+
+(C:\Users\Лев\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfs
+ys-pdftex.def
+File: pgfsys-pdftex.def 2021/05/15 v3.1.9a (3.1.9a)
+
+(C:\Users\Лев\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfs
+ys-common-pdf.def
+File: pgfsys-common-pdf.def 2021/05/15 v3.1.9a (3.1.9a)
+)))
+(C:\Users\Лев\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfs
+yssoftpath.code.tex
+File: pgfsyssoftpath.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgfsyssoftpath@smallbuffer@items=\count304
+\pgfsyssoftpath@bigbuffer@items=\count305
+)
+(C:\Users\Лев\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfs
+ysprotocol.code.tex
+File: pgfsysprotocol.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+))
 (C:\Users\Лев\AppData\Local\Programs\MiKTeX\tex/latex/xcolor\xcolor.sty
 Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
 
@@ -654,25 +714,444 @@ Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
 Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
 )
+(C:\Users\Лев\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfco
+re.code.tex
+Package: pgfcore 2021/05/15 v3.1.9a (3.1.9a)
+
+(C:\Users\Лев\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmath.cod
+e.tex
+(C:\Users\Лев\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathcalc
+.code.tex
+(C:\Users\Лев\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathutil
+.code.tex)
+(C:\Users\Лев\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathpars
+er.code.tex
+\pgfmath@dimen=\dimen259
+\pgfmath@count=\count306
+\pgfmath@box=\box105
+\pgfmath@toks=\toks36
+\pgfmath@stack@operand=\toks37
+\pgfmath@stack@operation=\toks38
+)
+(C:\Users\Лев\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunc
+tions.code.tex
+(C:\Users\Лев\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunc
+tions.basic.code.tex)
+(C:\Users\Лев\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunc
+tions.trigonometric.code.tex)
+(C:\Users\Лев\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunc
+tions.random.code.tex)
+(C:\Users\Лев\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunc
+tions.comparison.code.tex)
+(C:\Users\Лев\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunc
+tions.base.code.tex)
+(C:\Users\Лев\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunc
+tions.round.code.tex)
+(C:\Users\Лев\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunc
+tions.misc.code.tex)
+(C:\Users\Лев\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunc
+tions.integerarithmetics.code.tex)))
+(C:\Users\Лев\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfloa
+t.code.tex
+\c@pgfmathroundto@lastzeros=\count307
+))
+(C:\Users\Лев\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfint.code
+.tex)
+(C:\Users\Лев\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfco
+repoints.code.tex
+File: pgfcorepoints.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgf@picminx=\dimen260
+\pgf@picmaxx=\dimen261
+\pgf@picminy=\dimen262
+\pgf@picmaxy=\dimen263
+\pgf@pathminx=\dimen264
+\pgf@pathmaxx=\dimen265
+\pgf@pathminy=\dimen266
+\pgf@pathmaxy=\dimen267
+\pgf@xx=\dimen268
+\pgf@xy=\dimen269
+\pgf@yx=\dimen270
+\pgf@yy=\dimen271
+\pgf@zx=\dimen272
+\pgf@zy=\dimen273
+)
+(C:\Users\Лев\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfco
+repathconstruct.code.tex
+File: pgfcorepathconstruct.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgf@path@lastx=\dimen274
+\pgf@path@lasty=\dimen275
+)
+(C:\Users\Лев\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfco
+repathusage.code.tex
+File: pgfcorepathusage.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgf@shorten@end@additional=\dimen276
+\pgf@shorten@start@additional=\dimen277
+)
+(C:\Users\Лев\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfco
+rescopes.code.tex
+File: pgfcorescopes.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgfpic=\box106
+\pgf@hbox=\box107
+\pgf@layerbox@main=\box108
+\pgf@picture@serial@count=\count308
+)
+(C:\Users\Лев\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfco
+regraphicstate.code.tex
+File: pgfcoregraphicstate.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgflinewidth=\dimen278
+)
+(C:\Users\Лев\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfco
+retransformations.code.tex
+File: pgfcoretransformations.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgf@pt@x=\dimen279
+\pgf@pt@y=\dimen280
+\pgf@pt@temp=\dimen281
+)
+(C:\Users\Лев\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfco
+requick.code.tex
+File: pgfcorequick.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)
+(C:\Users\Лев\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfco
+reobjects.code.tex
+File: pgfcoreobjects.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)
+(C:\Users\Лев\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfco
+repathprocessing.code.tex
+File: pgfcorepathprocessing.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)
+(C:\Users\Лев\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfco
+rearrows.code.tex
+File: pgfcorearrows.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgfarrowsep=\dimen282
+)
+(C:\Users\Лев\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfco
+reshade.code.tex
+File: pgfcoreshade.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgf@max=\dimen283
+\pgf@sys@shading@range@num=\count309
+\pgf@shadingcount=\count310
+)
+(C:\Users\Лев\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfco
+reimage.code.tex
+File: pgfcoreimage.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+
+(C:\Users\Лев\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfco
+reexternal.code.tex
+File: pgfcoreexternal.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgfexternal@startupbox=\box109
+))
+(C:\Users\Лев\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfco
+relayers.code.tex
+File: pgfcorelayers.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)
+(C:\Users\Лев\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfco
+retransparency.code.tex
+File: pgfcoretransparency.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)
+(C:\Users\Лев\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfco
+repatterns.code.tex
+File: pgfcorepatterns.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)
+(C:\Users\Лев\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfco
+rerdf.code.tex
+File: pgfcorerdf.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)))
+(C:\Users\Лев\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmodul
+eshapes.code.tex
+File: pgfmoduleshapes.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgfnodeparttextbox=\box110
+)
+(C:\Users\Лев\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmodul
+eplot.code.tex
+File: pgfmoduleplot.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)
+(C:\Users\Лев\AppData\Local\Programs\MiKTeX\tex/latex/pgf/compatibility\pgfc
+omp-version-0-65.sty
+Package: pgfcomp-version-0-65 2021/05/15 v3.1.9a (3.1.9a)
+\pgf@nodesepstart=\dimen284
+\pgf@nodesepend=\dimen285
+)
+(C:\Users\Лев\AppData\Local\Programs\MiKTeX\tex/latex/pgf/compatibility\pgfc
+omp-version-1-18.sty
+Package: pgfcomp-version-1-18 2021/05/15 v3.1.9a (3.1.9a)
+))
+(C:\Users\Лев\AppData\Local\Programs\MiKTeX\tex/latex/pgf/utilities\pgffor.s
+ty
+(C:\Users\Лев\AppData\Local\Programs\MiKTeX\tex/latex/pgf/math\pgfmath.sty
+(C:\Users\Лев\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmath.cod
+e.tex))
+(C:\Users\Лев\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgffor
+.code.tex
+Package: pgffor 2021/05/15 v3.1.9a (3.1.9a)
+
+(C:\Users\Лев\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmath.cod
+e.tex)
+\pgffor@iter=\dimen286
+\pgffor@skip=\dimen287
+\pgffor@stack=\toks39
+\pgffor@toks=\toks40
+))
+(C:\Users\Лев\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/ti
+kz\tikz.code.tex
+Package: tikz 2021/05/15 v3.1.9a (3.1.9a)
+
+(C:\Users\Лев\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries\pgflib
+raryplothandlers.code.tex
+File: pgflibraryplothandlers.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgf@plot@mark@count=\count311
+\pgfplotmarksize=\dimen288
+)
+\tikz@lastx=\dimen289
+\tikz@lasty=\dimen290
+\tikz@lastxsaved=\dimen291
+\tikz@lastysaved=\dimen292
+\tikz@lastmovetox=\dimen293
+\tikz@lastmovetoy=\dimen294
+\tikzleveldistance=\dimen295
+\tikzsiblingdistance=\dimen296
+\tikz@figbox=\box111
+\tikz@figbox@bg=\box112
+\tikz@tempbox=\box113
+\tikz@tempbox@bg=\box114
+\tikztreelevel=\count312
+\tikznumberofchildren=\count313
+\tikznumberofcurrentchild=\count314
+\tikz@fig@count=\count315
+
+(C:\Users\Лев\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmodul
+ematrix.code.tex
+File: pgfmodulematrix.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgfmatrixcurrentrow=\count316
+\pgfmatrixcurrentcolumn=\count317
+\pgf@matrix@numberofcolumns=\count318
+)
+\tikz@expandcount=\count319
+
+(C:\Users\Лев\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/ti
+kz/libraries\tikzlibrarytopaths.code.tex
+File: tikzlibrarytopaths.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)))
+(C:\Users\Лев\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/ti
+kz/libraries\tikzlibraryarrows.code.tex
+File: tikzlibraryarrows.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+
+(C:\Users\Лев\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries\pgflib
+raryarrows.code.tex
+File: pgflibraryarrows.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\arrowsize=\dimen297
+))
+(C:\Users\Лев\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/ti
+kz/libraries\tikzlibrarypositioning.code.tex
+File: tikzlibrarypositioning.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)
+(C:\Users\Лев\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/ti
+kz/libraries\tikzlibraryshadows.code.tex
+File: tikzlibraryshadows.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+
+(C:\Users\Лев\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/ti
+kz/libraries\tikzlibraryfadings.code.tex
+File: tikzlibraryfadings.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+
+(C:\Users\Лев\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries\pgflib
+raryfadings.code.tex
+File: pgflibraryfadings.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)))
+(C:\Users\Лев\AppData\Local\Programs\MiKTeX\tex/latex/pgfplots\pgfplots.sty
+(C:\Users\Лев\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplots.re
+vision.tex)
+Package: pgfplots 2021/05/15 v1.18.1 Data Visualization (1.18.1)
+
+(C:\Users\Лев\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplots.co
+de.tex
+(C:\Users\Лев\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplotscor
+e.code.tex
+\t@pgfplots@toka=\toks41
+\t@pgfplots@tokb=\toks42
+\t@pgfplots@tokc=\toks43
+\pgfplots@tmpa=\dimen298
+\c@pgfplots@coordindex=\count320
+\c@pgfplots@scanlineindex=\count321
+
+(C:\Users\Лев\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/sys\pgfplot
+ssysgeneric.code.tex))
+(C:\Users\Лев\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/libs\pgfplo
+tslibrary.code.tex)
+(C:\Users\Лев\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/oldpgfcompa
+tib\pgfplotsoldpgfsupp_loader.code.tex
+(C:\Users\Лев\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries\pgflib
+raryfpu.code.tex))
+(C:\Users\Лев\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/util\pgfplo
+tsutil.code.tex
+(C:\Users\Лев\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/liststructu
+re\pgfplotsliststructure.code.tex)
+(C:\Users\Лев\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/liststructu
+re\pgfplotsliststructureext.code.tex)
+(C:\Users\Лев\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/liststructu
+re\pgfplotsarray.code.tex
+\c@pgfplotsarray@tmp=\count322
+)
+(C:\Users\Лев\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/liststructu
+re\pgfplotsmatrix.code.tex)
+(C:\Users\Лев\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/numtable\pg
+fplotstableshared.code.tex
+\c@pgfplotstable@counta=\count323
+\t@pgfplotstable@a=\toks44
+)
+(C:\Users\Лев\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/liststructu
+re\pgfplotsdeque.code.tex)
+(C:\Users\Лев\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/util\pgfplo
+tsbinary.code.tex
+(C:\Users\Лев\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/util\pgfplo
+tsbinary.data.code.tex))
+(C:\Users\Лев\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/util\pgfplo
+tsutil.verb.code.tex)
+(C:\Users\Лев\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/libs\pgflib
+rarypgfplots.surfshading.code.tex
+\c@pgfplotslibrarysurf@no=\count324
+
+(C:\Users\Лев\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/sys\pgflibr
+arypgfplots.surfshading.pgfsys-pdftex.def)))
+(C:\Users\Лев\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/util\pgfplo
+tscolormap.code.tex
+(C:\Users\Лев\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/util\pgfplo
+tscolor.code.tex))
+(C:\Users\Лев\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplotssta
+ckedplots.code.tex)
+(C:\Users\Лев\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplotsplo
+thandlers.code.tex
+(C:\Users\Лев\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplotsmes
+hplothandler.code.tex
+(C:\Users\Лев\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplotsmes
+hplotimage.code.tex)))
+(C:\Users\Лев\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplots.sc
+aling.code.tex)
+(C:\Users\Лев\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplotscoo
+rdprocessing.code.tex)
+(C:\Users\Лев\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplots.er
+rorbars.code.tex)
+(C:\Users\Лев\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplots.ma
+rkers.code.tex)
+(C:\Users\Лев\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplotstic
+ks.code.tex)
+(C:\Users\Лев\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplots.pa
+ths.code.tex)
+(C:\Users\Лев\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/ti
+kz/libraries\tikzlibrarydecorations.code.tex
+(C:\Users\Лев\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmodul
+edecorations.code.tex
+\pgfdecoratedcompleteddistance=\dimen299
+\pgfdecoratedremainingdistance=\dimen300
+\pgfdecoratedinputsegmentcompleteddistance=\dimen301
+\pgfdecoratedinputsegmentremainingdistance=\dimen302
+\pgf@decorate@distancetomove=\dimen303
+\pgf@decorate@repeatstate=\count325
+\pgfdecorationsegmentamplitude=\dimen304
+\pgfdecorationsegmentlength=\dimen305
+)
+\tikz@lib@dec@box=\box115
+)
+(C:\Users\Лев\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/ti
+kz/libraries\tikzlibrarydecorations.pathmorphing.code.tex
+(C:\Users\Лев\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries/decora
+tions\pgflibrarydecorations.pathmorphing.code.tex))
+(C:\Users\Лев\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/ti
+kz/libraries\tikzlibrarydecorations.pathreplacing.code.tex
+(C:\Users\Лев\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries/decora
+tions\pgflibrarydecorations.pathreplacing.code.tex))
+(C:\Users\Лев\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/libs\tikzli
+brarypgfplots.contourlua.code.tex)
+\pgfplots@numplots=\count326
+\pgfplots@xmin@reg=\dimen306
+\pgfplots@xmax@reg=\dimen307
+\pgfplots@ymin@reg=\dimen308
+\pgfplots@ymax@reg=\dimen309
+\pgfplots@zmin@reg=\dimen310
+\pgfplots@zmax@reg=\dimen311
+)
+(C:\Users\Лев\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/ti
+kz/libraries\tikzlibraryplotmarks.code.tex
+File: tikzlibraryplotmarks.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+
+(C:\Users\Лев\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries\pgflib
+raryplotmarks.code.tex
+File: pgflibraryplotmarks.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)))
+(C:\Users\Лев\AppData\Local\Programs\MiKTeX\tex/latex/pgfplots\pgfplotstable
+.sty
+(C:\Users\Лев\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplots.re
+vision.tex)
+Package: pgfplotstable 2021/05/15 v1.18.1 Table typesetting and Pretty-printing
+ (1.18.1)
+
+(C:\Users\Лев\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/numtable\pg
+fplotstable.code.tex
+(C:\Users\Лев\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/numtable\pg
+fplotstable.coltype.code.tex))
+(C:\Users\Лев\AppData\Local\Programs\MiKTeX\tex/latex/tools\array.sty
+Package: array 2021/04/20 v2.5e Tabular extension package (FMi)
+\col@sep=\dimen312
+\ar@mcellbox=\box116
+\extrarowheight=\dimen313
+\NC@list=\toks45
+\extratabsurround=\skip57
+\backup@length=\skip58
+\ar@cellbox=\box117
+))
+(C:\Users\Лев\AppData\Local\Programs\MiKTeX\tex/latex/pdfpages\pdfpages.sty
+Package: pdfpages 2021/03/06 v0.5t Insert pages of external PDF documents (AM)
+
+(C:\Users\Лев\AppData\Local\Programs\MiKTeX\tex/latex/tools\calc.sty
+Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count327
+\calc@Bcount=\count328
+\calc@Adimen=\dimen314
+\calc@Bdimen=\dimen315
+\calc@Askip=\skip59
+\calc@Bskip=\skip60
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count329
+\calc@Cskip=\skip61
+)
+(C:\Users\Лев\AppData\Local\Programs\MiKTeX\tex/latex/eso-pic\eso-pic.sty
+Package: eso-pic 2020/10/14 v3.0a eso-pic (RN)
+\ESO@tempdima=\dimen316
+\ESO@tempdimb=\dimen317
+)
+\AM@pagewidth=\dimen318
+\AM@pageheight=\dimen319
+\AM@fboxrule=\dimen320
+
+(C:\Users\Лев\AppData\Local\Programs\MiKTeX\tex/latex/pdfpages\pppdftex.def
+File: pppdftex.def 2021/03/06 v0.5t Pdfpages driver for pdfTeX (AM)
+)
+\pdfpages@includegraphics@status=\count330
+\AM@pagebox=\box118
+\AM@global@opts=\toks46
+\AM@pagecnt=\count331
+\AM@toc@title=\toks47
+\c@AM@survey=\count332
+\AM@templatesizebox=\box119
+)
 (C:\Users\Лев\AppData\Local\Programs\MiKTeX\tex/latex/listings\listings.sty
-\lst@mode=\count299
-\lst@gtempboxa=\box105
-\lst@token=\toks33
-\lst@length=\count300
-\lst@currlwidth=\dimen193
-\lst@column=\count301
-\lst@pos=\count302
-\lst@lostspace=\dimen194
-\lst@width=\dimen195
-\lst@newlines=\count303
-\lst@lineno=\count304
-\lst@maxwidth=\dimen196
+\lst@mode=\count333
+\lst@gtempboxa=\box120
+\lst@token=\toks48
+\lst@length=\count334
+\lst@currlwidth=\dimen321
+\lst@column=\count335
+\lst@pos=\count336
+\lst@lostspace=\dimen322
+\lst@width=\dimen323
+\lst@newlines=\count337
+\lst@lineno=\count338
+\lst@maxwidth=\dimen324
 
 (C:\Users\Лев\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstmisc.sty
 File: lstmisc.sty 2020/03/24 1.8d (Carsten Heinz)
-\c@lstnumber=\count305
-\lst@skipnumbers=\count306
-\lst@framebox=\box106
+\c@lstnumber=\count339
+\lst@skipnumbers=\count340
+\lst@framebox=\box121
 )
 (C:\Users\Лев\AppData\Local\Programs\MiKTeX\tex/latex/listings\listings.cfg
 File: listings.cfg 2020/03/24 1.8d listings configuration
@@ -684,15 +1163,15 @@ File: lstlang1.sty 2020/03/24 1.8d listings language file
 ) (C:\Users\Лев\AppData\Local\Programs\MiKTeX\tex/latex/titlesec\titlesec.st
 y
 Package: titlesec 2021/07/05 v2.14 Sectioning titles
-\ttl@box=\box107
-\beforetitleunit=\skip57
-\aftertitleunit=\skip58
-\ttl@plus=\dimen197
-\ttl@minus=\dimen198
-\ttl@toksa=\toks34
-\titlewidth=\dimen199
-\titlewidthlast=\dimen256
-\titlewidthfirst=\dimen257
+\ttl@box=\box122
+\beforetitleunit=\skip62
+\aftertitleunit=\skip63
+\ttl@plus=\dimen325
+\ttl@minus=\dimen326
+\ttl@toksa=\toks49
+\titlewidth=\dimen327
+\titlewidthlast=\dimen328
+\titlewidthfirst=\dimen329
 )) (report.aux (00_title.aux)
 LaTeX Font Info:    Trying to load font information for T2A+cmr on input line 7
 .
@@ -756,22 +1235,22 @@ LaTeX Info: Redefining \th on input line 5.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-\autonum@environmentWidth=\skip59
+\autonum@environmentWidth=\skip64
 <<ot1.cmap>><<oml.cmap>><<oms.cmap>><<omx.cmap>>
 (C:\Users\Лев\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.m
 kii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count307
-\scratchdimen=\dimen258
-\scratchbox=\box108
-\nofMPsegments=\count308
-\nofMParguments=\count309
-\everyMPshowfont=\toks35
-\MPscratchCnt=\count310
-\MPscratchDim=\dimen259
-\MPnumerator=\count311
-\makeMPintoPDFobject=\count312
-\everyMPtoPDFconversion=\toks36
+\scratchcounter=\count341
+\scratchdimen=\dimen330
+\scratchbox=\box123
+\nofMPsegments=\count342
+\nofMParguments=\count343
+\everyMPshowfont=\toks50
+\MPscratchCnt=\count344
+\MPscratchDim=\dimen331
+\MPnumerator=\count345
+\makeMPintoPDFobject=\count346
+\everyMPtoPDFconversion=\toks51
 )
 (C:\Users\Лев\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-
 base.sty
@@ -787,12 +1266,28 @@ Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: float package is loaded.
 Package caption Info: listings package is loaded.
 Package caption Info: End \AtBeginDocument code.
-\c@lstlisting=\count313
+
+
+Package pgfplots Warning: running in backwards compatibility mode (unsuitable t
+ick labels; missing features). Consider writing \pgfplotsset{compat=1.18} into 
+your preamble.
+ on input line 5.
+
+
+(C:\Users\Лев\AppData\Local\Programs\MiKTeX\tex/latex/pdflscape\pdflscape.st
+y
+Package: pdflscape 2019/12/05 v0.12 Display of landscape pages in PDF (HO)
+ (C:\Users\Лев\AppData\Local\Programs\MiKTeX\tex/latex/graphics\lscape.sty
+Package: lscape 2020/05/28 v3.02 Landscape Pages (DPC)
+)
+Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
+)
+\c@lstlisting=\count347
 \openout2 = `00_title.aux'.
 
  (00_title.tex
 <../../../../../../../msys64/home/Лев/bmstu_sem_5_aa/lab_01/report/image/bms
-tu_eblem.png, id=6, 155.6214pt x 178.7478pt>
+tu_eblem.png, id=33, 155.6214pt x 178.7478pt>
 File: ../../../../../../../msys64/home/Лев/bmstu_sem_5_aa/lab_01/report/imag
 e/bmstu_eblem.png Graphic file (type png)
 <use ../../../../../../../msys64/home/Лев/bmstu_sem_5_aa/lab_01/report/image
@@ -801,7 +1296,7 @@ Package pdftex.def Info: ../../../../../../../msys64/home/Лев/bmstu_sem_5_aa
 /lab_01/report/image/bmstu_eblem.png  used on input line 5.
 (pdftex.def)             Requested size: 57.57901pt x 66.13564pt.
 
-Overfull \hbox (26.33493pt too wide) in paragraph at lines 3--9
+Overfull \hbox (27.53491pt too wide) in paragraph at lines 3--9
  [][] 
  []
 
@@ -860,16 +1355,16 @@ Overfull \hbox (11.90053pt too wide) in paragraph at lines 48--53
 /../../msys64/home/Лев/bmstu_sem_5_aa/lab_01/report/image/bmstu_eblem.png>]
 \openout2 = `01_contents.aux'.
 
- (01_contents.tex (report.toc)
-\tf@toc=\write4
-\openout4 = `report.toc'.
-
-) [2
+ (01_contents.tex (report.toc [2
 
 
 
 
-]
+])
+\tf@toc=\write5
+\openout5 = `report.toc'.
+
+) [3]
 \openout2 = `02_introduction.aux'.
 
  (02_introduction.tex
@@ -878,7 +1373,7 @@ Overfull \hbox (1.09805pt too wide) in paragraph at lines 5--6
 �-��� ����-��� ���-
  []
 
-) [3
+) [4
 
 
 
@@ -888,17 +1383,17 @@ Overfull \hbox (1.09805pt too wide) in paragraph at lines 5--6
 
  (03_analysis.tex
 {\cyrillictext \CYRG \cyrl \cyra \cyrv \cyra } 1.
-[4
+[5
 
 
 
 
-]) [5]
+]) [6]
 \openout2 = `04_design.aux'.
 
  (04_design.tex
 {\cyrillictext \CYRG \cyrl \cyra \cyrv \cyra } 2.
-[6
+[7
 
 
 
@@ -944,14 +1439,14 @@ Missing character: There is no � in font cmr10!
 Missing character: There is no � in font cmr10!
 Missing character: There is no � in font cmr10!
 Missing character: There is no � in font cmr10!
-[7]
+[8]
 Overfull \hbox (10.53006pt too wide) detected at line 89
  []$[]  \OML/cmm/m/it/14.4 f[] \OT1/cmr/m/n/14.4 = \OML/cmm/m/it/14.4 f[] \OT1/
 cmr/m/n/14.4 + \OML/cmm/m/it/14.4 f[] \OT1/cmr/m/n/14.4 = [] + [] + \OML/cmm/m/
 it/14.4 M\OT1/cmr/m/n/14.4 ([] + [] + [] + []([] + [] + [] + [] + []))+$ 
  []
 
-[8] [9]
+[9] [10]
 Overfull \hbox (30.6221pt too wide) detected at line 163
  []$[]  \OML/cmm/m/it/14.4 f[] \OT1/cmr/m/n/14.4 = [] + [] + \OML/cmm/m/it/14.4
  M\OT1/cmr/m/n/14.4 ([] + [] + [] + \OML/cmm/m/it/14.4 Q\OT1/cmr/m/n/14.4 ([] +
@@ -959,7 +1454,7 @@ Overfull \hbox (30.6221pt too wide) detected at line 163
  []
 
 <../../../../../../../msys64/home/Лев/bmstu_sem_5_aa/lab_02/report/diagrams/
-classic.png, id=54, 669.50125pt x 1056.94875pt>
+classic.png, id=84, 669.50125pt x 1056.94875pt>
 File: ../../../../../../../msys64/home/Лев/bmstu_sem_5_aa/lab_02/report/diag
 rams/classic.png Graphic file (type png)
 <use ../../../../../../../msys64/home/Лев/bmstu_sem_5_aa/lab_02/report/diagr
@@ -967,10 +1462,10 @@ ams/classic.png>
 Package pdftex.def Info: ../../../../../../../msys64/home/Лев/bmstu_sem_5_aa
 /lab_02/report/diagrams/classic.png  used on input line 178.
 (pdftex.def)             Requested size: 401.70384pt x 634.17415pt.
-[10] [11 <../../../../../../../msys64/home/Лев/bmstu_sem_5_aa/lab_02/report/
+[11] [12 <../../../../../../../msys64/home/Лев/bmstu_sem_5_aa/lab_02/report/
 diagrams/classic.png>]
 <../../../../../../../msys64/home/Лев/bmstu_sem_5_aa/lab_02/report/diagrams/
-vinograd_1.png, id=63, 688.5725pt x 961.5925pt>
+vinograd_1.png, id=93, 688.5725pt x 961.5925pt>
 File: ../../../../../../../msys64/home/Лев/bmstu_sem_5_aa/lab_02/report/diag
 rams/vinograd_1.png Graphic file (type png)
 <use ../../../../../../../msys64/home/Лев/bmstu_sem_5_aa/lab_02/report/diagr
@@ -979,7 +1474,7 @@ Package pdftex.def Info: ../../../../../../../msys64/home/Лев/bmstu_sem_5_aa
 /lab_02/report/diagrams/vinograd_1.png  used on input line 187.
 (pdftex.def)             Requested size: 415.4104pt x 580.11458pt.
 <../../../../../../../msys64/home/Лев/bmstu_sem_5_aa/lab_02/report/diagrams/
-vinograd_2.png, id=64, 212.795pt x 1115.16624pt>
+vinograd_2.png, id=94, 212.795pt x 1115.16624pt>
 File: ../../../../../../../msys64/home/Лев/bmstu_sem_5_aa/lab_02/report/diag
 rams/vinograd_2.png Graphic file (type png)
 <use ../../../../../../../msys64/home/Лев/bmstu_sem_5_aa/lab_02/report/diagr
@@ -987,10 +1482,10 @@ ams/vinograd_2.png>
 Package pdftex.def Info: ../../../../../../../msys64/home/Лев/bmstu_sem_5_aa
 /lab_02/report/diagrams/vinograd_2.png  used on input line 194.
 (pdftex.def)             Requested size: 127.67796pt x 669.10492pt.
- [12 <../../../../../../../msys64/home/Лев/bmstu_sem_5_aa/lab_02/report/diag
+ [13 <../../../../../../../msys64/home/Лев/bmstu_sem_5_aa/lab_02/report/diag
 rams/vinograd_1.png>]
 <../../../../../../../msys64/home/Лев/bmstu_sem_5_aa/lab_02/report/diagrams/
-vinograd_3.png, id=69, 613.29124pt x 721.69624pt>
+vinograd_3.png, id=100, 613.29124pt x 721.69624pt>
 File: ../../../../../../../msys64/home/Лев/bmstu_sem_5_aa/lab_02/report/diag
 rams/vinograd_3.png Graphic file (type png)
 <use ../../../../../../../msys64/home/Лев/bmstu_sem_5_aa/lab_02/report/diagr
@@ -998,11 +1493,11 @@ ams/vinograd_3.png>
 Package pdftex.def Info: ../../../../../../../msys64/home/Лев/bmstu_sem_5_aa
 /lab_02/report/diagrams/vinograd_3.png  used on input line 202.
 (pdftex.def)             Requested size: 415.4104pt x 488.84186pt.
- [13 <../../../../../../../msys64/home/Лев/bmstu_sem_5_aa/lab_02/report/diag
-rams/vinograd_2.png>] [14 <../../../../../../../msys64/home/Лев/bmstu_sem_5_
+ [14 <../../../../../../../msys64/home/Лев/bmstu_sem_5_aa/lab_02/report/diag
+rams/vinograd_2.png>] [15 <../../../../../../../msys64/home/Лев/bmstu_sem_5_
 aa/lab_02/report/diagrams/vinograd_3.png>]
 <../../../../../../../msys64/home/Лев/bmstu_sem_5_aa/lab_02/report/diagrams/
-optimized_vinograd_1.png, id=79, 811.03pt x 906.38625pt>
+optimized_vinograd_1.png, id=109, 811.03pt x 906.38625pt>
 File: ../../../../../../../msys64/home/Лев/bmstu_sem_5_aa/lab_02/report/diag
 rams/optimized_vinograd_1.png Graphic file (type png)
 <use ../../../../../../../msys64/home/Лев/bmstu_sem_5_aa/lab_02/report/diagr
@@ -1016,7 +1511,7 @@ Overfull \hbox (31.37764pt too wide) in paragraph at lines 212--213
  []
 
 <../../../../../../../msys64/home/Лев/bmstu_sem_5_aa/lab_02/report/diagrams/
-optimized_vinograd_2.png, id=80, 445.665pt x 696.6025pt>
+optimized_vinograd_2.png, id=110, 445.665pt x 696.6025pt>
 File: ../../../../../../../msys64/home/Лев/bmstu_sem_5_aa/lab_02/report/diag
 rams/optimized_vinograd_2.png Graphic file (type png)
 <use ../../../../../../../msys64/home/Лев/bmstu_sem_5_aa/lab_02/report/diagr
@@ -1024,10 +1519,10 @@ ams/optimized_vinograd_2.png>
 Package pdftex.def Info: ../../../../../../../msys64/home/Лев/bmstu_sem_5_aa
 /lab_02/report/diagrams/optimized_vinograd_2.png  used on input line 220.
 (pdftex.def)             Requested size: 311.96336pt x 487.61842pt.
-[15 <../../../../../../../msys64/home/Лев/bmstu_sem_5_aa/lab_02/report/diagr
+[16 <../../../../../../../msys64/home/Лев/bmstu_sem_5_aa/lab_02/report/diagr
 ams/optimized_vinograd_1.png>]
 <../../../../../../../msys64/home/Лев/bmstu_sem_5_aa/lab_02/report/diagrams/
-optimized_vinograd_3.png, id=85, 467.7475pt x 696.6025pt>
+optimized_vinograd_3.png, id=115, 467.7475pt x 696.6025pt>
 File: ../../../../../../../msys64/home/Лев/bmstu_sem_5_aa/lab_02/report/diag
 rams/optimized_vinograd_3.png Graphic file (type png)
 <use ../../../../../../../msys64/home/Лев/bmstu_sem_5_aa/lab_02/report/diagr
@@ -1035,10 +1530,10 @@ ams/optimized_vinograd_3.png>
 Package pdftex.def Info: ../../../../../../../msys64/home/Лев/bmstu_sem_5_aa
 /lab_02/report/diagrams/optimized_vinograd_3.png  used on input line 228.
 (pdftex.def)             Requested size: 327.421pt x 487.61842pt.
- [16 <../../../../../../../msys64/home/Лев/bmstu_sem_5_aa/lab_02/report/diag
+ [17 <../../../../../../../msys64/home/Лев/bmstu_sem_5_aa/lab_02/report/diag
 rams/optimized_vinograd_2.png>]
 <../../../../../../../msys64/home/Лев/bmstu_sem_5_aa/lab_02/report/diagrams/
-optimized_vinograd_4.png, id=90, 653.44125pt x 1012.78375pt>
+optimized_vinograd_4.png, id=120, 653.44125pt x 1012.78375pt>
 File: ../../../../../../../msys64/home/Лев/bmstu_sem_5_aa/lab_02/report/diag
 rams/optimized_vinograd_4.png Graphic file (type png)
 <use ../../../../../../../msys64/home/Лев/bmstu_sem_5_aa/lab_02/report/diagr
@@ -1051,27 +1546,18 @@ Overfull \hbox (2.16165pt too wide) in paragraph at lines 236--237
  [][] 
  []
 
-[17 <../../../../../../../msys64/home/Лев/bmstu_sem_5_aa/lab_02/report/diagr
+[18 <../../../../../../../msys64/home/Лев/bmstu_sem_5_aa/lab_02/report/diagr
 ams/optimized_vinograd_3.png>]
 Overfull \vbox (4.70796pt too high) has occurred while \output is active []
 
 
-[18 <../../../../../../../msys64/home/Лев/bmstu_sem_5_aa/lab_02/report/diagr
-ams/optimized_vinograd_4.png>]) [19]
+[19 <../../../../../../../msys64/home/Лев/bmstu_sem_5_aa/lab_02/report/diagr
+ams/optimized_vinograd_4.png>]) [20]
 \openout2 = `05_technological.aux'.
 
  (05_technological.tex
 {\cyrillictext \CYRG \cyrl \cyra \cyrv \cyra } 3.
-
-LaTeX Warning: Citation `python3' on page 20 undefined on input line 12.
-
-
-LaTeX Warning: Citation `vs' on page 20 undefined on input line 12.
-
-
-LaTeX Warning: Citation `time' on page 20 undefined on input line 12.
-
-[20
+[21
 
 
 
@@ -1083,7 +1569,7 @@ LaTeX Font Info:    Trying to load font information for T2A+cmtt on input line
 (C:\Users\Лев\AppData\Local\Programs\MiKTeX\tex/latex/cyrillic\t2acmtt.fd
 File: t2acmtt.fd 2001/08/11 v1.0a Computer Modern Cyrillic font definitions
 )
-[21] [22] [23]
+[22] [23] [24]
 Underfull \hbox (badness 10000) in paragraph at lines 147--148
 
  []
@@ -1097,60 +1583,116 @@ Overfull \vbox (0.56032pt too high) detected at line 171
  []
 
 
-Overfull \hbox (19.91583pt too wide) in paragraph at lines 154--176
+Overfull \hbox (22.3158pt too wide) in paragraph at lines 154--176
  [][] 
  []
 
-[24]) [25]
+[25]) [26]
 \openout2 = `06_research.aux'.
 
+ (06_research.tex
+{\cyrillictext \CYRG \cyrl \cyra \cyrv \cyra } 4.
+PGFPlots: reading {data/file_4.txt}
+PGFPlots: reading {data/file_5.txt}
+PGFPlots: reading {data/file_6.txt}
+Missing character: There is no ; in font nullfont!
+[27
 
-No file 06_research.tex.
+
+
+
+]
+PGFPlots: reading {data/file_1.txt}
+PGFPlots: reading {data/file_2.txt}
+PGFPlots: reading {data/file_3.txt}
+Missing character: There is no ; in font nullfont!
+ [28]
+Overfull \hbox (4.13438pt too wide) in paragraph at lines 72--73
+[]\T2A/cmr/m/n/14.4 ��� ���-�� �� ��-����-��-���, ��� ���-��-���-��� ��-��-���-
+�� ��-��-��-�� ����-
+ []
+
+)
+Overfull \hbox (2.25056pt too wide) in paragraph at lines 75--12
+[]\T2A/cmr/m/n/14.4 ���������������� ��-�� ���-����-��-�� ���-��-��-����� ��-��
+-���-��� ����-
+ []
+
+[29]
 \openout2 = `07_conclusion.aux'.
 
-No file 07_conclusion.tex.
+ (07_conclusion.tex) [30
+
+
+
+
+]
 \openout2 = `08_biblio.aux'.
 
-(08_biblio.tex (report.bbl)) (report.aux (00_title.aux) (01_contents.aux)
-(02_introduction.aux) (03_analysis.aux) (04_design.aux) (05_technological.aux)
-(06_research.aux) (07_conclusion.aux) (08_biblio.aux))
+ (08_biblio.tex (report.bbl
+Underfull \hbox (badness 4739) in paragraph at lines 22--25
+[]\T2A/cmr/m/n/14.4 Coppersmith Don, Winograd Shmuel. Matrix Multiplication via
 
-LaTeX Warning: There were undefined references.
+ []
 
- ) 
+
+Underfull \hbox (badness 10000) in paragraph at lines 28--31
+[]\T2A/cmr/m/n/14.4 Python. [����-����-��� ��-����].  ��-��� ��-���-��:
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 40--45
+[]\T2A/cmr/m/n/14.4 time  Time access and conversions  Python 3.9.7
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 40--45
+\T2A/cmr/m/n/14.4 documentation. [����-����-��� ��-����].  ��-��� ��-���-��:
+ []
+
+)) [31
+
+
+
+
+] (report.aux (00_title.aux) (01_contents.aux) (02_introduction.aux)
+(03_analysis.aux) (04_design.aux) (05_technological.aux) (06_research.aux)
+(07_conclusion.aux) (08_biblio.aux)) ) 
 Here is how much of TeX's memory you used:
- 11080 strings out of 478864
- 188641 string characters out of 2848186
- 948262 words of memory out of 3000000
- 28695 multiletter control sequences out of 15000+600000
- 419313 words of font info for 57 fonts, out of 8000000 for 9000
+ 32659 strings out of 478864
+ 793540 string characters out of 2848186
+ 1605010 words of memory out of 3000000
+ 49890 multiletter control sequences out of 15000+600000
+ 420115 words of font info for 58 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 77i,19n,86p,1032b,1280s stack positions out of 5000i,500n,10000p,200000b,80000s
- <C:\Users\Лев\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\latt1
-000.pk> <C:\Users\Лев\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\
-larm0600.pk> <C:\Users\Лев\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dp
-i600\larm2074.pk> <C:\Users\Лев\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappe
-n/ec/dpi600\tcrm1440.pk> <C:\Users\Лев\AppData\Local\MiKTeX\fonts/pk/ljfour/
-lh/lh-t2a/dpi600\labx1440.pk> <C:\Users\Лев\AppData\Local\MiKTeX\fonts/pk/lj
-four/lh/lh-t2a/dpi600\larm3583.pk> <C:\Users\Лев\AppData\Local\MiKTeX\fonts/
-pk/ljfour/lh/lh-t2a/dpi600\lati1728.pk> <C:\Users\Лев\AppData\Local\MiKTeX\f
-onts/pk/ljfour/lh/lh-t2a/dpi600\larm1000.pk> <C:\Users\Лев\AppData\Local\MiK
-TeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\larm1728.pk> <C:\Users\Лев\AppData\Loca
-l\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\labx1728.pk> <C:\Users\Лев\AppData
-\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\labx2074.pk> <C:\Users\Лев\Ap
-pData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\labx2986.pk> <C:\Users\Ле
-в\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\larm1440.pk> <C:\Users
-\Лев\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\labx1000.pk><C:/U
-sers/Лев/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10
+ 86i,20n,94p,1032b,2338s stack positions out of 5000i,500n,10000p,200000b,80000s
+ <C:\Users\Лев\AppData\Local\MiKTeX\fo
+nts/pk/ljfour/lh/lh-t2a/dpi600\larm1200.pk> <C:\Users\Лев\AppData\Local\MiKT
+eX\fonts/pk/ljfour/lh/lh-t2a/dpi600\latt1000.pk> <C:\Users\Лев\AppData\Local
+\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\larm0600.pk> <C:\Users\Лев\AppData\
+Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\larm2074.pk> <C:\Users\Лев\App
+Data\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1440.pk> <C:\Users\Л�
+�в\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\labx1440.pk> <C:\User
+s\Лев\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\larm3583.pk> <C:
+\Users\Лев\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\lati1728.pk
+> <C:\Users\Лев\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\larm10
+00.pk> <C:\Users\Лев\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\l
+arm1728.pk> <C:\Users\Лев\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi
+600\labx1728.pk> <C:\Users\Лев\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2
+a/dpi600\labx2074.pk> <C:\Users\Лев\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/
+lh-t2a/dpi600\labx2986.pk> <C:\Users\Лев\AppData\Local\MiKTeX\fonts/pk/ljfou
+r/lh/lh-t2a/dpi600\larm1440.pk> <C:\Users\Лев\AppData\Local\MiKTeX\fonts/pk/
+ljfour/lh/lh-t2a/dpi600\labx1000.pk><C:/Users/Лев/AppData/Local/Programs/MiK
+TeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/Лев/AppData/Local/Pr
+ograms/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/Лев/AppDat
+a/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/Л�
+�в/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/
+Users/Лев/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12
 .pfb><C:/Users/Лев/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts
-/cm/cmmi10.pfb><C:/Users/Лев/AppData/Local/Programs/MiKTeX/fonts/type1/publi
-c/amsfonts/cm/cmmi12.pfb><C:/Users/Лев/AppData/Local/Programs/MiKTeX/fonts/t
-ype1/public/amsfonts/cm/cmr10.pfb><C:/Users/Лев/AppData/Local/Programs/MiKTe
-X/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/Лев/AppData/Local/Progr
-ams/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on report.pdf (25 pages, 1195568 bytes).
+/cm/cmsy10.pfb>
+Output written on report.pdf (31 pages, 1242782 bytes).
 PDF statistics:
- 569 PDF objects out of 1000 (max. 8388607)
+ 682 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 66 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 174 words of extra memory for PDF output out of 10000 (max. 10000000)
 

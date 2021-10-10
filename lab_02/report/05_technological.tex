@@ -2,7 +2,7 @@
 \section{Требования к программному обеспечению}
 Программа должна отвечать следующим требованиям:
 \begin{itemize}
-	\item на вход программе подаются два массива целых сгенерированных чисел, размер которых задает пользователь;
+	\item на вход программе подаются два массива целых сгенерированных чисел, корректный размер которых задает пользователь;
 	\item осуществляется выбор алгоритма умножения матриц из меню;
 	\item на вход программе подаются только корректные данные данные;
 	\item на выходе программа выдает результат - полученную матрицу.
@@ -13,8 +13,8 @@
 
 \section{Листинги программ}
 Ниже представлены листинги разработанных алгоритмов умножения матриц.
-
-\begin{lstlisting}[caption=Программный код умножения матриц стандартным способом]
+\newpage
+\begin{lstlisting}[label = ordinary_mult, caption=Программный код умножения матриц стандартным способом.]
 def multiply_matrixes_ordinary(matrix_a, matrix_b) -> list[list[int]]:
 	n, m = matrix_a.get_size()
 	q, p = matrix_b.get_size()
@@ -30,8 +30,8 @@ def multiply_matrixes_ordinary(matrix_a, matrix_b) -> list[list[int]]:
 									matrix_a[i][k] * matrix_b[k][j]
 	return matrix_result
 \end{lstlisting}
-
-\begin{lstlisting}[label=some-code,caption=Программный код умножения матриц по Винограду]
+\newpage
+\begin{lstlisting}[label=vinograd_mult,caption=Программный код умножения матриц по Винограду.]
 def multiply_matrixes_vinograd(matrix_a, matrix_b) -> list[list[int]]:
 	n, m = matrix_a.get_size()
 	q, p = matrix_b.get_size()
@@ -69,13 +69,13 @@ def multiply_matrixes_vinograd(matrix_a, matrix_b) -> list[list[int]]:
 		
 		return matrix_result
 \end{lstlisting}
-
-\begin{lstlisting}[label=some-code,caption=Программный код оптимизированного алгоритма умножения матриц по Винограду]
+\newpage
+\begin{lstlisting}[label=optim_vinograd, caption=Программный код оптимизированного алгоритма умножения матриц по Винограду.]
 def multiply_matrixes_vinograd_optimized(matrix_a, matrix_b) -> list[list[int]]:
 	n, m = matrix_a.get_size()
 	q, p = matrix_b.get_size()
 	if m != q:
-		print('Несовпадение размеров матриц')
+		print('Dismatch matrix sizes.')
 		return
 	else:
 		matrix_result = Matrix(n, p)
@@ -111,28 +111,36 @@ def multiply_matrixes_vinograd_optimized(matrix_a, matrix_b) -> list[list[int]]:
 		return matrix_result
 \end{lstlisting}
 
-\section{Вспомогательные функции}
+\section{Вспомогательные модули}
 На листингах представлены программные модули, которые используются в данных функциях:
-\begin{lstlisting}[label=some-code,caption=Программный код создания для кэша в виде строки]
-def create_row(len_row: int, flag_row: int) -> list[int]:
-	row = list()
-	if flag_row == 1:
-		for i in range(len_row):
-			row.append(i)
-	else:
-		for i in range(len_row):
-			row.append(0)
-	return row
-\end{lstlisting}
-
-\begin{lstlisting}[label=some-code,caption=Программный код обмена двух строк]
-def swap_rows(row_1: list[int], row_2: list[int]) \
-				-> Tuple[list[int], list[int]]:
-	temp_row = list()
-	temp_row = deepcopy(row_1)
-	row_1 = deepcopy(row_2)
-	row_2 = deepcopy(temp_row)
-	return row_1, row_2
+\begin{lstlisting}[label=lst:struct_matrix,caption=Программный код класса по работе с матрицами.]
+class Matrix():
+	def __init__(self, n, m):
+		self.__n, self.__m = n, m
+		self.create_matrix()
+	
+	def create_matrix(self):
+		self.matrix = [[0] * self.__m for i in range(self.__n)]
+	
+	def output_matrix(self):
+		for i in range(self.__n):
+			for j in range(self.__m):
+				print(self.matrix[i][j], end=' ')
+			print()
+	
+	def __getitem__(self, index):
+		return self.matrix[index]
+	
+	def __setitem__(self, key, value):
+		self.matrix[key] = value
+	
+	def get_size(self):
+		return self.__n, self.__m
+	
+	def fill_matrix_random_values(self):
+		for i in range(self.__n):
+		for j in range(self.__m):
+			self.matrix[i][j] = randint(MIN_RAND, MAX_RAND)
 \end{lstlisting}
 
 \section{Тестирование}
@@ -143,24 +151,30 @@ def swap_rows(row_1: list[int], row_2: list[int]) \
 	\captionsetup{singlelinecheck = false, justification=raggedleft}
 	\caption{Таблица тестов}
 	\label{table:ref1}
-	\begin{tabular}{|c|c|c|c|c|c|}
+	\begin{tabular}{|c|c|c|c|c|}
 		\hline
-		\multirow{3}{*}{№} & \multirow{3}{*}{Описание теста} & \multirow{3}{*}{Слово 1}  &  \multirow{3}{*}{Слово 2}   & \multicolumn{2}{|c|}{Алгоритм}\\ \cline{5-6}
-		&                &          &            &\multirow{2}{*}{Левенштейн}   &Дамерау-	\\ 
-		&                &          &            &             &Левенштейн       	        \\ \hline
-		1& Пустые строки  &  ''      &    ''      &   0         &  0 						\\ \hline
-		\multirow{2}{*}{2}& \multirow{2}{*}{Нет повторяющихся} & \multirow{2}{*}{deepcopy} & \multirow{2}{*}{раздел} & \multirow{2}{*}{8}   &  \multirow{2}{*}{8}                      
-		\\
-		 & символов        &          &            &             &
-		 \\ \hline
-		3& Инверсия строк & insert   &tresni      &   6         &  6                       \\ \hline
-		4& Два соседних символа       & heart    & heatr  & 2   &  1                       \\ \hline
-		5& Одинаковые строки          & таблица  & таблица& 0   &  0						\\ \hline
-		\multirow{2}{*}{6}& \multirow{2}{*}{Одна строка} &\multirow{2}{*}{город} &\multirow{2}{*}{горо} & \multirow{2}{*}{1} & \multirow{2}{*}{1} \\  
-		& меньше другой   &           &           &      &\\ \hline
+		№ &Описание теста & Матрица 1  &  Матрица 2   &  Ожидаемый результат\\\hline
+		1& Квадратный размер  & $\begin{pmatrix}6 & 9 & 8\\0 & 3 & 6\\4 & 9 & 5\end{pmatrix}$
+							  & $\begin{pmatrix}9 & 6 & 0\\2 & 3 & 5\\6 & 8 & 7\end{pmatrix}$
+							  & $\begin{pmatrix}120 & 127 & 101\\42 & 57 & 57\\84 & 91 & 80\end{pmatrix}$
+		\\ \hline
+		2& Разный размер	  & $\begin{pmatrix}2 & 3 & 2\\3 & 9 & 2\end{pmatrix}$
+							  & $\begin{pmatrix}2 & 4\\1 & 7\\4 & 1\end{pmatrix}$
+							  & $\begin{pmatrix}15 & 31\\23 & 77\end{pmatrix}$
+		\\ \hline
+		3&Разный размер		& $\begin{pmatrix}5 & 1\\0 & 4\\6 & 4\end{pmatrix}$
+							& $\begin{pmatrix}2 & 1 & 7\\4 & 6 & 1\end{pmatrix}$
+							& $\begin{pmatrix}14 & 11 & 36\\16 & 24 & 4\\28 & 30 & 46\end{pmatrix}$
+		\\ \hline
+		\multirow{2}{*}{4}  &\multirow{2}{*}{Неподходящий} 
+								& \multirow{2}{*}{$\begin{pmatrix}5 & 1\\0 & 4\end{pmatrix}$}
+								& \multirow{2}{*}{$\begin{pmatrix}5 & 1\\0 & 4\end{pmatrix}$}
+								& \multirow{2}{*}{Несоответствие}\\
+		&размер & & &размеров.
+		\\ \hline
 	\end{tabular}
 \end{table}
-
+	Для алгоритмов умножения матриц стандартным образом, по Винограду и оптимизированный по Винограду данные тесты были пройдены успешно.
 \section*{Вывод}
 В данном разделе был выбран язык программирования, среда разработки. Реализованы функции, описанные в аналитическом разделе, и проведено их тестирование методом черного ящика по таблице \ref{table:ref1}. 
 

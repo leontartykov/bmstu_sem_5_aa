@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.6) (preloaded format=pdflatex 2021.9.14)  9 OCT 2021 15:07
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.6) (preloaded format=pdflatex 2021.9.14)  10 OCT 2021 14:32
 entering extended mode
 **./report.tex
 (report.tex
@@ -700,20 +700,8 @@ LaTeX Font Info:    Trying to load font information for T2A+cmr on input line 7
 (C:\Users\Лев\AppData\Local\Programs\MiKTeX\tex/latex/cyrillic\t2acmr.fd
 File: t2acmr.fd 2001/08/11 v1.0a Computer Modern Cyrillic font definitions
 )<<t2a.cmap>> (01_contents.aux) (02_introduction.aux) (03_analysis.aux)
-(04_design.aux) (05_technological.aux
-
-LaTeX Warning: Label `some-code' multiply defined.
-
-
-LaTeX Warning: Label `some-code' multiply defined.
-
-
-LaTeX Warning: Label `some-code' multiply defined.
-
-
-LaTeX Warning: Label `some-code' multiply defined.
-
-) (06_research.aux) (07_conclusion.aux) (08_biblio.aux))
+(04_design.aux) (05_technological.aux) (06_research.aux) (07_conclusion.aux)
+(08_biblio.aux))
 \openout1 = `report.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 5.
@@ -1083,27 +1071,37 @@ LaTeX Warning: Citation `vs' on page 20 undefined on input line 12.
 
 LaTeX Warning: Citation `time' on page 20 undefined on input line 12.
 
-LaTeX Font Info:    Trying to load font information for T2A+cmtt on input line 
-17.
-(C:\Users\Лев\AppData\Local\Programs\MiKTeX\tex/latex/cyrillic\t2acmtt.fd
-File: t2acmtt.fd 2001/08/11 v1.0a Computer Modern Cyrillic font definitions
-)
 [20
 
 
 
 
-] [21] [22]
-Underfull \hbox (badness 10000) in paragraph at lines 158--159
+]
+LaTeX Font Info:    Trying to load font information for T2A+cmtt on input line 
+17.
+
+(C:\Users\Лев\AppData\Local\Programs\MiKTeX\tex/latex/cyrillic\t2acmtt.fd
+File: t2acmtt.fd 2001/08/11 v1.0a Computer Modern Cyrillic font definitions
+)
+[21] [22] [23]
+Underfull \hbox (badness 10000) in paragraph at lines 147--148
 
  []
 
-[23]
-Overfull \hbox (26.57298pt too wide) in paragraph at lines 165--181
+
+Overfull \vbox (0.56032pt too high) detected at line 170
+ []
+
+
+Overfull \vbox (0.56032pt too high) detected at line 171
+ []
+
+
+Overfull \hbox (19.91583pt too wide) in paragraph at lines 154--176
  [][] 
  []
 
-) [24]
+[24]) [25]
 \openout2 = `06_research.aux'.
 
 
@@ -1119,18 +1117,15 @@ No file 07_conclusion.tex.
 
 LaTeX Warning: There were undefined references.
 
-
-LaTeX Warning: There were multiply-defined labels.
-
  ) 
 Here is how much of TeX's memory you used:
- 10824 strings out of 478864
- 186689 string characters out of 2848186
- 1017293 words of memory out of 3000000
- 28439 multiletter control sequences out of 15000+600000
+ 11080 strings out of 478864
+ 188641 string characters out of 2848186
+ 948262 words of memory out of 3000000
+ 28695 multiletter control sequences out of 15000+600000
  419313 words of font info for 57 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 77i,19n,86p,1032b,1053s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 77i,19n,86p,1032b,1280s stack positions out of 5000i,500n,10000p,200000b,80000s
  <C:\Users\Лев\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\latt1
 000.pk> <C:\Users\Лев\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\
 larm0600.pk> <C:\Users\Лев\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dp
@@ -1153,9 +1148,9 @@ c/amsfonts/cm/cmmi12.pfb><C:/Users/Лев/AppData/Local/Programs/MiKTeX/fonts/t
 ype1/public/amsfonts/cm/cmr10.pfb><C:/Users/Лев/AppData/Local/Programs/MiKTe
 X/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/Лев/AppData/Local/Progr
 ams/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on report.pdf (24 pages, 1199954 bytes).
+Output written on report.pdf (25 pages, 1195568 bytes).
 PDF statistics:
- 580 PDF objects out of 1000 (max. 8388607)
+ 569 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  66 words of extra memory for PDF output out of 10000 (max. 10000000)
 

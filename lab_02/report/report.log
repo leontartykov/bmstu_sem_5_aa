@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.6) (preloaded format=pdflatex 2021.9.14)  9 OCT 2021 01:53
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.6) (preloaded format=pdflatex 2021.9.14)  9 OCT 2021 15:07
 entering extended mode
 **./report.tex
 (report.tex
@@ -700,8 +700,20 @@ LaTeX Font Info:    Trying to load font information for T2A+cmr on input line 7
 (C:\Users\Лев\AppData\Local\Programs\MiKTeX\tex/latex/cyrillic\t2acmr.fd
 File: t2acmr.fd 2001/08/11 v1.0a Computer Modern Cyrillic font definitions
 )<<t2a.cmap>> (01_contents.aux) (02_introduction.aux) (03_analysis.aux)
-(04_design.aux) (05_technological.aux) (06_research.aux) (07_conclusion.aux)
-(08_biblio.aux))
+(04_design.aux) (05_technological.aux
+
+LaTeX Warning: Label `some-code' multiply defined.
+
+
+LaTeX Warning: Label `some-code' multiply defined.
+
+
+LaTeX Warning: Label `some-code' multiply defined.
+
+
+LaTeX Warning: Label `some-code' multiply defined.
+
+) (06_research.aux) (07_conclusion.aux) (08_biblio.aux))
 \openout1 = `report.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 5.
@@ -945,130 +957,155 @@ Missing character: There is no � in font cmr10!
 Missing character: There is no � in font cmr10!
 Missing character: There is no � in font cmr10!
 [7]
-Overfull \hbox (7.71837pt too wide) detected at line 89
+Overfull \hbox (10.53006pt too wide) detected at line 89
  []$[]  \OML/cmm/m/it/14.4 f[] \OT1/cmr/m/n/14.4 = \OML/cmm/m/it/14.4 f[] \OT1/
 cmr/m/n/14.4 + \OML/cmm/m/it/14.4 f[] \OT1/cmr/m/n/14.4 = [] + [] + \OML/cmm/m/
-it/14.4 m\OT1/cmr/m/n/14.4 ([] + [] + [] + []([] + [] + [] + [] + []))+$ 
+it/14.4 M\OT1/cmr/m/n/14.4 ([] + [] + [] + []([] + [] + [] + [] + []))+$ 
  []
 
-[8]
+[8] [9]
+Overfull \hbox (30.6221pt too wide) detected at line 163
+ []$[]  \OML/cmm/m/it/14.4 f[] \OT1/cmr/m/n/14.4 = [] + [] + \OML/cmm/m/it/14.4
+ M\OT1/cmr/m/n/14.4 ([] + [] + [] + \OML/cmm/m/it/14.4 Q\OT1/cmr/m/n/14.4 ([] +
+ [] + [] + [] + [] + [] + []([] + [] + [] + []) + []+$ 
+ []
 
-LaTeX Warning: Command \cyro invalid in math mode on input line 121.
-
-
-LaTeX Warning: Command \cyrp invalid in math mode on input line 121.
-
-
-LaTeX Warning: Command \cyrt invalid in math mode on input line 121.
-
-Missing character: There is no � in font cmr10!
-Missing character: There is no � in font cmr10!
-Missing character: There is no � in font cmr10!
 <../../../../../../../msys64/home/Лев/bmstu_sem_5_aa/lab_02/report/diagrams/
-classic.png, id=51, 669.50125pt x 1056.94875pt>
+classic.png, id=54, 669.50125pt x 1056.94875pt>
 File: ../../../../../../../msys64/home/Лев/bmstu_sem_5_aa/lab_02/report/diag
 rams/classic.png Graphic file (type png)
 <use ../../../../../../../msys64/home/Лев/bmstu_sem_5_aa/lab_02/report/diagr
 ams/classic.png>
 Package pdftex.def Info: ../../../../../../../msys64/home/Лев/bmstu_sem_5_aa
-/lab_02/report/diagrams/classic.png  used on input line 132.
+/lab_02/report/diagrams/classic.png  used on input line 178.
 (pdftex.def)             Requested size: 401.70384pt x 634.17415pt.
-[9] [10 <../../../../../../../msys64/home/Лев/bmstu_sem_5_aa/lab_02/report/d
-iagrams/classic.png>]
+[10] [11 <../../../../../../../msys64/home/Лев/bmstu_sem_5_aa/lab_02/report/
+diagrams/classic.png>]
 <../../../../../../../msys64/home/Лев/bmstu_sem_5_aa/lab_02/report/diagrams/
-vinograd_1.png, id=60, 688.5725pt x 961.5925pt>
+vinograd_1.png, id=63, 688.5725pt x 961.5925pt>
 File: ../../../../../../../msys64/home/Лев/bmstu_sem_5_aa/lab_02/report/diag
 rams/vinograd_1.png Graphic file (type png)
 <use ../../../../../../../msys64/home/Лев/bmstu_sem_5_aa/lab_02/report/diagr
 ams/vinograd_1.png>
 Package pdftex.def Info: ../../../../../../../msys64/home/Лев/bmstu_sem_5_aa
-/lab_02/report/diagrams/vinograd_1.png  used on input line 141.
+/lab_02/report/diagrams/vinograd_1.png  used on input line 187.
 (pdftex.def)             Requested size: 415.4104pt x 580.11458pt.
 <../../../../../../../msys64/home/Лев/bmstu_sem_5_aa/lab_02/report/diagrams/
-vinograd_2.png, id=61, 212.795pt x 1115.16624pt>
+vinograd_2.png, id=64, 212.795pt x 1115.16624pt>
 File: ../../../../../../../msys64/home/Лев/bmstu_sem_5_aa/lab_02/report/diag
 rams/vinograd_2.png Graphic file (type png)
 <use ../../../../../../../msys64/home/Лев/bmstu_sem_5_aa/lab_02/report/diagr
 ams/vinograd_2.png>
 Package pdftex.def Info: ../../../../../../../msys64/home/Лев/bmstu_sem_5_aa
-/lab_02/report/diagrams/vinograd_2.png  used on input line 148.
+/lab_02/report/diagrams/vinograd_2.png  used on input line 194.
 (pdftex.def)             Requested size: 127.67796pt x 669.10492pt.
- [11 <../../../../../../../msys64/home/Лев/bmstu_sem_5_aa/lab_02/report/diag
+ [12 <../../../../../../../msys64/home/Лев/bmstu_sem_5_aa/lab_02/report/diag
 rams/vinograd_1.png>]
 <../../../../../../../msys64/home/Лев/bmstu_sem_5_aa/lab_02/report/diagrams/
-vinograd_3.png, id=66, 613.29124pt x 721.69624pt>
+vinograd_3.png, id=69, 613.29124pt x 721.69624pt>
 File: ../../../../../../../msys64/home/Лев/bmstu_sem_5_aa/lab_02/report/diag
 rams/vinograd_3.png Graphic file (type png)
 <use ../../../../../../../msys64/home/Лев/bmstu_sem_5_aa/lab_02/report/diagr
 ams/vinograd_3.png>
 Package pdftex.def Info: ../../../../../../../msys64/home/Лев/bmstu_sem_5_aa
-/lab_02/report/diagrams/vinograd_3.png  used on input line 156.
+/lab_02/report/diagrams/vinograd_3.png  used on input line 202.
 (pdftex.def)             Requested size: 415.4104pt x 488.84186pt.
- [12 <../../../../../../../msys64/home/Лев/bmstu_sem_5_aa/lab_02/report/diag
-rams/vinograd_2.png>] [13 <../../../../../../../msys64/home/Лев/bmstu_sem_5_
+ [13 <../../../../../../../msys64/home/Лев/bmstu_sem_5_aa/lab_02/report/diag
+rams/vinograd_2.png>] [14 <../../../../../../../msys64/home/Лев/bmstu_sem_5_
 aa/lab_02/report/diagrams/vinograd_3.png>]
 <../../../../../../../msys64/home/Лев/bmstu_sem_5_aa/lab_02/report/diagrams/
-optimized_vinograd_1.png, id=76, 811.03pt x 906.38625pt>
+optimized_vinograd_1.png, id=79, 811.03pt x 906.38625pt>
 File: ../../../../../../../msys64/home/Лев/bmstu_sem_5_aa/lab_02/report/diag
 rams/optimized_vinograd_1.png Graphic file (type png)
 <use ../../../../../../../msys64/home/Лев/bmstu_sem_5_aa/lab_02/report/diagr
 ams/optimized_vinograd_1.png>
 Package pdftex.def Info: ../../../../../../../msys64/home/Лев/bmstu_sem_5_aa
-/lab_02/report/diagrams/optimized_vinograd_1.png  used on input line 166.
+/lab_02/report/diagrams/optimized_vinograd_1.png  used on input line 212.
 (pdftex.def)             Requested size: 486.62175pt x 543.83594pt.
 
-Overfull \hbox (31.37764pt too wide) in paragraph at lines 166--167
+Overfull \hbox (31.37764pt too wide) in paragraph at lines 212--213
  [][] 
  []
 
 <../../../../../../../msys64/home/Лев/bmstu_sem_5_aa/lab_02/report/diagrams/
-optimized_vinograd_2.png, id=77, 445.665pt x 696.6025pt>
+optimized_vinograd_2.png, id=80, 445.665pt x 696.6025pt>
 File: ../../../../../../../msys64/home/Лев/bmstu_sem_5_aa/lab_02/report/diag
 rams/optimized_vinograd_2.png Graphic file (type png)
 <use ../../../../../../../msys64/home/Лев/bmstu_sem_5_aa/lab_02/report/diagr
 ams/optimized_vinograd_2.png>
 Package pdftex.def Info: ../../../../../../../msys64/home/Лев/bmstu_sem_5_aa
-/lab_02/report/diagrams/optimized_vinograd_2.png  used on input line 174.
+/lab_02/report/diagrams/optimized_vinograd_2.png  used on input line 220.
 (pdftex.def)             Requested size: 311.96336pt x 487.61842pt.
-[14 <../../../../../../../msys64/home/Лев/bmstu_sem_5_aa/lab_02/report/diagr
+[15 <../../../../../../../msys64/home/Лев/bmstu_sem_5_aa/lab_02/report/diagr
 ams/optimized_vinograd_1.png>]
 <../../../../../../../msys64/home/Лев/bmstu_sem_5_aa/lab_02/report/diagrams/
-optimized_vinograd_3.png, id=82, 467.7475pt x 696.6025pt>
+optimized_vinograd_3.png, id=85, 467.7475pt x 696.6025pt>
 File: ../../../../../../../msys64/home/Лев/bmstu_sem_5_aa/lab_02/report/diag
 rams/optimized_vinograd_3.png Graphic file (type png)
 <use ../../../../../../../msys64/home/Лев/bmstu_sem_5_aa/lab_02/report/diagr
 ams/optimized_vinograd_3.png>
 Package pdftex.def Info: ../../../../../../../msys64/home/Лев/bmstu_sem_5_aa
-/lab_02/report/diagrams/optimized_vinograd_3.png  used on input line 182.
+/lab_02/report/diagrams/optimized_vinograd_3.png  used on input line 228.
 (pdftex.def)             Requested size: 327.421pt x 487.61842pt.
- [15 <../../../../../../../msys64/home/Лев/bmstu_sem_5_aa/lab_02/report/diag
+ [16 <../../../../../../../msys64/home/Лев/bmstu_sem_5_aa/lab_02/report/diag
 rams/optimized_vinograd_2.png>]
 <../../../../../../../msys64/home/Лев/bmstu_sem_5_aa/lab_02/report/diagrams/
-optimized_vinograd_4.png, id=87, 653.44125pt x 1012.78375pt>
+optimized_vinograd_4.png, id=90, 653.44125pt x 1012.78375pt>
 File: ../../../../../../../msys64/home/Лев/bmstu_sem_5_aa/lab_02/report/diag
 rams/optimized_vinograd_4.png Graphic file (type png)
 <use ../../../../../../../msys64/home/Лев/bmstu_sem_5_aa/lab_02/report/diagr
 ams/optimized_vinograd_4.png>
 Package pdftex.def Info: ../../../../../../../msys64/home/Лев/bmstu_sem_5_aa
-/lab_02/report/diagrams/optimized_vinograd_4.png  used on input line 190.
+/lab_02/report/diagrams/optimized_vinograd_4.png  used on input line 236.
 (pdftex.def)             Requested size: 457.40576pt x 708.9438pt.
 
-Overfull \hbox (2.16165pt too wide) in paragraph at lines 190--191
+Overfull \hbox (2.16165pt too wide) in paragraph at lines 236--237
  [][] 
  []
 
-[16 <../../../../../../../msys64/home/Лев/bmstu_sem_5_aa/lab_02/report/diagr
+[17 <../../../../../../../msys64/home/Лев/bmstu_sem_5_aa/lab_02/report/diagr
 ams/optimized_vinograd_3.png>]
 Overfull \vbox (4.70796pt too high) has occurred while \output is active []
 
 
-[17 <../../../../../../../msys64/home/Лев/bmstu_sem_5_aa/lab_02/report/diagr
-ams/optimized_vinograd_4.png>])
+[18 <../../../../../../../msys64/home/Лев/bmstu_sem_5_aa/lab_02/report/diagr
+ams/optimized_vinograd_4.png>]) [19]
 \openout2 = `05_technological.aux'.
 
+ (05_technological.tex
+{\cyrillictext \CYRG \cyrl \cyra \cyrv \cyra } 3.
 
-No file 05_technological.tex.
+LaTeX Warning: Citation `python3' on page 20 undefined on input line 12.
+
+
+LaTeX Warning: Citation `vs' on page 20 undefined on input line 12.
+
+
+LaTeX Warning: Citation `time' on page 20 undefined on input line 12.
+
+LaTeX Font Info:    Trying to load font information for T2A+cmtt on input line 
+17.
+(C:\Users\Лев\AppData\Local\Programs\MiKTeX\tex/latex/cyrillic\t2acmtt.fd
+File: t2acmtt.fd 2001/08/11 v1.0a Computer Modern Cyrillic font definitions
+)
+[20
+
+
+
+
+] [21] [22]
+Underfull \hbox (badness 10000) in paragraph at lines 158--159
+
+ []
+
+[23]
+Overfull \hbox (26.57298pt too wide) in paragraph at lines 165--181
+ [][] 
+ []
+
+) [24]
 \openout2 = `06_research.aux'.
+
 
 No file 06_research.tex.
 \openout2 = `07_conclusion.aux'.
@@ -1078,39 +1115,47 @@ No file 07_conclusion.tex.
 
 (08_biblio.tex (report.bbl)) (report.aux (00_title.aux) (01_contents.aux)
 (02_introduction.aux) (03_analysis.aux) (04_design.aux) (05_technological.aux)
-(06_research.aux) (07_conclusion.aux) (08_biblio.aux)) ) 
+(06_research.aux) (07_conclusion.aux) (08_biblio.aux))
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: There were multiply-defined labels.
+
+ ) 
 Here is how much of TeX's memory you used:
- 10602 strings out of 478864
- 183744 string characters out of 2848186
- 701189 words of memory out of 3000000
- 28227 multiletter control sequences out of 15000+600000
- 418199 words of font info for 55 fonts, out of 8000000 for 9000
+ 10824 strings out of 478864
+ 186689 string characters out of 2848186
+ 1017293 words of memory out of 3000000
+ 28439 multiletter control sequences out of 15000+600000
+ 419313 words of font info for 57 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 77i,19n,86p,1032b,465s stack positions out of 5000i,500n,10000p,200000b,80000s
- <C:\Users\Лев\AppDa
-ta\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\larm2074.pk> <C:\Users\Лев\
-AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1440.pk> <C:\Users\
-Лев\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\labx1440.pk> <C:\U
-sers\Лев\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\larm3583.pk> 
-<C:\Users\Лев\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\lati1728
-.pk> <C:\Users\Лев\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\lar
-m1000.pk> <C:\Users\Лев\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi60
-0\larm1728.pk> <C:\Users\Лев\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/
-dpi600\labx1728.pk> <C:\Users\Лев\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh
--t2a/dpi600\labx2074.pk> <C:\Users\Лев\AppData\Local\MiKTeX\fonts/pk/ljfour/
-lh/lh-t2a/dpi600\labx2986.pk> <C:\Users\Лев\AppData\Local\MiKTeX\fonts/pk/lj
-four/lh/lh-t2a/dpi600\larm1440.pk> <C:\Users\Лев\AppData\Local\MiKTeX\fonts/
-pk/ljfour/lh/lh-t2a/dpi600\labx1000.pk><C:/Users/Лев/AppData/Local/Programs/
-MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/Лев/AppData/Local
-/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/Лев/App
-Data/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/
-Лев/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><
-C:/Users/Лев/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cm
-r12.pfb><C:/Users/Лев/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfo
-nts/cm/cmsy10.pfb>
-Output written on report.pdf (17 pages, 1144571 bytes).
+ 77i,19n,86p,1032b,1053s stack positions out of 5000i,500n,10000p,200000b,80000s
+ <C:\Users\Лев\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\latt1
+000.pk> <C:\Users\Лев\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\
+larm0600.pk> <C:\Users\Лев\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dp
+i600\larm2074.pk> <C:\Users\Лев\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappe
+n/ec/dpi600\tcrm1440.pk> <C:\Users\Лев\AppData\Local\MiKTeX\fonts/pk/ljfour/
+lh/lh-t2a/dpi600\labx1440.pk> <C:\Users\Лев\AppData\Local\MiKTeX\fonts/pk/lj
+four/lh/lh-t2a/dpi600\larm3583.pk> <C:\Users\Лев\AppData\Local\MiKTeX\fonts/
+pk/ljfour/lh/lh-t2a/dpi600\lati1728.pk> <C:\Users\Лев\AppData\Local\MiKTeX\f
+onts/pk/ljfour/lh/lh-t2a/dpi600\larm1000.pk> <C:\Users\Лев\AppData\Local\MiK
+TeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\larm1728.pk> <C:\Users\Лев\AppData\Loca
+l\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\labx1728.pk> <C:\Users\Лев\AppData
+\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\labx2074.pk> <C:\Users\Лев\Ap
+pData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\labx2986.pk> <C:\Users\Ле
+в\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\larm1440.pk> <C:\Users
+\Лев\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\labx1000.pk><C:/U
+sers/Лев/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10
+.pfb><C:/Users/Лев/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts
+/cm/cmmi10.pfb><C:/Users/Лев/AppData/Local/Programs/MiKTeX/fonts/type1/publi
+c/amsfonts/cm/cmmi12.pfb><C:/Users/Лев/AppData/Local/Programs/MiKTeX/fonts/t
+ype1/public/amsfonts/cm/cmr10.pfb><C:/Users/Лев/AppData/Local/Programs/MiKTe
+X/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/Лев/AppData/Local/Progr
+ams/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
+Output written on report.pdf (24 pages, 1199954 bytes).
 PDF statistics:
- 437 PDF objects out of 1000 (max. 8388607)
+ 580 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  66 words of extra memory for PDF output out of 10000 (max. 10000000)
 

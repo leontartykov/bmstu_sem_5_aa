@@ -74,54 +74,100 @@
 	\item $f_{init}$ - трудоемкость инициализации массивов для предварительного вычисления (\ref{eq3:7});
 	\begin{multline}
 		\label{eq3:7}
-		f_{init} = {\underset{=}{1}} + {\underset{<}{1}} + m({\underset{++}{2}} + {\underset{[\ ]}{1}} + {\underset{=}{1}}) + {\underset{=}{1}} + {\underset{<}{1}} + q({\underset{++}{2}} + {\underset{[\ ]}{1}} + {\underset{=}{1}}) = \\
-		= 2 + 4m + 2 + 4q = 4 + 4m + 4q 
+		f_{init} = {\underset{=}{1}} + {\underset{<}{1}} + M({\underset{++}{2}} + {\underset{[\ ]}{1}} + {\underset{=}{1}}) + {\underset{=}{1}} + {\underset{<}{1}} + Q({\underset{++}{2}} + {\underset{[\ ]}{1}} + {\underset{=}{1}}) = \\
+		= 2 + 4M + 2 + 4Q = 4 + 4M + 4Q 
 	\end{multline}
 
 
 	\item $f_{precomp}$ - трудоемкость предварительного заполнения строк матрицы А и столбцов матрицы B (\ref{eq3:8});
 	\begin{multline}
 		\label{eq3:8}
-		f_{precomp} = f_{rows} + f_{columns} = {\underset{=}{1}} + {\underset{<}{1}} + m({\underset{++}{2}} + {\underset{=}{1}} + {\underset{<}{1}} + \frac{n}{2}({\underset{++}{2}} + {\underset{[\ ]}{6}} + {\underset{=}{1}} + {\underset{+}{2}} + {\underset{*}{6}})) + \\
-		+ {\underset{=}{1}} + {\underset{<}{1}} + q({\underset{++}{2}} + {\underset{=}{1}} + {\underset{<}{1}} + \frac{n}{2}({\underset{++}{2}} + {\underset{[\ ]}{6}} + {\underset{=}{1}} + {\underset{+}{2}} + {\underset{*}{6}})) = \\
-		= 2 + m(4 + \frac{n}{2} * 17) + 2 + q(4 + \frac{n}{2} * 17) = \\
-		= 4 + 4m + 4q + \frac{17nm}{2} + \frac{17nq}{2}
+		f_{precomp} = f_{rows} + f_{columns} = {\underset{=}{1}} + {\underset{<}{1}} + M({\underset{++}{2}} + {\underset{=}{1}} + {\underset{<}{1}} + \frac{n}{2}({\underset{++}{2}} + {\underset{[\ ]}{6}} + {\underset{=}{1}} + {\underset{+}{2}} + {\underset{*}{6}})) + \\
+		+ {\underset{=}{1}} + {\underset{<}{1}} + Q({\underset{++}{2}} + {\underset{=}{1}} + {\underset{<}{1}} + \frac{N}{2}({\underset{++}{2}} + {\underset{[\ ]}{6}} + {\underset{=}{1}} + {\underset{+}{2}} + {\underset{*}{6}})) = \\
+		= 2 + M(4 + \frac{N}{2} * 17) + 2 + Q(4 + \frac{N}{2} * 17) = \\
+		= 4 + 4M + 4Q + \frac{17NM}{2} + \frac{17NQ}{2}
 	\end{multline}
 
 
-	\item $f_{fill}$ - трудоемкость заполнения результирующей матрицы (\ref{eq3:9})
+	\item $f_{even}$ - трудоемкость заполнения результирующей матрицы (\ref{eq3:9});
 	\begin{multline}
 		\label{eq3:9}
-		f_{fill} = {\underset{=}{1}} + {\underset{<}{1}} + m({\underset{++}{2}} + {\underset{=}{1}} + {\underset{<}{1}} + p({\underset{++}{2}} + {\underset{[\ ]}{4}} + {\underset{=}{1}} + {\underset{-}{2}} + {\underset{=}{1}} + {\underset{<}{1}} +\\
-		+ \frac{n}{2}({\underset{++}{2}} + {\underset{[\ ]}{12}} + {\underset{=}{1}} +
-		{\underset{+}{5}} + {\underset{*}{10}})) = 2 + m(4 + q(11 + 14n)) = \\
-		= 2 + 4m + 11mq + 14mnq
+		f_{fill} = {\underset{=}{1}} + {\underset{<}{1}} + M({\underset{++}{2}} + {\underset{=}{1}} + {\underset{<}{1}} + Q({\underset{++}{2}} + {\underset{[\ ]}{4}} + {\underset{=}{1}} + {\underset{-}{2}} + {\underset{=}{1}} + {\underset{<}{1}} +\\
+		+ \frac{N}{2}({\underset{++}{2}} + {\underset{[\ ]}{12}} + {\underset{=}{1}} +
+		{\underset{+}{5}} + {\underset{*}{10}} + {\underset{/}{2}})) = 2 + M(4 + Q(11 + 16N)) = \\
+		= 2 + 4M + 11MQ + 16MNQ
 	\end{multline}
 
-	\item $f_{fill}$ - трудоемкость для дополнения умножения в случае нечетной размерности матрицы (\ref{eq3:10})
+	\item $f_{fill}$ - трудоемкость для дополнения умножения в случае нечетной размерности матрицы. (\ref{eq3:10}).
 	\begin{multline}
 		\label{eq3:10}
 		f_{fill} = {\underset{\%}{2}} + {\underset{==}{1}} + 
 		\begin{sqcases}
-			{\underset{=}{1}} + {\underset{<}{1}} + m({\underset{++}{2}} + {\underset{=}{1}} + {\underset{<}{1}} + q({\underset{++}{2}} + {\underset{[\ ]}{8}} + \\
+			{\underset{=}{1}} + {\underset{<}{1}} + M({\underset{++}{2}} + {\underset{=}{1}} + {\underset{<}{1}} + Q({\underset{++}{2}} + {\underset{[\ ]}{8}} + \\
 			+ {\underset{=}{1}} + {\underset{+}{1}} + {\underset{-}{2}})),\\
 			0\\
 		\end{sqcases} = \\
-		3 + \begin{sqcases}
-			2 + 4m + 14mq,\\
+		 = 3 + \begin{sqcases}
+			2 + 4M + 14MQ,\\
 			0\\
 		\end{sqcases}
 	\end{multline}
 	
-	Результирующая трудоемкость алгоритма Винограда составляет $f_{vin} \approx 14mnq$
+	Результирующая трудоемкость алгоритма Винограда составляет $f_{vin} \approx 16MNQ$
 \end{itemize}
 \subsection{Трудоемкость оптимизированного алгоритма умножения матриц по Винограду}
-Трудоемкость этого алгоритма определяется из следующих компонентов по формуле.
+Трудоемкость этого алгоритма определяется из следующих компонентов по формуле (\ref{eq3:11}).
 \begin{equation}
-	f_{опт} = f_{init} + f_{precomp} + f_{fill}
+	f_{optim} = f_{init} + f_{precomp} + f_{fill}
+	\label{eq3:11}
 \end{equation}
+где:
+\begin{itemize}
+	\item $f_{init}$ - определяется по формуле (\ref{eq3:7}) в добавок с другими компонентами (\ref{eq3:12});
+	\begin{equation}
+		f_{init} = 4 + 4M + 4Q + {\underset{=}{2}} + {\underset{\%}{2}} + {\underset{-}{1}} + {\underset{==}{1}} + 
+		\begin{sqcases}
+			{\underset{-=}{1}},\\
+			0
+		\end{sqcases} = 7 + 4M + 4Q + \begin{sqcases}
+										{\underset{-=}{1}},\\
+										0
+									  \end{sqcases}
+		\label{eq3:12}
+	\end{equation}
 
-%$f_{init}$; определяется формуле (\ref{eq3:}).
+	\item $f_{precomp}$ - трудоемкость предварительного заполнения строк матрицы А и столбцов матрицы B (\ref{eq3:13});
+	\begin{multline}
+		f_{precomp} = {\underset{=}{1}} + {\underset{<}{1}} + M({\underset{++}{2}} + {\underset{=}{2}} + {\underset{<}{1}} + N({\underset{+=}{2}} + {\underset{*}{2}} + {\underset{+}{1}} + {\underset{[\ ]}{4}}) + {\underset{[\ ]}{1}} + {\underset{=}{1}}) + \\
+		+ {\underset{=}{1}} + {\underset{<}{1}} + Q({\underset{++}{2}} + {\underset{=}{2}} + {\underset{<}{1}} + N({\underset{+=}{2}} + {\underset{[\ ]}{4}} + {\underset{*}{2}} + {\underset{+}{1}}) + {\underset{=}{1}}) = \\
+		= 2 + 7M + 9MN + 2 + 6Q + 9NQ = 9MN + 9NQ + 7M + 6Q + 4
+		\label{eq3:13}
+	\end{multline}
+
+	\item $f_{fill}$ - трудоемкость для заполнения матрицы (\ref{eq3:14}).
+	\begin{multline}
+		f_{fill} = {\underset{=}{1}} + {\underset{<}{1}} + M({\underset{++}{2}} + {\underset{=}{2}} + {\underset{<}{1}} + Q({\underset{++}{2}} + {\underset{=}{2}} + {\underset{-}{1}} + {\underset{+}{1}} + {\underset{[\ ]}{2}} + {\underset{<}{1}} + \frac{N}{2}({\underset{+=}{2}} + {\underset{[\ ]}{8}} + {\underset{+}{4}} + {\underset{*}{2}}) + {\underset{==}{1}} + \\
+		 +  \begin{sqcases}
+				{\underset{+=}{1}} + {\underset{[ \ ]}{4}} + {\underset{*}{2}}\\
+				0
+			\end{sqcases} + {\underset{[\ ]}{2}} + {\underset{=}{1}})) = \\
+		= 2 + M(4 + Q(\frac{16}{2} + 13 + \begin{sqcases}
+											6\\
+											0
+											\end{sqcases})) = \\
+		8MNQ + 14MQ + 4M + 2 + \begin{sqcases}
+									6\\
+									0
+									\end{sqcases} MQ
+		\label{eq3:14}
+	\end{multline}
+	Результирующая трудоемкость оптимизированного алгоритма Винограда для лучшего и худшего случая составляет (\ref{eq3:15}).
+	\begin{equation}
+		f_{fill} \approx 8MNQ
+		\label{eq3:15}
+	\end{equation}
+	
+\end{itemize}
 
 \section{Схемы алгоритмов умножения матриц}
 Ниже представлены следующие схемы алгоритмов:
@@ -194,3 +240,5 @@
 	\end{figure}
 \end{itemize}
 
+\section{Вывод}
+На основе теоретических данных, полученных в аналитическом разделе, были построены схемы необходимых алгоритмов. Эти алгоритмы были проанализированы с точки зрения трудоемкость выполнения. Алгоритм умножения матриц по Винограду работает медленнее стандартного алгоритма на MNK. Зато оптимизированный вариант алгоритма  Винограда дает выигрыш по сравнению с ним на 6MNK.

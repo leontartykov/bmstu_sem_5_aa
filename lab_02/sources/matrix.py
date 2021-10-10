@@ -40,7 +40,7 @@ def multiply_matrixes_ordinary(matrix_a, matrix_b) -> list[list[int]]:
         for i in range(n):
             for j in range(p):
                 for k in range(m):
-                    matrix_result[i][j] += matrix_a[i][k] * matrix_b[k][j]
+                    matrix_result[i][j] = matrix_result[i][j] + matrix_a[i][k] * matrix_b[k][j]
         return matrix_result
 
 def multiply_matrixes_vinograd(matrix_a, matrix_b) -> list[list[int]]:

@@ -22,10 +22,18 @@
 \usepackage{indentfirst} % Красная строка
 
 \usepackage{float}
+\usepackage{umoline}
+
+% Пакет Tikz
+\usepackage{tikz}
+\usetikzlibrary{arrows,positioning,shadows}
+\usepackage{pgfplots, pgfplotstable}
+\usepackage{pdfpages}
 
 \usepackage{xcolor}
 \definecolor{darkgray}{gray}{0.15}
 \usepackage{listings} %вставка кода
+\captionsetup[lstlisting]{singlelinecheck = false, justification=raggedright}
 \lstset{ % add your own preferences
 	frame=single,
 	basicstyle=\footnotesize\ttfamily,
@@ -35,11 +43,15 @@
 	numbersep=10pt,
 	stepnumber=1,
 	numberstyle=\tiny,
-	showstringspaces=false, 
-	captionpos=left,
+	showstringspaces=false,
+	breaklines=true, 
+	captionpos=t,
 	tabsize=4,
-	language=Python
+	language=Python,
+	inputencoding=utf8
 }
+
+\frenchspacing
 
 \usepackage{titlesec}
 \titleformat{\section}
@@ -49,8 +61,6 @@
 \titlespacing*{\chapter}{0pt}{-30pt}{8pt}
 \titlespacing*{\section}{\parindent}{*4}{*4}
 \titlespacing*{\subsection}{\parindent}{*4}{*4}
-
-
 
 \newcommand{\hsp}{\hspace{20pt}} % длина линии в 20pt
 
@@ -62,3 +72,18 @@
 
 \linespread{1.25} %межстрочный интервал
 \newcommand{\anonsection}[1]{ \section*{#1} \addcontentsline{toc}{section}{\numberline {}#1}}
+
+% какой то сложный кусок со стак эксчейндж для квадратных скобок
+\makeatletter
+\newenvironment{sqcases}{%
+	\matrix@check\sqcases\env@sqcases
+}{%
+	\endarray\right.%
+}
+\def\env@sqcases{%
+	\let\@ifnextchar\new@ifnextchar
+	\left\lbrack
+	\def\arraystretch{1.2}%
+	\array{@{}l@{\quad}l@{}}%
+}
+\makeatother

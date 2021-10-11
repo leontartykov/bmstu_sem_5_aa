@@ -9,9 +9,25 @@ def output_graph() -> None:
     print('Худший случай')
     worst_bubble_time, worst_insert_time, worst_shell_time = timing_order_array(COUNT_ITERATIONS, form_reverse_order_array)
 
+    write_to_file('best_bubble_time.txt', best_bubble_time)
+    write_to_file('best_insert_time.txt', best_insert_time)
+    write_to_file('best_shell_time.txt', best_shell_time)
+    write_to_file('usual_bubble_time.txt', usual_bubble_time)
+    write_to_file('usual_insert_time.txt', usual_insert_time)
+    write_to_file('usual_shell_time.txt', usual_shell_time)
+    write_to_file('worst_bubble_time.txt', worst_bubble_time)
+    write_to_file('worst_insert_time.txt', worst_insert_time)
+    write_to_file('worst_shell_time.txt', worst_shell_time)
+
     create_graph(best_bubble_time, best_insert_time, best_shell_time, 'Лучший случай')
     create_graph(usual_bubble_time, usual_insert_time, worst_shell_time, 'Обычный случай')
     create_graph(worst_bubble_time, worst_insert_time, usual_shell_time, 'Худший случай')
+
+def write_to_file(string, array):
+    with open(string, 'w') as file:
+        for i in range(len(array)):
+            file.write(str((i+1) * 100) + ' ' + str(array[i]) + '\n')
+
 
 def create_graph(bubble_time:list[int], insert_time:list[int],
                 shell_time:list[int], title:str):

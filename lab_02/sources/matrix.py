@@ -32,6 +32,7 @@ class Matrix():
 
 def input_size_matrixes():
      size = input('Введите размер матрицы А через пробел: ')
+     
 
 def multiply_matrixes_ordinary(matrix_a, matrix_b) -> list[list[int]]:
     n, m = matrix_a.get_size()

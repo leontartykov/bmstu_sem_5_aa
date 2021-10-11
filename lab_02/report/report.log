@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.6) (preloaded format=pdflatex 2021.9.14)  11 OCT 2021 01:56
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.6) (preloaded format=pdflatex 2021.9.14)  12 OCT 2021 00:20
 entering extended mode
 **./report.tex
 (report.tex
@@ -1447,12 +1447,6 @@ it/14.4 M\OT1/cmr/m/n/14.4 ([] + [] + [] + []([] + [] + [] + [] + []))+$
  []
 
 [9] [10]
-Overfull \hbox (30.6221pt too wide) detected at line 163
- []$[]  \OML/cmm/m/it/14.4 f[] \OT1/cmr/m/n/14.4 = [] + [] + \OML/cmm/m/it/14.4
- M\OT1/cmr/m/n/14.4 ([] + [] + [] + \OML/cmm/m/it/14.4 Q\OT1/cmr/m/n/14.4 ([] +
- [] + [] + [] + [] + [] + []([] + [] + [] + []) + []+$ 
- []
-
 <../../../../../../../msys64/home/Лев/bmstu_sem_5_aa/lab_02/report/diagrams/
 classic.png, id=84, 669.50125pt x 1056.94875pt>
 File: ../../../../../../../msys64/home/Лев/bmstu_sem_5_aa/lab_02/report/diag
@@ -1460,10 +1454,10 @@ rams/classic.png Graphic file (type png)
 <use ../../../../../../../msys64/home/Лев/bmstu_sem_5_aa/lab_02/report/diagr
 ams/classic.png>
 Package pdftex.def Info: ../../../../../../../msys64/home/Лев/bmstu_sem_5_aa
-/lab_02/report/diagrams/classic.png  used on input line 178.
+/lab_02/report/diagrams/classic.png  used on input line 179.
 (pdftex.def)             Requested size: 401.70384pt x 634.17415pt.
-[11] [12 <../../../../../../../msys64/home/Лев/bmstu_sem_5_aa/lab_02/report/
-diagrams/classic.png>]
+ [11] [12 <../../../../../../../msys64/home/Лев/bmstu_sem_5_aa/lab_02/report
+/diagrams/classic.png>]
 <../../../../../../../msys64/home/Лев/bmstu_sem_5_aa/lab_02/report/diagrams/
 vinograd_1.png, id=93, 688.5725pt x 961.5925pt>
 File: ../../../../../../../msys64/home/Лев/bmstu_sem_5_aa/lab_02/report/diag
@@ -1471,7 +1465,7 @@ rams/vinograd_1.png Graphic file (type png)
 <use ../../../../../../../msys64/home/Лев/bmstu_sem_5_aa/lab_02/report/diagr
 ams/vinograd_1.png>
 Package pdftex.def Info: ../../../../../../../msys64/home/Лев/bmstu_sem_5_aa
-/lab_02/report/diagrams/vinograd_1.png  used on input line 187.
+/lab_02/report/diagrams/vinograd_1.png  used on input line 188.
 (pdftex.def)             Requested size: 415.4104pt x 580.11458pt.
 <../../../../../../../msys64/home/Лев/bmstu_sem_5_aa/lab_02/report/diagrams/
 vinograd_2.png, id=94, 212.795pt x 1115.16624pt>
@@ -1480,7 +1474,7 @@ rams/vinograd_2.png Graphic file (type png)
 <use ../../../../../../../msys64/home/Лев/bmstu_sem_5_aa/lab_02/report/diagr
 ams/vinograd_2.png>
 Package pdftex.def Info: ../../../../../../../msys64/home/Лев/bmstu_sem_5_aa
-/lab_02/report/diagrams/vinograd_2.png  used on input line 194.
+/lab_02/report/diagrams/vinograd_2.png  used on input line 195.
 (pdftex.def)             Requested size: 127.67796pt x 669.10492pt.
  [13 <../../../../../../../msys64/home/Лев/bmstu_sem_5_aa/lab_02/report/diag
 rams/vinograd_1.png>]
@@ -1491,11 +1485,12 @@ rams/vinograd_3.png Graphic file (type png)
 <use ../../../../../../../msys64/home/Лев/bmstu_sem_5_aa/lab_02/report/diagr
 ams/vinograd_3.png>
 Package pdftex.def Info: ../../../../../../../msys64/home/Лев/bmstu_sem_5_aa
-/lab_02/report/diagrams/vinograd_3.png  used on input line 202.
+/lab_02/report/diagrams/vinograd_3.png  used on input line 203.
 (pdftex.def)             Requested size: 415.4104pt x 488.84186pt.
  [14 <../../../../../../../msys64/home/Лев/bmstu_sem_5_aa/lab_02/report/diag
-rams/vinograd_2.png>] [15 <../../../../../../../msys64/home/Лев/bmstu_sem_5_
-aa/lab_02/report/diagrams/vinograd_3.png>]
+rams/vinograd_2.png>]
+[15 <../../../../../../../msys64/home/Лев/bmstu_sem_5_aa/lab_02/report/diagr
+ams/vinograd_3.png>]
 <../../../../../../../msys64/home/Лев/bmstu_sem_5_aa/lab_02/report/diagrams/
 optimized_vinograd_1.png, id=109, 811.03pt x 906.38625pt>
 File: ../../../../../../../msys64/home/Лев/bmstu_sem_5_aa/lab_02/report/diag
@@ -1503,10 +1498,10 @@ rams/optimized_vinograd_1.png Graphic file (type png)
 <use ../../../../../../../msys64/home/Лев/bmstu_sem_5_aa/lab_02/report/diagr
 ams/optimized_vinograd_1.png>
 Package pdftex.def Info: ../../../../../../../msys64/home/Лев/bmstu_sem_5_aa
-/lab_02/report/diagrams/optimized_vinograd_1.png  used on input line 212.
+/lab_02/report/diagrams/optimized_vinograd_1.png  used on input line 213.
 (pdftex.def)             Requested size: 486.62175pt x 543.83594pt.
 
-Overfull \hbox (31.37764pt too wide) in paragraph at lines 212--213
+Overfull \hbox (31.37764pt too wide) in paragraph at lines 213--214
  [][] 
  []
 
@@ -1517,7 +1512,7 @@ rams/optimized_vinograd_2.png Graphic file (type png)
 <use ../../../../../../../msys64/home/Лев/bmstu_sem_5_aa/lab_02/report/diagr
 ams/optimized_vinograd_2.png>
 Package pdftex.def Info: ../../../../../../../msys64/home/Лев/bmstu_sem_5_aa
-/lab_02/report/diagrams/optimized_vinograd_2.png  used on input line 220.
+/lab_02/report/diagrams/optimized_vinograd_2.png  used on input line 221.
 (pdftex.def)             Requested size: 311.96336pt x 487.61842pt.
 [16 <../../../../../../../msys64/home/Лев/bmstu_sem_5_aa/lab_02/report/diagr
 ams/optimized_vinograd_1.png>]
@@ -1528,7 +1523,7 @@ rams/optimized_vinograd_3.png Graphic file (type png)
 <use ../../../../../../../msys64/home/Лев/bmstu_sem_5_aa/lab_02/report/diagr
 ams/optimized_vinograd_3.png>
 Package pdftex.def Info: ../../../../../../../msys64/home/Лев/bmstu_sem_5_aa
-/lab_02/report/diagrams/optimized_vinograd_3.png  used on input line 228.
+/lab_02/report/diagrams/optimized_vinograd_3.png  used on input line 229.
 (pdftex.def)             Requested size: 327.421pt x 487.61842pt.
  [17 <../../../../../../../msys64/home/Лев/bmstu_sem_5_aa/lab_02/report/diag
 rams/optimized_vinograd_2.png>]
@@ -1539,10 +1534,10 @@ rams/optimized_vinograd_4.png Graphic file (type png)
 <use ../../../../../../../msys64/home/Лев/bmstu_sem_5_aa/lab_02/report/diagr
 ams/optimized_vinograd_4.png>
 Package pdftex.def Info: ../../../../../../../msys64/home/Лев/bmstu_sem_5_aa
-/lab_02/report/diagrams/optimized_vinograd_4.png  used on input line 236.
+/lab_02/report/diagrams/optimized_vinograd_4.png  used on input line 237.
 (pdftex.def)             Requested size: 457.40576pt x 708.9438pt.
 
-Overfull \hbox (2.16165pt too wide) in paragraph at lines 236--237
+Overfull \hbox (2.16165pt too wide) in paragraph at lines 237--238
  [][] 
  []
 
@@ -1661,7 +1656,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 40--45
 Here is how much of TeX's memory you used:
  32659 strings out of 478864
  793540 string characters out of 2848186
- 1605010 words of memory out of 3000000
+ 1605009 words of memory out of 3000000
  49890 multiletter control sequences out of 15000+600000
  420115 words of font info for 58 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -1690,9 +1685,9 @@ a/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/Л�
 Users/Лев/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12
 .pfb><C:/Users/Лев/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts
 /cm/cmsy10.pfb>
-Output written on report.pdf (31 pages, 1242782 bytes).
+Output written on report.pdf (31 pages, 1242988 bytes).
 PDF statistics:
- 682 PDF objects out of 1000 (max. 8388607)
+ 683 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  174 words of extra memory for PDF output out of 10000 (max. 10000000)
 

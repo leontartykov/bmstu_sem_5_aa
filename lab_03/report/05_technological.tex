@@ -65,10 +65,10 @@ def form_random_array(count: int) -> list[int]:
 \end{lstlisting}
 
 \begin{lstlisting}[label=code6,caption=Программный код формирования массива целых чисел\, упорядоченных в обратном порядке.]
-	def form_random_array(count: int) -> list[int]:
+def form_random_array(count: int) -> list[int]:
 	array = list()
 	for i in range(count):
-	array.append(randint(MIN_NUMBER, MAX_NUMBER))
+		array.append(randint(MIN_NUMBER, MAX_NUMBER))
 	
 	return array
 \end{lstlisting}
@@ -83,7 +83,7 @@ def form_random_array(count: int) -> list[int]:
 	\label{table:ref2}
 	\begin{tabular}{|c|c|c|c|c|c|}
 		\hline
-		\multirow{3}{*}{№} & \multirow{3}{*}{Описание теста} & \multirow{3}{*}{Вход} & \multicolumn{3}{|c|}{Результат}\\ \cline{4-6}
+		\multirow{3}{*}{№} & \multirow{3}{*}{Описание теста} & \multirow{3}{*}{Вход} & \multicolumn{3}{c|}{Результат}\\ \cline{4-6}
 		&                &          &Пузырек          &Вставки  &Шелл	\\
 		\hline
 		1& Один элемент  &  1      &    1      &   1         &  1 						\\ \hline
@@ -103,5 +103,5 @@ def form_random_array(count: int) -> list[int]:
 \end{table}
 
 \section{Вывод}
-В данном разделе был выбран язык программирования, среда разработки. Реализованы функции, описанные в аналитическом разделе, и проведено их тестирование методом черного ящика по таблице \ref{table:ref1}. 
+В данном разделе был выбран язык программирования, среда разработки. Реализованы функции, описанные в аналитическом разделе, и проведено их тестирование методом черного ящика по таблице \ref{table:ref2}. 
 

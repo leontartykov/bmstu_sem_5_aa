@@ -8,7 +8,7 @@ def output_graph() -> None:
     usual_bubble_time, usual_insert_time, usual_shell_time = timing_order_array(COUNT_ITERATIONS, form_random_array)
     print('Худший случай')
     worst_bubble_time, worst_insert_time, worst_shell_time = timing_order_array(COUNT_ITERATIONS, form_reverse_order_array)
-
+    print(best_insert_time)
     write_to_file('best_bubble_time.txt', best_bubble_time)
     write_to_file('best_insert_time.txt', best_insert_time)
     write_to_file('best_shell_time.txt', best_shell_time)

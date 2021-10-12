@@ -31,20 +31,7 @@ def main():
             distance = recursive_dameray_levenstein(str_1, str_2)
             print(f"distance = {distance}")
         elif choice == 5:
-            iterative_levenstein_list = list(); recursive_levenstein_list = list()
-            recursive_levenstein_matrix_list = list(); recursive_dameray_levenstein_list = list()
-            len_str = list()
-            for i in range(3, 9, 1):
-                len_rand_str = i
-                count_operations = 1000
-                str_rand_1 = generate_random_string(N=len_rand_str)
-                str_rand_2 = generate_random_string(N=len_rand_str)
-                time_test(str_rand_1, str_rand_2, count_operations,
-                          iterative_levenstein_list, recursive_levenstein_list,
-                          recursive_levenstein_matrix_list, recursive_dameray_levenstein_list)
-                len_str.append(i)
-            create_graph(iterative_levenstein_list, recursive_levenstein_list,
-                         recursive_levenstein_matrix_list, recursive_dameray_levenstein_list, len_str)
+            output_graph()
         elif choice == 6:
             str_1 = 'zxc'
             str_2 = 'vbn'

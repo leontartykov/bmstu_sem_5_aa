@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.6) (preloaded format=pdflatex 2021.9.14)  12 OCT 2021 15:26
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.6) (preloaded format=pdflatex 2021.9.14)  12 OCT 2021 15:40
 entering extended mode
 **./report.tex
 (report.tex
@@ -1480,8 +1480,8 @@ rams/Рекурсивный Левенштейн с матрицей1.png>] [13
  <../../../../../../../msys64/home/Лев/bmstu_sem_5_aa/lab_01/report/diagrams
 /Рекурсивный Левенштейн с матрицей2.png>]
 <../../../../../../../msys64/home/Лев/bmstu_sem_5_aa/lab_01/report/diagrams/
-Рекурсивный Дамерау-Левенштейн.png, id=103, 761.846
-25pt x 1005.7575pt>
+Рекурсивный Дамерау-Левенштейн.png, id=103, 764.857
+5pt x 1005.7575pt>
 File: ../../../../../../../msys64/home/Лев/bmstu_sem_5_aa/lab_01/report/diag
 rams/Рекурсивный Дамерау-Левенштейн.png Graphic fil
 e (type png)
@@ -1490,7 +1490,7 @@ ams/Рекурсивный Дамерау-Левенштейн.png>
 Package pdftex.def Info: ../../../../../../../msys64/home/Лев/bmstu_sem_5_aa
 /lab_01/report/diagrams/Рекурсивный Дамерау-Левенште�
 �н.png  used on input line 39.
-(pdftex.def)             Requested size: 415.4104pt x 548.39554pt.
+(pdftex.def)             Requested size: 415.4104pt x 546.24702pt.
 ) [14 <../../../../../../../msys64/home/Лев/bmstu_sem_5_aa/lab_01/report/dia
 grams/Рекурсивный Дамерау-Левенштейн.png>]
 \openout2 = `05_technological.aux'.
@@ -1541,15 +1541,10 @@ Missing character: There is no ; in font nullfont!
 
 
 ]
-Overfull \hbox (2.22343pt too wide) in paragraph at lines 42--43
-\T2A/cmr/m/n/14.4 ����������� ��-���-��-��-�� ����-��� ��-�-��-��-��� ��� ��-��
- ��� ���-�� �����
- []
-
 PGFPlots: reading {data/iterative_lev_comp.txt}
 PGFPlots: reading {data/recursive_lev_matrix_comp.txt}
 Missing character: There is no ; in font nullfont!
-[21]
+ [21]
 Overfull \hbox (8.08214pt too wide) in paragraph at lines 78--88
  [][] 
  []
@@ -1645,7 +1640,7 @@ public/amsfonts/cm/cmmi12.pfb><C:/Users/Лев/AppData/Local/Programs/MiKTeX/fo
 nts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/Лев/AppData/Local/Programs/
 MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/Лев/AppData/Local/
 Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on report.pdf (26 pages, 1190066 bytes).
+Output written on report.pdf (26 pages, 1190031 bytes).
 PDF statistics:
  674 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)

@@ -1,42 +1,62 @@
+#include <thread>
+#include <mutex>
 #include "../includes/sort.hpp"
 
-void merge(int *array, int first, int last);
+std::recursive_mutex rm;
+void merge(int *array, int size);
 
-//рекурсивная процедура сортировки
-void merge_sort_consistently(int *array, int first, int last)
+void merge_sort_consistently(int *array, int size)
 {
   int middle = 0;
-  if (first < last)
+  if (size > 1)
   {
-      middle = (first + last) / 2;
-      merge_sort_consistently(array, first, middle);
-      merge_sort_consistently(array, middle + 1, last);
-      merge(array, first, last);
+      middle = size / 2;
+      merge_sort_consistently(array + 0, middle);
+      merge_sort_consistently(array + middle, size - middle);
+      merge(array, size);
   }
 }
 
-void merge(int *array, int first, int last)
+void merge_sort_parallel(int *array, int size)
 {
-    int middle, start, final, j;
-    int *mas = new int[first + last];
-    middle = (first + last) / 2;  //вычисление среднего элемента
-    start = first;                //начало левой части
-    final = middle + 1;           //начало правой части
-    for (j = first; j <= last; j++)  //выполнять от начала до конца
+  //std::lock_guard<std::recursive_mutex> lk(rm);
+  int middle = 0;
+  if (size > 1)
+  {
+      middle = size / 2;
+
+      std::thread t1(merge_sort_parallel, array, middle);
+      std::thread t2(merge_sort_parallel, array, size - middle);
+      t1.join();
+      t2.join();
+      merge(array, size);
+  }
+}
+
+void merge(int *array, int size)
+{
+    int* sorted = new(std::nothrow)int[size];
+    int middle = size / 2;
+
+    int index_left = 0, index_right = middle;
+    int index_sequence = 0;
+
+    while (index_left < middle && index_right < size)
     {
-        if ((start <= middle) && ((final > last) || (array[start] < array[final])))
-        {
-          mas[j] = array[start];
-          start++;
-        }
+        if (array[index_left] < array[index_right])
+            sorted[index_sequence++] = array[index_left++];
         else
-        {
-          mas[j] = array[final];
-          final++;
-        }
+            sorted[index_sequence++] = array[index_right++];
     }
-    //возвращение результата в список
-    for (j = first; j <= last; j++)
-      array[j] = mas[j];
-    delete[] mas;
+
+    while (index_left < middle)
+        sorted[index_sequence++] = array[index_left++];
+
+    while (index_right < size)
+        sorted[index_sequence++] = array[index_right++];
+
+    for (int i = 0; i < size; i++)
+        array[i] = sorted[i];
+
+    delete[] sorted;
 };

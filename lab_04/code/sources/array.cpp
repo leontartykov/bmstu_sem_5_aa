@@ -28,7 +28,7 @@ int input_array_size()
 
 int* form_random_array(int size_array)
 {
-    srand(static_cast<unsigned int>(time(0)));
+    std::srand(std::time(NULL));
     int *array = nullptr;
     array = new(std::nothrow)int[size_array]();
     

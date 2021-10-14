@@ -3,6 +3,7 @@
 #include "../includes/sort.hpp"
 
 std::recursive_mutex rm;
+int min_size_to_thread = 10000;
 void merge(int *array, int size);
 
 void merge_sort_consistently(int *array, int size)
@@ -19,16 +20,17 @@ void merge_sort_consistently(int *array, int size)
 
 void merge_sort_parallel(int *array, int size)
 {
-  //std::lock_guard<std::recursive_mutex> lk(rm);
   int middle = 0;
   if (size > 1)
   {
       middle = size / 2;
-
-      std::thread t1(merge_sort_parallel, array, middle);
-      std::thread t2(merge_sort_parallel, array, size - middle);
-      t1.join();
-      t2.join();
+      if (size > min_size_to_thread)
+      {
+        std::thread t1(merge_sort_parallel, array, middle);
+        std::thread t2(merge_sort_parallel, array + middle, size - middle);
+        t1.join();
+        t2.join();
+      }
       merge(array, size);
   }
 }

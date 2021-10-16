@@ -1,5 +1,6 @@
 #include <new>
 #include "../includes/sort.hpp"
+#include "../includes/threads.hpp"
 
 void merge(int array[], int temp_array[], int from, int mid, int to, int size);
 int min(int x, int y);
@@ -26,7 +27,6 @@ void merge(int array[], int temp_array[], int from, int mid, int to, int size)
 {
     int index_sequence = from, index_left = from, index_right = mid + 1;
  
-    // loop till no elements are left in the left and right runs
     while (index_left <= mid && index_right <= to)
     {
         if (array[index_left] < array[index_right]) {
@@ -37,15 +37,10 @@ void merge(int array[], int temp_array[], int from, int mid, int to, int size)
         }
     }
  
-    // copy remaining elements
     while (index_left < size && index_left <= mid) {
         temp_array[index_sequence++] = array[index_left++];
     }
- 
-    /* no need to copy the second half (since the remaining items
-       are already in their correct position in the temporary array) */
- 
-    // copy back to the original array to reflect sorted order
+
     for (int i = from; i <= to; i++) {
         array[i] = temp_array[i];
     }

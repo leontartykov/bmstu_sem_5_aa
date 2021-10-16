@@ -1,64 +1,52 @@
-#include <thread>
-#include <mutex>
+#include <new>
 #include "../includes/sort.hpp"
 
-std::recursive_mutex rm;
-int min_size_to_thread = 10000;
-void merge(int *array, int size);
+void merge(int array[], int temp_array[], int from, int mid, int to, int size);
+int min(int x, int y);
 
-void merge_sort_consistently(int *array, int size)
-{
-  int middle = 0;
-  if (size > 1)
-  {
-      middle = size / 2;
-      merge_sort_consistently(array + 0, middle);
-      merge_sort_consistently(array + middle, size - middle);
-      merge(array, size);
-  }
+int min(int x, int y){
+    return x < y ? x : y;
 }
 
-void merge_sort_parallel(int *array, int size)
+void merge_sort_consistently(int *array, int *temp_array, int low, int high)
 {
-  int middle = 0;
-  if (size > 1)
-  {
-      middle = size / 2;
-      if (size > min_size_to_thread)
-      {
-        std::thread t1(merge_sort_parallel, array, middle);
-        std::thread t2(merge_sort_parallel, array + middle, size - middle);
-        t1.join();
-        t2.join();
-      }
-      merge(array, size);
-  }
+    int size = high - low;
+    int from = 0, middle = 0, to = 0;
+    for (int m = 1; m <= size; m *= 2)
+        for (int i = low; i < high; i += 2*m)
+        {
+            from = i;
+            middle = i + m - 1;
+            to = min(i + 2*m - 1, high);
+            merge(array, temp_array, from, middle, to, size + 1);
+        }
 }
 
-void merge(int *array, int size)
+void merge(int array[], int temp_array[], int from, int mid, int to, int size)
 {
-    int* sorted = new(std::nothrow)int[size];
-    int middle = size / 2;
-
-    int index_left = 0, index_right = middle;
-    int index_sequence = 0;
-
-    while (index_left < middle && index_right < size)
+    int index_sequence = from, index_left = from, index_right = mid + 1;
+ 
+    // loop till no elements are left in the left and right runs
+    while (index_left <= mid && index_right <= to)
     {
-        if (array[index_left] < array[index_right])
-            sorted[index_sequence++] = array[index_left++];
-        else
-            sorted[index_sequence++] = array[index_right++];
+        if (array[index_left] < array[index_right]) {
+            temp_array[index_sequence++] = array[index_left++];
+        }
+        else {
+            temp_array[index_sequence++] = array[index_right++];
+        }
     }
-
-    while (index_left < middle)
-        sorted[index_sequence++] = array[index_left++];
-
-    while (index_right < size)
-        sorted[index_sequence++] = array[index_right++];
-
-    for (int i = 0; i < size; i++)
-        array[i] = sorted[i];
-
-    delete[] sorted;
-};
+ 
+    // copy remaining elements
+    while (index_left < size && index_left <= mid) {
+        temp_array[index_sequence++] = array[index_left++];
+    }
+ 
+    /* no need to copy the second half (since the remaining items
+       are already in their correct position in the temporary array) */
+ 
+    // copy back to the original array to reflect sorted order
+    for (int i = from; i <= to; i++) {
+        array[i] = temp_array[i];
+    }
+}

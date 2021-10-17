@@ -7,13 +7,6 @@ typedef struct use_mutex_tag {
     pthread_mutex_t mutex;
 } use_mutex_t;
 
-typedef struct sort_data sort_t;
-struct sort_data
-{
-    int size;
-    int from = 0, middle = 0, to = 0;
-};
-
 typedef struct args args_t;
 struct args
 {
@@ -30,6 +23,7 @@ struct thread_data
     int matrix_size;
     args_t *args;
     int local_min;
+    use_mutex_t *mutex;
 };
 
 #endif

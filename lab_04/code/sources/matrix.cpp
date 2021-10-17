@@ -29,14 +29,14 @@ int input_matrix_size()
 
 int **form_random_matrix(int size_matrix)
 {
-    std::srand(std::time(NULL));
+    std::srand(static_cast<unsigned int>(time(0)));
     int **matrix = nullptr;
     matrix = new int *[size_matrix];
 
     for (int i = 0; i < size_matrix; i++){
         matrix[i] = new int[size_matrix];
         for (int j = 0; j < size_matrix; j++){
-            matrix[i][j] = MIN_RAND_VALUE + rand() % MAX_RAND_VALUE;
+            matrix[i][j] = MIN_RAND_VALUE + rand() % (MAX_RAND_VALUE - MIN_RAND_VALUE + 1);
         }
     }
 
@@ -74,9 +74,8 @@ void *find_matrix_min_value_parallel(void *args)
 {
     pthread_args_t *mult_args = (pthread_args_t *)args;
     int row_start = mult_args->thread_id * (mult_args->matrix_size / mult_args->count_threads);
-    std::cout << "row_start = " << row_start << std::endl;
     int row_end = (mult_args->thread_id + 1)* (mult_args->matrix_size / mult_args->count_threads);
-    std::cout << "row_end = " << row_end << std::endl;
+
     mult_args->local_min = mult_args->args->matrix[0][0];
 
     for (int i = row_start; i < row_end; i++)

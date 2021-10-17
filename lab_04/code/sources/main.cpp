@@ -1,23 +1,11 @@
 #include <iostream>
-#include <chrono>
-#include "../includes/matrix.hpp"
-#include "../includes/threads.hpp"
+#include "../includes/time_measure.hpp"
 
 int main()
 {
-    int size_matrix = 0, count_threads = 16;
-    int **matrix = nullptr;
-    size_matrix = input_matrix_size();
-    std::cout << "Размер квадратной матрицы: " << size_matrix << std::endl;
-    matrix = form_random_matrix(size_matrix);
-    std::cout << "матрица" << std::endl;
-
-    std::chrono::high_resolution_clock::time_point t1 = std::chrono::high_resolution_clock::now();
-    int global_min_1 = find_matrix_min_value(matrix, size_matrix);
-    std::chrono::high_resolution_clock::time_point t2 = std::chrono::high_resolution_clock::now();
-    std::chrono::duration<double> time_span = std::chrono::duration_cast<std::chrono::duration<double>>(t2 - t1);
-    std::cout << "Затраченное время (последовательно): " << time_span.count() << "секунд." << std::endl;
-
+    measure_time_consistent();
+    measure_time_parallel();
+    /*
     std::cout << "Глобальный минимум = " << global_min_1 << std::endl;
    
 
@@ -59,6 +47,6 @@ int main()
     std::cout << "Глобальный минимум = " << global_min << std::endl;
     time_span = std::chrono::duration_cast<std::chrono::duration<double>>(t2 - t1);
     std::cout << "Затраченное время (параллельно): " << time_span.count() << "секунд." << std::endl;
-
+    */
     return 0;
 }

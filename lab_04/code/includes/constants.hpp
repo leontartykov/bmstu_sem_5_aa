@@ -7,4 +7,6 @@
 #define MIN_RAND_VALUE -100
 #define MAX_RAND_VALUE 200 //ширина выборки
 
+#define COUNT_REPEATS 100
+
 #endif

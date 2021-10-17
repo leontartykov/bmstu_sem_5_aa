@@ -27,20 +27,36 @@ int input_matrix_size()
     return size_array;
 }
 
-int **form_random_matrix(int size_matrix)
+
+int **form_matrix(int size_matrix)
 {
     std::srand(static_cast<unsigned int>(time(0)));
     int **matrix = nullptr;
     matrix = new int *[size_matrix];
 
     for (int i = 0; i < size_matrix; i++){
-        matrix[i] = new int[size_matrix];
-        for (int j = 0; j < size_matrix; j++){
-            matrix[i][j] = MIN_RAND_VALUE + rand() % (MAX_RAND_VALUE - MIN_RAND_VALUE + 1);
-        }
+        matrix[i] = new int[size_matrix]{};
     }
 
     return matrix;
+}
+
+void form_random_values(int ***matrix, int size_matrix)
+{
+    for (int i = 0; i < size_matrix; i++)
+    {
+        for (int j = 0; j < size_matrix; j++){
+            *matrix[i][j] = MIN_RAND_VALUE + rand() % (MAX_RAND_VALUE - MIN_RAND_VALUE + 1);
+        }
+    }
+}
+
+void free_matrix(int **matrix, int size_matrix)
+{
+    for (int i = 0; i < size_matrix; i++){
+        delete[] matrix[i];
+    }
+    delete[] matrix;
 }
 
 

@@ -6,6 +6,8 @@
 #include "../includes/constants.hpp"
 #include "../includes/threads.hpp"
 
+void free_array_double(double *avg_time_consistent);
+
 int input_matrix_size()
 {
     int size_array = 0;
@@ -27,8 +29,7 @@ int input_matrix_size()
     return size_array;
 }
 
-
-int **form_matrix(int size_matrix)
+int **form_matrix_int(int size_matrix)
 {
     std::srand(static_cast<unsigned int>(time(0)));
     int **matrix = nullptr;
@@ -41,24 +42,28 @@ int **form_matrix(int size_matrix)
     return matrix;
 }
 
+double **form_matrix_double(int size_matrix)
+{
+    std::srand(static_cast<unsigned int>(time(0)));
+    double **matrix = nullptr;
+    matrix = new double *[size_matrix];
+
+    for (int i = 0; i < size_matrix; i++){
+        matrix[i] = new double[size_matrix]{};
+    }
+
+    return matrix;
+}
+
 void form_random_values(int ***matrix, int size_matrix)
 {
     for (int i = 0; i < size_matrix; i++)
     {
         for (int j = 0; j < size_matrix; j++){
-            *matrix[i][j] = MIN_RAND_VALUE + rand() % (MAX_RAND_VALUE - MIN_RAND_VALUE + 1);
+            (*matrix)[i][j] = MIN_RAND_VALUE + rand() % (MAX_RAND_VALUE - MIN_RAND_VALUE + 1);
         }
     }
 }
-
-void free_matrix(int **matrix, int size_matrix)
-{
-    for (int i = 0; i < size_matrix; i++){
-        delete[] matrix[i];
-    }
-    delete[] matrix;
-}
-
 
 void output_matrix(int **matrix, int size_matrix)
 {
@@ -91,17 +96,47 @@ void *find_matrix_min_value_parallel(void *args)
     pthread_args_t *mult_args = (pthread_args_t *)args;
     int row_start = mult_args->thread_id * (mult_args->matrix_size / mult_args->count_threads);
     int row_end = (mult_args->thread_id + 1)* (mult_args->matrix_size / mult_args->count_threads);
-
-    mult_args->local_min = mult_args->args->matrix[0][0];
+    int **matrix = mult_args->args->matrix;
+    mult_args->local_min = matrix[0][0];
 
     for (int i = row_start; i < row_end; i++)
     {
         for (int j = 0; j < mult_args->matrix_size; j++)
         {
-            if (mult_args->args->matrix[i][j] < mult_args->local_min)
-                mult_args->local_min = mult_args->args->matrix[i][j];
+            if (matrix[i][j] < mult_args->local_min)
+                mult_args->local_min = matrix[i][j];
         }
     }
 
     return NULL;
+}
+
+void free_arrays(double *avg_time_consistent, double **avg_time_parallel, int size_matrix)
+{
+    free_array_double(avg_time_consistent);
+    free_matrix_double(avg_time_parallel, size_matrix);
+}
+
+void free_array_double(double *avg_time_consistent)
+{
+    delete[] avg_time_consistent;
+    avg_time_consistent = nullptr;
+}
+
+void free_matrix_double(double **matrix, int size_matrix)
+{
+    for (int i = 0; i < size_matrix; i++){
+        delete[] matrix[i];
+    }
+    delete[] matrix;
+    matrix = nullptr;
+}
+
+void free_matrix_int(int **matrix, int size_matrix)
+{
+    for (int i = 0; i < size_matrix; i++){
+        delete[] matrix[i];
+    }
+    delete[] matrix;
+    matrix = nullptr;
 }

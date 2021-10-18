@@ -1,6 +1,7 @@
 #ifndef _THREADS_HPP_
 #define _THREADS_HPP_
 
+#include <iostream>
 #include <pthread.h>
 
 typedef struct use_mutex_tag {
@@ -25,5 +26,7 @@ struct thread_data
     int local_min;
     use_mutex_t *mutex;
 };
+
+int input_count_threads();
 
 #endif

@@ -103,10 +103,9 @@ double **measure_time_parallel(int *matrix_sizes, int size_matrix_sizes)
     return avg_times_parallel;
 }
 
-void output_table_time(double *avg_time_consistent, double **avg_time_parallel)
+void output_table_time(double *avg_time_consistent, double **avg_time_parallel, int *matrix_sizes,
+                        int count_size_matrixes)
 {
-    int count_size_matrixes = 6;
-    int matrix_sizes[count_size_matrixes] = {100, 250, 500, 1000, 2000, 3000};
     std::cout << "Таблица времени реализации последовательного и параллельного алгоритмов:" << std::endl;
     std::cout << "Размер матрицы |Последовательный| 1 поток        | 2 потока       | 4 потока       |"
                  " 8 потоков      | 16  потоков    | 32 потока      |" \

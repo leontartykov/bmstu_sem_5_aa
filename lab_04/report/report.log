@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.6) (preloaded format=pdflatex 2021.9.14)  19 OCT 2021 14:30
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.6) (preloaded format=pdflatex 2021.9.14)  20 OCT 2021 23:24
 entering extended mode
 **./report.tex
 (report.tex
@@ -1179,8 +1179,7 @@ LaTeX Font Info:    Trying to load font information for T2A+cmr on input line 7
 (C:\Users\Лев\AppData\Local\Programs\MiKTeX\tex/latex/cyrillic\t2acmr.fd
 File: t2acmr.fd 2001/08/11 v1.0a Computer Modern Cyrillic font definitions
 )<<t2a.cmap>> (01_contents.aux) (02_introduction.aux) (03_analysis.aux)
-(04_design.aux) (05_technological.aux) (06_research.aux) (07_conclusion.aux)
-(08_biblio.aux))
+(04_design.aux))
 \openout1 = `report.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 5.
@@ -1376,57 +1375,99 @@ Overfull \hbox (11.90053pt too wide) in paragraph at lines 48--53
 \openout2 = `03_analysis.aux'.
 
 
-No file 03_analysis.tex.
+(03_analysis.tex
+{\cyrillictext \CYRG \cyrl \cyra \cyrv \cyra } 1.
+
+LaTeX Warning: Citation `angem' on page 4 undefined on input line 7.
+
+[4
+
+
+
+
+]) [5]
 \openout2 = `04_design.aux'.
 
-No file 04_design.tex.
-\openout2 = `05_technological.aux'.
+ (04_design.tex
+{\cyrillictext \CYRG \cyrl \cyra \cyrv \cyra } 2.
+<../../../../../../../msys64/home/Лев/bmstu_sem_5_aa/lab_04/report/diagrams/
+sequential.png, id=68, 633.36626pt x 1077.02374pt>
+File: ../../../../../../../msys64/home/Лев/bmstu_sem_5_aa/lab_04/report/diag
+rams/sequential.png Graphic file (type png)
+<use ../../../../../../../msys64/home/Лев/bmstu_sem_5_aa/lab_04/report/diagr
+ams/sequential.png>
+Package pdftex.def Info: ../../../../../../../msys64/home/Лев/bmstu_sem_5_aa
+/lab_04/report/diagrams/sequential.png  used on input line 18.
+(pdftex.def)             Requested size: 380.02269pt x 646.21924pt.
+[6
 
-No file 05_technological.tex.
-\openout2 = `06_research.aux'.
 
-No file 06_research.tex.
-\openout2 = `07_conclusion.aux'.
 
-No file 07_conclusion.tex.
-\openout2 = `08_biblio.aux'.
 
-No file 08_biblio.tex.
-
-Package caption Warning: Unused \captionsetup[figure] on input line 20.
-See the caption package documentation for explanation.
-
+] [7 <../../../../../../../msys64/home/Лев/bmstu_sem_5_aa/lab_04/report/diag
+rams/sequential.png>]
+<../../../../../../../msys64/home/Лев/bmstu_sem_5_aa/lab_04/report/diagrams/
+parallel_1.png, id=78, 613.29124pt x 1014.79124pt>
+File: ../../../../../../../msys64/home/Лев/bmstu_sem_5_aa/lab_04/report/diag
+rams/parallel_1.png Graphic file (type png)
+<use ../../../../../../../msys64/home/Лев/bmstu_sem_5_aa/lab_04/report/diagr
+ams/parallel_1.png>
+Package pdftex.def Info: ../../../../../../../msys64/home/Лев/bmstu_sem_5_aa
+/lab_04/report/diagrams/parallel_1.png  used on input line 27.
+(pdftex.def)             Requested size: 367.97757pt x 608.87946pt.
+<../../../../../../../msys64/home/Лев/bmstu_sem_5_aa/lab_04/report/diagrams/
+parallel_2.png, id=79, 720.6925pt x 525.965pt>
+File: ../../../../../../../msys64/home/Лев/bmstu_sem_5_aa/lab_04/report/diag
+rams/parallel_2.png Graphic file (type png)
+<use ../../../../../../../msys64/home/Лев/bmstu_sem_5_aa/lab_04/report/diagr
+ams/parallel_2.png>
+Package pdftex.def Info: ../../../../../../../msys64/home/Лев/bmstu_sem_5_aa
+/lab_04/report/diagrams/parallel_2.png  used on input line 35.
+(pdftex.def)             Requested size: 432.41884pt x 315.58142pt.
+ [8 <../../../../../../../msys64/home/Лев/bmstu_sem_5_aa/lab_04/report/diagr
+ams/parallel_1.png>]) [9 <../../../../../../../msys64/home/Лев/bmstu_sem_5_a
+a/lab_04/report/diagrams/parallel_2.png>]
 
 Package caption Warning: Unused \captionsetup[lstlisting] on input line 36.
 See the caption package documentation for explanation.
 
 (report.aux (00_title.aux) (01_contents.aux) (02_introduction.aux)
-(03_analysis.aux) (04_design.aux) (05_technological.aux) (06_research.aux)
-(07_conclusion.aux) (08_biblio.aux)) ) 
+(03_analysis.aux) (04_design.aux))
+
+LaTeX Warning: There were undefined references.
+
+ ) 
 Here is how much of TeX's memory you used:
- 31490 strings out of 478864
- 764055 string characters out of 2848186
+ 31507 strings out of 478864
+ 766463 string characters out of 2848186
  1354011 words of memory out of 3000000
- 48773 multiletter control sequences out of 15000+600000
- 416585 words of font info for 53 fonts, out of 8000000 for 9000
+ 48799 multiletter control sequences out of 15000+600000
+ 417393 words of font info for 54 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  86i,19n,94p,923b,609s stack positions out of 5000i,500n,10000p,200000b,80000s
- <C:\Users\Лев\AppData\Local\MiKTeX\fo
-nts/pk/ljfour/jknappen/ec/dpi600\tcrm1440.pk> <C:\Users\Лев\AppData\Local\Mi
-KTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\labx1440.pk> <C:\Users\Лев\AppData\Loc
-al\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\larm3583.pk> <C:\Users\Лев\AppDat
-a\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\lati1728.pk> <C:\Users\Лев\A
-ppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\larm1000.pk> <C:\Users\Л�
-�в\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\larm1728.pk> <C:\User
-s\Лев\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\labx1728.pk> <C:
-\Users\Лев\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\labx2074.pk
-> <C:\Users\Лев\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\labx29
-86.pk> <C:\Users\Лев\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\l
-arm1440.pk> <C:\Users\Лев\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi
-600\labx1000.pk>
-Output written on report.pdf (3 pages, 876416 bytes).
+ <C:\Users\Лев\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\larm2
+074.pk> <C:\Users\Лев\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi60
+0\tcrm1440.pk> <C:\Users\Лев\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/
+dpi600\labx1440.pk> <C:\Users\Лев\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh
+-t2a/dpi600\larm3583.pk> <C:\Users\Лев\AppData\Local\MiKTeX\fonts/pk/ljfour/
+lh/lh-t2a/dpi600\lati1728.pk> <C:\Users\Лев\AppData\Local\MiKTeX\fonts/pk/lj
+four/lh/lh-t2a/dpi600\larm1000.pk> <C:\Users\Лев\AppData\Local\MiKTeX\fonts/
+pk/ljfour/lh/lh-t2a/dpi600\larm1728.pk> <C:\Users\Лев\AppData\Local\MiKTeX\f
+onts/pk/ljfour/lh/lh-t2a/dpi600\labx1728.pk> <C:\Users\Лев\AppData\Local\MiK
+TeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\labx2074.pk> <C:\Users\Лев\AppData\Loca
+l\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\labx2986.pk> <C:\Users\Лев\AppData
+\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\larm1440.pk> <C:\Users\Лев\Ap
+pData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\labx1000.pk><C:/Users/Ле�
+�/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/U
+sers/Лев/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10
+.pfb><C:/Users/Лев/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts
+/cm/cmmi12.pfb><C:/Users/Лев/AppData/Local/Programs/MiKTeX/fonts/type1/publi
+c/amsfonts/cm/cmr10.pfb><C:/Users/Лев/AppData/Local/Programs/MiKTeX/fonts/ty
+pe1/public/amsfonts/cm/cmr12.pfb><C:/Users/Лев/AppData/Local/Programs/MiKTeX
+/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
+Output written on report.pdf (9 pages, 1045076 bytes).
 PDF statistics:
- 291 PDF objects out of 1000 (max. 8388607)
+ 438 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 134 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 149 words of extra memory for PDF output out of 10000 (max. 10000000)
 

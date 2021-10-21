@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.6) (preloaded format=pdflatex 2021.9.14)  21 OCT 2021 11:40
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.6) (preloaded format=pdflatex 2021.9.14)  21 OCT 2021 21:08
 entering extended mode
 **./report.tex
 (report.tex
@@ -1181,7 +1181,8 @@ LaTeX Font Info:    Trying to load font information for T2A+cmr on input line 7
 (C:\Users\Р›РµРІ\AppData\Local\Programs\MiKTeX\tex/latex/cyrillic\t2acmr.fd
 File: t2acmr.fd 2001/08/11 v1.0a Computer Modern Cyrillic font definitions
 )<<t2a.cmap>> (01_contents.aux) (02_introduction.aux) (03_analysis.aux)
-(04_design.aux) (05_technological.aux))
+(04_design.aux) (05_technological.aux) (06_research.aux) (07_conclusion.aux)
+(08_biblio.aux))
 \openout1 = `report.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 5.
@@ -1379,9 +1380,6 @@ Overfull \hbox (11.90053pt too wide) in paragraph at lines 48--53
 
 (03_analysis.tex
 {\cyrillictext \CYRG \cyrl \cyra \cyrv \cyra } 1.
-
-LaTeX Warning: Citation `angem' on page 4 undefined on input line 7.
-
 [4
 
 
@@ -1434,15 +1432,6 @@ a/lab_04/report/diagrams/parallel_2.png>]
 
 (05_technological.tex
 {\cyrillictext \CYRG \cyrl \cyra \cyrv \cyra } 3.
-
-LaTeX Warning: Citation `c++' on page 10 undefined on input line 5.
-
-
-LaTeX Warning: Citation `vs' on page 10 undefined on input line 5.
-
-
-LaTeX Warning: Citation `chrono' on page 10 undefined on input line 5.
-
 [10
 
 
@@ -1460,45 +1449,107 @@ Underfull \hbox (badness 10000) in paragraph at lines 68--69
 
  []
 
-[12]) [13] (report.aux (00_title.aux) (01_contents.aux) (02_introduction.aux)
-(03_analysis.aux) (04_design.aux) (05_technological.aux))
+[12]) [13]
+\openout2 = `06_research.aux'.
 
-LaTeX Warning: There were undefined references.
+ (06_research.tex
+{\cyrillictext \CYRG \cyrl \cyra \cyrv \cyra } 4.
+[14
 
- ) 
+
+
+
+]) [15] [16]
+\openout2 = `07_conclusion.aux'.
+
+ (07_conclusion.tex) [17
+
+
+
+
+]
+\openout2 = `08_biblio.aux'.
+
+ (08_biblio.tex
+Underfull \hbox (badness 1448) in paragraph at lines 9--10
+[]\T2A/cmr/m/n/14.4 Канатников, А. Н. Ана-ли-ти-че-ская гео-мет-рия: учеб-ник д
+ля ву-
+ []
+
+
+Underfull \hbox (badness 2884) in paragraph at lines 9--10
+\T2A/cmr/m/n/14.4 зов / А.Н.Канатников, А.П.Крищенко; под ред В.С.Зарубина,
+ []
+
+
+Underfull \hbox (badness 2103) in paragraph at lines 9--10
+\T2A/cmr/m/n/14.4 А.П.Крищенко. - 9-е изд. - Москва: Из-да-тель-ство МГ-ТУ им.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 12--13
+[]\T2A/cmr/m/n/14.4 C++11. [элек-трон-ный ре-сурс], ре-жим до-сту-па:
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 18--19
+[]\T2A/cmr/m/n/14.4 Posix threads. [элек-трон-ный ре-сурс], ре-жим до-сту-па:
+ []
+
+
+Underfull \hbox (badness 5245) in paragraph at lines 21--22
+[]\T2A/cmr/m/n/14.4 Data and time utilities. [элек-трон-ный ре-сурс], ре-жим до
+-сту-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 21--22
+\T2A/cmr/m/n/14.4 па: https://en.cppreference.com/w/cpp/chrono (да-та об-ра-ще-
+ния
+ []
+
+) [18
+
+
+
+
+] (report.aux (00_title.aux) (01_contents.aux) (02_introduction.aux)
+(03_analysis.aux) (04_design.aux) (05_technological.aux) (06_research.aux)
+(07_conclusion.aux) (08_biblio.aux)) ) 
 Here is how much of TeX's memory you used:
- 31931 strings out of 478864
- 771323 string characters out of 2848186
+ 31980 strings out of 478864
+ 772560 string characters out of 2848186
  1549417 words of memory out of 3000000
- 49206 multiletter control sequences out of 15000+600000
+ 49234 multiletter control sequences out of 15000+600000
  418507 words of font info for 56 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 86i,19n,94p,1190b,1203s stack positions out of 5000i,500n,10000p,200000b,80000s
- <C:\Users\Р›РµРІ\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\latt1
-000.pk> <C:\Users\Р›РµРІ\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\
-larm0600.pk> <C:\Users\Р›РµРІ\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dp
-i600\larm2074.pk> <C:\Users\Р›РµРІ\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappe
-n/ec/dpi600\tcrm1440.pk> <C:\Users\Р›РµРІ\AppData\Local\MiKTeX\fonts/pk/ljfour/
-lh/lh-t2a/dpi600\labx1440.pk> <C:\Users\Р›РµРІ\AppData\Local\MiKTeX\fonts/pk/lj
-four/lh/lh-t2a/dpi600\larm3583.pk> <C:\Users\Р›РµРІ\AppData\Local\MiKTeX\fonts/
-pk/ljfour/lh/lh-t2a/dpi600\lati1728.pk> <C:\Users\Р›РµРІ\AppData\Local\MiKTeX\f
-onts/pk/ljfour/lh/lh-t2a/dpi600\larm1000.pk> <C:\Users\Р›РµРІ\AppData\Local\MiK
-TeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\larm1728.pk> <C:\Users\Р›РµРІ\AppData\Loca
-l\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\labx1728.pk> <C:\Users\Р›РµРІ\AppData
-\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\labx2074.pk> <C:\Users\Р›РµРІ\Ap
-pData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\labx2986.pk> <C:\Users\Р›Рµ
-РІ\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\larm1440.pk> <C:\Users
-\Р›РµРІ\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\labx1000.pk><C:/U
-sers/Р›РµРІ/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10
-.pfb><C:/Users/Р›РµРІ/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts
-/cm/cmmi10.pfb><C:/Users/Р›РµРІ/AppData/Local/Programs/MiKTeX/fonts/type1/publi
-c/amsfonts/cm/cmmi12.pfb><C:/Users/Р›РµРІ/AppData/Local/Programs/MiKTeX/fonts/t
-ype1/public/amsfonts/cm/cmr10.pfb><C:/Users/Р›РµРІ/AppData/Local/Programs/MiKTe
-X/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/Р›РµРІ/AppData/Local/Progr
-ams/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on report.pdf (13 pages, 1081531 bytes).
+ 86i,19n,94p,1819b,1203s stack positions out of 5000i,500n,10000p,200000b,80000s
+ <C:\Users\Р›РµРІ\AppData\Local\MiKTeX\fo
+nts/pk/ljfour/lh/lh-t2a/dpi600\latt1000.pk> <C:\Users\Р›РµРІ\AppData\Local\MiKT
+eX\fonts/pk/ljfour/lh/lh-t2a/dpi600\larm0600.pk> <C:\Users\Р›РµРІ\AppData\Local
+\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\larm2074.pk> <C:\Users\Р›РµРІ\AppData\
+Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1440.pk> <C:\Users\Р›РµРІ\A
+ppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\labx1440.pk> <C:\Users\Р›Р
+µРІ\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\larm3583.pk> <C:\User
+s\Р›РµРІ\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\lati1728.pk> <C:
+\Users\Р›РµРІ\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\larm1000.pk
+> <C:\Users\Р›РµРІ\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\larm17
+28.pk> <C:\Users\Р›РµРІ\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\l
+abx1728.pk> <C:\Users\Р›РµРІ\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi
+600\labx2074.pk> <C:\Users\Р›РµРІ\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2
+a/dpi600\labx2986.pk> <C:\Users\Р›РµРІ\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/
+lh-t2a/dpi600\larm1440.pk> <C:\Users\Р›РµРІ\AppData\Local\MiKTeX\fonts/pk/ljfou
+r/lh/lh-t2a/dpi600\labx1000.pk><C:/Users/Р›РµРІ/AppData/Local/Programs/MiKTeX/f
+onts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/Р›РµРІ/AppData/Local/Program
+s/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/Р›РµРІ/AppData/Loc
+al/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/Р›РµРІ/A
+ppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users
+/Р›РµРІ/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb>
+<C:/Users/Р›РµРІ/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/c
+msy10.pfb>
+Output written on report.pdf (18 pages, 1106676 bytes).
 PDF statistics:
- 537 PDF objects out of 1000 (max. 8388607)
+ 589 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  149 words of extra memory for PDF output out of 10000 (max. 10000000)
 

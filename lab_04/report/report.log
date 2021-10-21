@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.6) (preloaded format=pdflatex 2021.9.14)  20 OCT 2021 23:24
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.6) (preloaded format=pdflatex 2021.9.14)  21 OCT 2021 11:40
 entering extended mode
 **./report.tex
 (report.tex
@@ -1160,6 +1160,8 @@ Package: listings 2020/03/24 1.8d (Carsten Heinz)
 
 (C:\Users\Лев\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang1.sty
 File: lstlang1.sty 2020/03/24 1.8d listings language file
+) (C:\Users\Лев\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstmisc.sty
+File: lstmisc.sty 2020/03/24 1.8d (Carsten Heinz)
 ) (C:\Users\Лев\AppData\Local\Programs\MiKTeX\tex/latex/titlesec\titlesec.st
 y
 Package: titlesec 2021/07/05 v2.14 Sectioning titles
@@ -1179,7 +1181,7 @@ LaTeX Font Info:    Trying to load font information for T2A+cmr on input line 7
 (C:\Users\Лев\AppData\Local\Programs\MiKTeX\tex/latex/cyrillic\t2acmr.fd
 File: t2acmr.fd 2001/08/11 v1.0a Computer Modern Cyrillic font definitions
 )<<t2a.cmap>> (01_contents.aux) (02_introduction.aux) (03_analysis.aux)
-(04_design.aux))
+(04_design.aux) (05_technological.aux))
 \openout1 = `report.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 5.
@@ -1427,47 +1429,76 @@ Package pdftex.def Info: ../../../../../../../msys64/home/Лев/bmstu_sem_5_aa
  [8 <../../../../../../../msys64/home/Лев/bmstu_sem_5_aa/lab_04/report/diagr
 ams/parallel_1.png>]) [9 <../../../../../../../msys64/home/Лев/bmstu_sem_5_a
 a/lab_04/report/diagrams/parallel_2.png>]
+\openout2 = `05_technological.aux'.
 
-Package caption Warning: Unused \captionsetup[lstlisting] on input line 36.
-See the caption package documentation for explanation.
 
-(report.aux (00_title.aux) (01_contents.aux) (02_introduction.aux)
-(03_analysis.aux) (04_design.aux))
+(05_technological.tex
+{\cyrillictext \CYRG \cyrl \cyra \cyrv \cyra } 3.
+
+LaTeX Warning: Citation `c++' on page 10 undefined on input line 5.
+
+
+LaTeX Warning: Citation `vs' on page 10 undefined on input line 5.
+
+
+LaTeX Warning: Citation `chrono' on page 10 undefined on input line 5.
+
+[10
+
+
+
+
+]
+LaTeX Font Info:    Trying to load font information for T2A+cmtt on input line 
+10.
+
+(C:\Users\Лев\AppData\Local\Programs\MiKTeX\tex/latex/cyrillic\t2acmtt.fd
+File: t2acmtt.fd 2001/08/11 v1.0a Computer Modern Cyrillic font definitions
+)
+[11]
+Underfull \hbox (badness 10000) in paragraph at lines 68--69
+
+ []
+
+[12]) [13] (report.aux (00_title.aux) (01_contents.aux) (02_introduction.aux)
+(03_analysis.aux) (04_design.aux) (05_technological.aux))
 
 LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 31507 strings out of 478864
- 766463 string characters out of 2848186
- 1354011 words of memory out of 3000000
- 48799 multiletter control sequences out of 15000+600000
- 417393 words of font info for 54 fonts, out of 8000000 for 9000
+ 31931 strings out of 478864
+ 771323 string characters out of 2848186
+ 1549417 words of memory out of 3000000
+ 49206 multiletter control sequences out of 15000+600000
+ 418507 words of font info for 56 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 86i,19n,94p,923b,609s stack positions out of 5000i,500n,10000p,200000b,80000s
- <C:\Users\Лев\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\larm2
-074.pk> <C:\Users\Лев\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi60
-0\tcrm1440.pk> <C:\Users\Лев\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/
-dpi600\labx1440.pk> <C:\Users\Лев\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh
--t2a/dpi600\larm3583.pk> <C:\Users\Лев\AppData\Local\MiKTeX\fonts/pk/ljfour/
-lh/lh-t2a/dpi600\lati1728.pk> <C:\Users\Лев\AppData\Local\MiKTeX\fonts/pk/lj
-four/lh/lh-t2a/dpi600\larm1000.pk> <C:\Users\Лев\AppData\Local\MiKTeX\fonts/
-pk/ljfour/lh/lh-t2a/dpi600\larm1728.pk> <C:\Users\Лев\AppData\Local\MiKTeX\f
-onts/pk/ljfour/lh/lh-t2a/dpi600\labx1728.pk> <C:\Users\Лев\AppData\Local\MiK
-TeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\labx2074.pk> <C:\Users\Лев\AppData\Loca
-l\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\labx2986.pk> <C:\Users\Лев\AppData
-\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\larm1440.pk> <C:\Users\Лев\Ap
-pData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\labx1000.pk><C:/Users/Ле�
-�/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/U
-sers/Лев/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10
+ 86i,19n,94p,1190b,1203s stack positions out of 5000i,500n,10000p,200000b,80000s
+ <C:\Users\Лев\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\latt1
+000.pk> <C:\Users\Лев\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\
+larm0600.pk> <C:\Users\Лев\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dp
+i600\larm2074.pk> <C:\Users\Лев\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappe
+n/ec/dpi600\tcrm1440.pk> <C:\Users\Лев\AppData\Local\MiKTeX\fonts/pk/ljfour/
+lh/lh-t2a/dpi600\labx1440.pk> <C:\Users\Лев\AppData\Local\MiKTeX\fonts/pk/lj
+four/lh/lh-t2a/dpi600\larm3583.pk> <C:\Users\Лев\AppData\Local\MiKTeX\fonts/
+pk/ljfour/lh/lh-t2a/dpi600\lati1728.pk> <C:\Users\Лев\AppData\Local\MiKTeX\f
+onts/pk/ljfour/lh/lh-t2a/dpi600\larm1000.pk> <C:\Users\Лев\AppData\Local\MiK
+TeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\larm1728.pk> <C:\Users\Лев\AppData\Loca
+l\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\labx1728.pk> <C:\Users\Лев\AppData
+\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\labx2074.pk> <C:\Users\Лев\Ap
+pData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\labx2986.pk> <C:\Users\Ле
+в\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\larm1440.pk> <C:\Users
+\Лев\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\labx1000.pk><C:/U
+sers/Лев/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10
 .pfb><C:/Users/Лев/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts
-/cm/cmmi12.pfb><C:/Users/Лев/AppData/Local/Programs/MiKTeX/fonts/type1/publi
-c/amsfonts/cm/cmr10.pfb><C:/Users/Лев/AppData/Local/Programs/MiKTeX/fonts/ty
-pe1/public/amsfonts/cm/cmr12.pfb><C:/Users/Лев/AppData/Local/Programs/MiKTeX
-/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on report.pdf (9 pages, 1045076 bytes).
+/cm/cmmi10.pfb><C:/Users/Лев/AppData/Local/Programs/MiKTeX/fonts/type1/publi
+c/amsfonts/cm/cmmi12.pfb><C:/Users/Лев/AppData/Local/Programs/MiKTeX/fonts/t
+ype1/public/amsfonts/cm/cmr10.pfb><C:/Users/Лев/AppData/Local/Programs/MiKTe
+X/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/Лев/AppData/Local/Progr
+ams/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
+Output written on report.pdf (13 pages, 1081531 bytes).
 PDF statistics:
- 438 PDF objects out of 1000 (max. 8388607)
+ 537 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  149 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -1,0 +1,89 @@
+\chapter{Технологический раздел}
+В данном разделе приведены средства реализации и листинги кода.
+
+\section{Выбор средств реализации}
+Для реализации алгоритмов в данной лабораторной работе был выбран язык программирования C++ \cite{c++}. Данный выбор обусловен тем, что он содержит нативный код, что необходимо для уменьшения времени выполнения алгоритмов с помощью распараллеливания. Выбранным механизмом работы с потоками предоставляет библиотека pthread. POSIX определяет набор интерфейсов для программирования потоков. В качестве среды разработки был использован Visual Studio Code\cite{vs}, так как в нем присутсвует поддержка практически всех языков программирования. Выполнение замера процессорного времени осуществлено при помощи библиотеки chrono \cite{chrono}.
+
+\section{Листинги программ}
+Ниже представлены листинги разработанных алгоритмов умножения матриц.
+\newpage
+\begin{lstlisting}[label = ordinary_min, caption=Программный код алгоритма нахождения минимума в матрице (последовательная реализация).]
+	int find_matrix_min_value(int **matrix, int size_matrix)
+	{
+		int min = matrix[0][0], local_min = matrix[0][0];
+		for (int i = 0; i < size_matrix; i++)
+		{
+			for (int j = 0; j < size_matrix; j++)
+			{
+				if (matrix[i][j] < local_min)
+				local_min = matrix[i][j];
+			}
+			if (local_min < min)
+			min = local_min;
+		}
+		return min;
+	}
+\end{lstlisting}
+
+\begin{lstlisting}[label=vinograd_mult,caption=Программный код алгоритма нахождения минимума в матрице (параллельная реализация).]
+	void *find_matrix_min_value_parallel(void *args)
+	{
+		pthread_args_t *mult_args = (pthread_args_t *)args;
+		int row_start = mult_args->thread_id * (mult_args->matrix_size / mult_args->count_threads);
+		int row_end = (mult_args->thread_id + 1)* (mult_args->matrix_size / mult_args->count_threads);
+		int **matrix = mult_args->args->matrix;
+		mult_args->local_min = matrix[0][0];
+		
+		for (int i = row_start; i < row_end; i++)
+		{
+			for (int j = 0; j < mult_args->matrix_size; j++)
+			{
+				if (matrix[i][j] < mult_args->local_min)
+				mult_args->local_min = matrix[i][j];
+			}
+		}
+		
+		return NULL;
+	}
+\end{lstlisting}
+
+\section{Вспомогательные модули}
+На листингах представлены программные модули, которые используются в данных функциях:
+\begin{lstlisting}[label=lst:struct_matrix,caption=Программный код класса по работе с матрицами.]	
+	for (int k = 0; k < count_threads; k++){
+		pthread_create(threads + k, NULL, find_matrix_min_value_parallel, args + k);
+	}
+	
+	for (int k = 0; k < count_threads; k++){
+		pthread_join(threads[k], NULL);
+	}
+	int global_min = args[0].local_min;
+	for (int i = 1; i < count_threads; i++){
+		if (args[i].local_min < global_min)
+		global_min = args[i].local_min;
+	}
+\end{lstlisting}
+
+\section{Тестирование}
+Для тестирования используется метод черного ящика. В данном разделе приведена таблица \ref{table:ref1}, в которой указаны классы эквивалентностей тестов: \\
+
+\begin{table}[ht!]
+	\centering
+	\captionsetup{singlelinecheck = false, justification=raggedright}
+	\caption{Таблица тестов}
+	\label{table:ref1}
+	\begin{tabular}{|c|c|c|c|}
+		\hline
+		№ &Описание теста & Матрица  &    Ожидаемый результат\\\hline
+		1& Квадратная матрица  & $\begin{pmatrix}6 & 9 & 8\\0 & 3 & 6\\4 & 9 & 5\end{pmatrix}$ & 0
+		\\ \hline
+		2& Прямоугольная матрица	  & $\begin{pmatrix}2 & 3 & -2\\3 & 9 & 2\end{pmatrix}$ & -2
+		\\ \hline
+		3& Несколько минимумов		& $\begin{pmatrix}5 & 1\\1 & 4\\6 & 4\end{pmatrix}$ & 1
+		\\ \hline
+	\end{tabular}
+\end{table}
+	Для последовательной и параллельной реализации алгоритма поиска минимума в матрице все тесты пройдены успешно.
+\section{Вывод}
+В данном разделе был выбран язык программирования, среда разработки, описан механизм работы с потоками. Выполнена реализация последовательного и параллельного алгоритма. Было успешно проведено их тестирование методом черного ящика по таблице \ref{table:ref1}. 
+

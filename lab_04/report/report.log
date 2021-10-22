@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.6) (preloaded format=pdflatex 2021.9.14)  21 OCT 2021 21:08
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.6) (preloaded format=pdflatex 2021.9.14)  22 OCT 2021 16:16
 entering extended mode
 **./report.tex
 (report.tex
@@ -1437,32 +1437,32 @@ a/lab_04/report/diagrams/parallel_2.png>]
 
 
 
-]
+] [11]
 LaTeX Font Info:    Trying to load font information for T2A+cmtt on input line 
-10.
+19.
 
 (C:\Users\Лев\AppData\Local\Programs\MiKTeX\tex/latex/cyrillic\t2acmtt.fd
 File: t2acmtt.fd 2001/08/11 v1.0a Computer Modern Cyrillic font definitions
 )
-[11]
-Underfull \hbox (badness 10000) in paragraph at lines 68--69
+[12]
+Underfull \hbox (badness 10000) in paragraph at lines 77--78
 
  []
 
-[12]) [13]
+[13]) [14]
 \openout2 = `06_research.aux'.
 
  (06_research.tex
 {\cyrillictext \CYRG \cyrl \cyra \cyrv \cyra } 4.
-[14
+[15
 
 
 
 
-]) [15] [16]
+]) [16] [17]
 \openout2 = `07_conclusion.aux'.
 
- (07_conclusion.tex) [17
+ (07_conclusion.tex) [18
 
 
 
@@ -1508,7 +1508,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 21--22
 ���
  []
 
-) [18
+) [19
 
 
 
@@ -1547,9 +1547,9 @@ ppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users
 /Лев/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb>
 <C:/Users/Лев/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/c
 msy10.pfb>
-Output written on report.pdf (18 pages, 1106676 bytes).
+Output written on report.pdf (19 pages, 1109019 bytes).
 PDF statistics:
- 589 PDF objects out of 1000 (max. 8388607)
+ 596 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  149 words of extra memory for PDF output out of 10000 (max. 10000000)
 

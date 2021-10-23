@@ -19,16 +19,16 @@
         {
             "type": "cppbuild",
             "label": "C/C++: g++.exe сборка активного файла",
-            "command": "C:\\Users\\Лев\\gcc\\bin\\g++.exe",
+            "command": "/usr/bin/g++",
             "args": [
                 "-fdiagnostics-color=always",
                 "-g",
                 "${file}",
                 "-o",
-                "${fileDirname}\\${fileBasenameNoExtension}.exe"
+                "${fileDirname}/${fileBasenameNoExtension}"
             ],
             "options": {
-                "cwd": "C:/Users/Лев/gcc/bin"
+                "cwd": "/usr/bin/g++"
             },
             "problemMatcher": [
                 "$gcc"
@@ -39,18 +39,20 @@
         {
             "type": "cppbuild",
             "label": "C/C++: g++.exe сборка активного файла ver(1)",
-            "command": "C:\\Users\\Лев\\gcc\\bin\\g++.exe",
+            "command": "/usr/bin/g++",
             "args": [
                 "-fdiagnostics-color=always",
                 "-g",
-                "${workspaceFolder}\\lab_04\\code\\sources\\main.cpp",
-                "${workspaceFolder}\\lab_04\\code\\sources\\array.cpp",
-                "${workspaceFolder}\\lab_04\\code\\sources\\sort.cpp",
+                "-pthread",
+                "${workspaceFolder}/lab_04/code/sources/main.cpp",
+                "${workspaceFolder}/lab_04/code/sources/matrix.cpp",
+                "${workspaceFolder}/lab_04/code/sources/time_measure.cpp",
+                "${workspaceFolder}/lab_04/code/sources/threads.cpp",
                 "-o",
-                "${workspaceFolder}\\lab_04\\code\\${fileBasenameNoExtension}.exe"
+                "${workspaceFolder}/lab_04/code/${fileBasenameNoExtension}"
             ],
             "options": {
-                "cwd": "C:/Users/Лев/gcc/bin"
+                "cwd": "/usr/bin"
             },
             "problemMatcher": [
                 "$gcc"

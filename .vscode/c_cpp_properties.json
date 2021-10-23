@@ -3,7 +3,7 @@
         {
             "name": "Win32",
             "includePath": [
-                "C:/msys64/home/Лев/bmstu_sem_5_aa/lab_04/code/includes/*",
+                "/home/lev/Рабочий стол/study/semester_5/bmstu_sem_5_aa/lab_04/code/includes/*",
                 "${workspaceFolder}/**"
             ],
             "defines": [
@@ -11,10 +11,10 @@
                 "UNICODE",
                 "_UNICODE"
             ],
-            "compilerPath": "C:/msys64/mingw64/bin/g++.exe",
+            "compilerPath": "/usr/bin/g++",
             "cStandard": "gnu17",
             "cppStandard": "gnu++14",
-            "intelliSenseMode": "windows-gcc-x64"
+            "intelliSenseMode": "linux-gcc-x64"
         }
     ],
     "version": 4

@@ -9,7 +9,7 @@ int main()
     int size_matrix_sizes = 7;
     int matrix_sizes[size_matrix_sizes] = {100, 250, 500, 1000, 2000, 3500, 5000};
     double *avg_time_consistent = nullptr, **avg_time_parallel = nullptr;
-
+    std::cout << "Выполняется вычисление процессорного времени. Ожидайте." << std::endl;
     avg_time_consistent = measure_time_consistent(matrix_sizes, size_matrix_sizes);
     avg_time_parallel = measure_time_parallel(matrix_sizes, size_matrix_sizes);
 

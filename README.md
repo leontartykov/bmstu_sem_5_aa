@@ -6,7 +6,8 @@
 | [Lab 01](https://github.com/DeadlyHunter38/bmstu_sem_5_aa/tree/master/lab_01)| <p align="left">Расстояние Левенштейна и Дамерау-Левенштейна<p>| ✅
 | [Lab 02](https://github.com/DeadlyHunter38/bmstu_sem_5_aa/tree/master/lab_02)| <p align="left">Алгоритмы умножения матриц<p>| ✅
 | [Lab 03](https://github.com/DeadlyHunter38/bmstu_sem_5_aa/tree/master/lab_03)| <p align="left">Алгоритмы сортировки<p>| ✅
-| [Lab 04](https://github.com/DeadlyHunter38/bmstu_sem_5_aa/tree/master/lab_04)| <p align="left">Параллельное программирование<p>| 🛠
+| [Lab 04](https://github.com/DeadlyHunter38/bmstu_sem_5_aa/tree/master/lab_04)| <p align="left">Параллельное программирование<p>| ✅
+| [ДЗ](https://github.com/DeadlyHunter38/bmstu_sem_5_aa/tree/master/homework)| <p align="left">Графовые модели программы<p>| ✅
 
 ### Обозначения:
 

@@ -6,6 +6,7 @@
                 "/home/lev/Рабочий стол/study/semester_5/bmstu_sem_5_aa/lab_06/code/brute_force/",
                 "/home/lev/Рабочий стол/study/semester_5/bmstu_sem_5_aa/lab_06/code/matrix/",
                 "/home/lev/Рабочий стол/study/semester_5/bmstu_sem_5_aa/lab_06/code/file/",
+                "/home/lev/Рабочий стол/study/semester_5/bmstu_sem_5_aa/lab_06/code/cities/",
                 "${workspaceFolder}/**"
             ],
             "defines": [

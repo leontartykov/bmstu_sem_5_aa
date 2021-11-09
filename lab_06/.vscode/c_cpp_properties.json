@@ -1,0 +1,23 @@
+{
+    "configurations": [
+        {
+            "name": "Win32",
+            "includePath": [
+                "/home/lev/Рабочий стол/study/semester_5/bmstu_sem_5_aa/lab_06/code/brute_force/",
+                "/home/lev/Рабочий стол/study/semester_5/bmstu_sem_5_aa/lab_06/code/matrix/",
+                "/home/lev/Рабочий стол/study/semester_5/bmstu_sem_5_aa/lab_06/code/file/",
+                "${workspaceFolder}/**"
+            ],
+            "defines": [
+                "_DEBUG",
+                "UNICODE",
+                "_UNICODE"
+            ],
+            "compilerPath": "/usr/bin/g++",
+            "cStandard": "gnu17",
+            "cppStandard": "gnu++14",
+            "intelliSenseMode": "linux-gcc-x64"
+        }
+    ],
+    "version": 4
+}

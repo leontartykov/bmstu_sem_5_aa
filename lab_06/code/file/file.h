@@ -7,6 +7,6 @@
 
 #include "../matrix/matrix.h"
 
-void parser_file(char *path_file_in, matrix_t *path);
+void parser_file(char *path_file_in, matrix_int_t *path);
 
 #endif

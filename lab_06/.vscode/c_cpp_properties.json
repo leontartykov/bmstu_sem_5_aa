@@ -7,6 +7,7 @@
                 "/home/lev/Рабочий стол/study/semester_5/bmstu_sem_5_aa/lab_06/code/matrix/",
                 "/home/lev/Рабочий стол/study/semester_5/bmstu_sem_5_aa/lab_06/code/file/",
                 "/home/lev/Рабочий стол/study/semester_5/bmstu_sem_5_aa/lab_06/code/cities/",
+                "/home/lev/Рабочий стол/study/semester_5/bmstu_sem_5_aa/lab_06/code/ant/",
                 "${workspaceFolder}/**"
             ],
             "defines": [

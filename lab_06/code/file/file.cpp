@@ -1,6 +1,6 @@
 #include "../file/file.h"
 
-void parser_file(char *path_file_in, matrix_t *path)
+void parser_file(char *path_file_in, matrix_int_t *path)
 {
     std::ifstream file_in;
     file_in.open(path_file_in);
@@ -11,7 +11,7 @@ void parser_file(char *path_file_in, matrix_t *path)
         file_in >> (*path).size_row;
         file_in >> (*path).size_column;
 
-        (*path).matrix = create_matrix((*path).size_row, (*path).size_column);
+        (*path).matrix = create_int_matrix((*path).size_row, (*path).size_column);
         
         for (int i = 0; i < (*path).size_row; ++i){
             for (int j = 0; j < (*path).size_column; ++j){

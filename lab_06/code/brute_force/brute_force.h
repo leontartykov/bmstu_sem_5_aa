@@ -4,8 +4,6 @@
 #include "../matrix/matrix.h"
 #include "../cities/cities.h"
 
-typedef matrix_t path_t;
-
-void calculate_permutations(array_t *cities);
+int find_short_way_by_brute_force(array_t *cities, int **matrix);
 
 #endif

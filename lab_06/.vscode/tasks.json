@@ -12,6 +12,7 @@
                 "${workspaceFolder}/code/matrix/matrix.cpp",
                 "${workspaceFolder}/code/file/file.cpp",
                 "${workspaceFolder}/code/cities/cities.cpp",
+                "${workspaceFolder}/code/ant/ant.cpp",
                 "-o",
                 "${fileDirname}/${fileBasenameNoExtension}"
             ],

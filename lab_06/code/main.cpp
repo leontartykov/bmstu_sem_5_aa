@@ -20,7 +20,7 @@ int main(int args, char *argv[])
     fill_cities(&cities);
 
     ant_colony_t colony;
-    initialize_colony(&colony, path.size_row, path.size_column);
+    initialize_colony(&colony, &path);
     
     //int short_way_brute = find_short_way_by_brute_force(&cities, path.matrix);
     //int short_way_ant = find_short_way_by_ant_algorithm(&path, &colony);

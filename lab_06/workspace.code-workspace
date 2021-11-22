@@ -5,6 +5,9 @@
 		},
 		{
 			"path": "../../../learning_python"
+		},
+		{
+			"path": "../../WAM"
 		}
 	],
 	"settings": {
@@ -65,7 +68,8 @@
 			"compare": "cpp",
 			"concepts": "cpp",
 			"ranges": "cpp",
-			"stop_token": "cpp"
+			"stop_token": "cpp",
+			"numbers": "cpp"
 		},
 		"makefile.extensionOutputFolder": "./.vscode"
 	}

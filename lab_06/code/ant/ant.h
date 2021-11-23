@@ -34,9 +34,16 @@ struct ant_colony
     matrix_double_t attractiveness;
 };
 
+typedef struct short_route short_route_t;
+struct short_route
+{
+    int *short_route;
+    int length_short_route;
+};
 
-
-int find_short_way_by_ant_algorithm(matrix_int_t *path, ant_colony_t *colony);
+ant_t *create_ants(int size_row, int size_column);
+void find_short_way_by_ant_algorithm(short_route_t &shortest_route, matrix_int_t *path,
+                                    ant_colony_t *colony);
 void initialize_colony(ant_colony_t *colony, matrix_int_t *path);
 
 

@@ -3,22 +3,27 @@
 #include "ant.h"
 
 int calculate_Q(matrix_int_t *path);
-void evaporate_pheromon(matrix_double_t *pheromon, double koeff_evaporation);
+void evaporate_pheromon(matrix_double_t *pheromon, double koeff_evaporation, double min_evaporation);
 void add_pheromone_route(ant_colony_t *colony, int count_ants);
 void generate_start_city_for_ants(ant_t *ants, int count_ants);
 
-void get_route_from_ant(ant_t *ant, matrix_double_t *pheromons,
+int get_route_from_ant(ant_t *ant, matrix_double_t *pheromons,
                         matrix_double_t *attractivness, meta_t *meta_data_colony,
                         matrix_int_t *paths, int index_last_city);
 
 int choose_next_city(double *get_way_length, ant_t *ant, matrix_int_t *paths,
                      matrix_double_t *pheromons, matrix_double_t *attractiveness,
                      int index_last_city, meta_t meta_data_colony);
-bool check_is_visited_city(int index_city, array *visited_cities);
+bool check_is_visited_city(int index_city, array *visited_cities, int count_visited_cities);
+int get_value_from_fortuna_wheel(double *probability, int count_cities);
+void copy_ant_route_to_short(short_route_t &shortest_route, array *visited_cities);
+void reset_ant_to_default(ant_t *ant);
 
-int find_short_way_by_ant_algorithm(matrix_int_t *path, ant_colony_t *colony)
+
+void find_short_way_by_ant_algorithm(short_route_t &shortest_route, matrix_int_t *path,
+                                    ant_colony_t *colony)
 {
-    int short_ant_way_length = 0;
+    int ant_route_length = 0;
 
     (*colony).meta_data_colony.Q = calculate_Q(path);
 
@@ -26,31 +31,38 @@ int find_short_way_by_ant_algorithm(matrix_int_t *path, ant_colony_t *colony)
     int count_ants = (*path).size_row;
 
     generate_start_city_for_ants(colony->ants, count_ants);
-    int short_ant_route = 0, ant_route = 0;
+    int short_ant_route = (*colony).meta_data_colony.Q*2;
     int index_last_city = 0;
 
     //цикл по дням
-    for (int t = 0; t < 1/*t_max*/; t++)
+    for (int t = 0; t < t_max; t++)
     {
         //цикл по муравьям
-        for (int i = 0; i < 1/*count_ants*/; i++)
+        for (int i = 0; i < count_ants; i++)
         {
             index_last_city = i;
             //каждый муравей должен пройти путь по городам
-            get_route_from_ant(&colony->ants[i], &colony->pheromon,
+            ant_route_length = get_route_from_ant(&colony->ants[i], &colony->pheromon,
                                &colony->attractiveness, &colony->meta_data_colony, path,
                                index_last_city);
-            if (ant_route < short_ant_route && short_ant_route != 0){
-                short_ant_route = ant_route;
+            if (ant_route_length < short_ant_route)
+            {
+                shortest_route.length_short_route = ant_route_length;
+                copy_ant_route_to_short(shortest_route, colony->ants[i].visit_cities);
             }            
             
+            reset_ant_to_default(&colony->ants[i]);
         }
-        
-        add_pheromone_route(colony, (*path).size_row);
-        evaporate_pheromon(&colony->pheromon, colony->meta_data_colony.koeff_evaporation);
-    }
 
-    return short_ant_way_length;
+        
+        std::cout << "start add evaporate\n";
+        add_pheromone_route(colony, (*path).size_row);
+        std::cout << "end add evaporate\n";
+        std::cout << "start evaporate\n";
+        evaporate_pheromon(&colony->pheromon, colony->meta_data_colony.koeff_evaporation,
+                            colony->meta_data_colony.start_evaporation);
+        std::cout << "end evaporate\n";
+    }
 }
 
 int calculate_Q(matrix_int_t *path)
@@ -66,7 +78,7 @@ int calculate_Q(matrix_int_t *path)
     }
 
     average_length /= 2;
-    std::cout << "average_length = " << average_length << std::endl; 
+    //std::cout << "average_length = " << average_length << std::endl; 
     return average_length;
 }
 
@@ -83,24 +95,22 @@ void initialize_colony(ant_colony_t *colony, matrix_int_t *path)
     //создание и инициализация матрицы феромонов минимальным значением
     int size_row = path->size_row, size_column = path->size_column;
     colony->pheromon.matrix = create_double_matrix(path->size_row, path->size_column);
+    colony->pheromon.size_row = path->size_row;
+    colony->pheromon.size_column = path->size_column;
     for (int i = 0; i < size_row; i++){
         for (int j = 0; j < size_column; j++){
             colony->pheromon.matrix[i][j] = (*colony).meta_data_colony.start_evaporation;
         }
     }
 
-    //создание и инициализация информации о феромонах
-    int count_cities = size_row;
-    colony->ants = new ant_t[size_row];
     for (int i = 0; i < size_row; i++){
-        colony->ants->visit_cities->array = new int[count_cities]{};
-        colony->ants->visit_cities->size_array = count_cities;
-        colony->ants->visited_way_length = 0;
-        colony->ants->count_visited_cities = 0;
+        for (int j = 0; j < size_column; j++){
+            std::cout << "colony->pheromon.matrix[i][j] = " << colony->pheromon.matrix[i][j] << std::endl;
+        }
     }
 
     //создание и заполнение матрицы привлекательности
-    (*colony).attractiveness.matrix = create_double_matrix(path->size_row, path->size_column);
+    (*colony).attractiveness.matrix = create_double_matrix(size_row, size_column);
     (*colony).attractiveness.size_row = path->size_row;
     (*colony).attractiveness.size_column = path->size_column;
     for (int i = 0; i < (*colony).attractiveness.size_row; i++){
@@ -110,16 +120,37 @@ void initialize_colony(ant_colony_t *colony, matrix_int_t *path)
             }
         }
     }
+
+    std::cout << "Матрица привлекательности:" << std::endl;
+    for (int i = 0; i < (*colony).attractiveness.size_row; i++){
+        for (int j = 0; j < (*colony).attractiveness.size_column; j++){
+            std::cout << (*colony).attractiveness.matrix[i][j] << " ";
+        }
+        std::cout << std::endl;
+    }
+
+    //создание и инициализация информации о феромонах
+    int count_cities = size_row;
+    colony->ants = create_ants(size_row, size_column);
 }
 
-void evaporate_pheromon(matrix_double_t *pheromon, double koeff_evaporation)
+void evaporate_pheromon(matrix_double_t *pheromon, double koeff_evaporation, double min_evaporation)
 {
+    std::cout << "(*pheromon).size_row = " << (*pheromon).size_row << std::endl;
+    std::cout << "(*pheromon).size_column = " << (*pheromon).size_column << std::endl;
     for (int i = 0; i < (*pheromon).size_row; i++){
         for (int j = 0; j < (*pheromon).size_column; j++){
-            (*pheromon).matrix[i][j] *= (1 - koeff_evaporation);
+            if (i != j)
+            {
+                (*pheromon).matrix[i][j] *= (1 - koeff_evaporation);
+                if ((*pheromon).matrix[i][j] < min_evaporation){
+                    (*pheromon).matrix[i][j] = min_evaporation;
+                }
+            }
         }
     }
 }
+
 
 void add_pheromone_route(ant_colony_t *colony, int count_ants)
 {
@@ -150,42 +181,70 @@ void generate_start_city_for_ants(ant_t *ants, int count_ants)
     }
 }
 
-void get_route_from_ant(ant_t *ant, matrix_double_t *pheromons,
+int get_route_from_ant(ant_t *ant, matrix_double_t *pheromons,
                         matrix_double_t *attractivness, meta_t *meta_data_colony,
                         matrix_int_t *paths, int index_last_city)
 {
+    std::cout << "GET_ROUTE_FROM_ANT.\n";
+    std::cout << "index_last_city = " << index_last_city << std::endl;
     //получить маршрут по всем городам от одного муравья
     int chosen_city;
     int count_cities = ant->visit_cities->size_array;
     double get_way_length = 0;
+    //за счет того, что уже муравей находится в первом городе
+    (*ant).count_visited_cities += 1;
     int last_index_last_city = index_last_city;
 
     //цикл по всем городам за исключением исходного
     //выполняется поиска нового города, отмтка о посещенном месте, суммируется длина пути
-    for (int i = 1; i < count_cities; i++)
+    std::cout << "Посещенные муравьем города:";
+    for (int i = 0; i < count_cities; i++){
+        std::cout << (*ant).visit_cities->array[i];
+    }
+    for (int i = 0; i < count_cities - 1; i++)
     {
+        std::cout << "i = " << i << std::endl;
         chosen_city = choose_next_city(&get_way_length, ant, paths, pheromons,
                                         attractivness, last_index_last_city, *meta_data_colony);
         last_index_last_city = chosen_city;
-        (*ant).visit_cities->array[i] = chosen_city;
+        (*ant).visit_cities->array[i+1] = chosen_city;
+        (*ant).count_visited_cities += 1;
         (*ant).visited_way_length += get_way_length;
+        std::cout << "get_way_length = " << get_way_length << std::endl;
+        std::cout << "(*ant).visited_way_length = " << (*ant).visited_way_length << std::endl;
+        std::cout << "Посещенные муравьем города:";
+        for (int i = 0; i < count_cities; i++){
+            std::cout << (*ant).visit_cities->array[i];
+        }
     }
+    std::cout << "Посещенные муравьем города:";
+    for (int i = 0; i < count_cities; i++){
+        std::cout << (*ant).visit_cities->array[i];
+    }
+    int last_visited_city = (*ant).visit_cities->array[count_cities - 1];
+    std::cout << "last_index_last_city = " << last_index_last_city << std::endl;
+    std::cout << "index_last_city = " << index_last_city << std::endl;
+    (*ant).visited_way_length += paths->matrix[last_index_last_city][index_last_city];
+    std::cout << "get_way_length = " << paths->matrix[last_index_last_city][index_last_city] << std::endl;
+
+    std::cout << "Пройденная дистанция = " << (*ant).visited_way_length << std::endl;
+    return (*ant).visited_way_length;
 }
 
 int choose_next_city(double *get_way_length, ant_t *ant, matrix_int_t *paths,
                      matrix_double_t *pheromons, matrix_double_t *attractiveness,
                      int index_last_city, meta_t meta_data_colony)
 {
+    std::cout << "ВЫБОР НОВОГО ГОРОДА.\n";
     int count_cities = (*ant).visit_cities->size_array;
-    double *probability = new double[count_cities]{};
-    double denominator = 0;
-    double sum = 0;
+    double denominator = 0, sum = 0;
+    int chosen_next_city;
     
     //расчет знаменателя вероятности
     //сумма произведений для доступных вершин - непосещенных городов
     for (int i = 0; i < count_cities; i++){
         //заносим в сумму только те города, которые не были еще посещены
-        if (check_is_visited_city(i, ant->visit_cities) == false)
+        if (check_is_visited_city(i, ant->visit_cities, ant->count_visited_cities) == false)
         {
             sum = pow(pheromons->matrix[index_last_city][i], meta_data_colony.alpha) +
                   pow(attractiveness->matrix[index_last_city][i], meta_data_colony.beta);
@@ -195,10 +254,11 @@ int choose_next_city(double *get_way_length, ant_t *ant, matrix_int_t *paths,
     
     //расчет вероятности
     //создание массива вероятности
+    double *probability = new double[count_cities]{};
     for (int i = 0; i < count_cities; i++)
     {
         //записываем вероятность, если только город не был посещен
-        if (check_is_visited_city(i, ant->visit_cities) == false)
+        if (check_is_visited_city(i, ant->visit_cities, ant->count_visited_cities) == false)
         {
             sum = pow(pheromons->matrix[index_last_city][i], meta_data_colony.alpha) +
                   pow(attractiveness->matrix[index_last_city][i], meta_data_colony.beta);
@@ -206,17 +266,100 @@ int choose_next_city(double *get_way_length, ant_t *ant, matrix_int_t *paths,
         }
     }
     
+    std::cout << "Вероятность:" << std::endl;
+    for (int i = 0; i < count_cities; i++){
+        std::cout << probability[i] << " ";
+    }
 
+    chosen_next_city = get_value_from_fortuna_wheel(probability, count_cities);
+    std::cout << "chosen_next_city = " << chosen_next_city << std::endl;
+    std::cout << "index_last_city = " << index_last_city << std::endl;
+    std::cout << "chosen_next_city = " << chosen_next_city << std::endl;
+    
+    *get_way_length = paths->matrix[index_last_city][chosen_next_city];
+
+    std::cout << "*get_way_length = " << *get_way_length << std::endl;
+
+    return chosen_next_city;
 }
 
-bool check_is_visited_city(int index_city, array *visited_cities)
+int get_value_from_fortuna_wheel(double *probability, int count_cities)
+{
+    srand(static_cast<unsigned int>(time(0)));
+    double generated_probability = (double)(rand())/RAND_MAX;
+    std::cout << "generated_probability = " << generated_probability << std::endl;
+
+    double sum = 0;
+    bool is_index_city_find = false;
+    int find_index = 0;
+    for (int i = 0; i < count_cities && is_index_city_find == false; i++){
+        sum += probability[i];
+        if (sum < generated_probability){
+            find_index++;
+        }
+        else{
+            find_index = i;
+            is_index_city_find = true;
+        }
+    }
+
+    return find_index; 
+    
+}
+
+bool check_is_visited_city(int index_city, array *visited_cities, int count_visited_cities)
 {
     bool is_visited = false;
-    for (int i = 0; i < (*visited_cities).size_array && is_visited == false; i++){
+    for (int i = 0; i < count_visited_cities && is_visited == false; i++){
         if ((*visited_cities).array[i] == index_city){
             is_visited = true;
         }
     }
 
+    std::cout << "is_visited (" << index_city << ")= " << is_visited << std::endl;
+
     return is_visited;
+}
+
+ant_t *create_ants(int size_row, int size_column)
+{
+    ant_t *ants = nullptr;
+    ants = new ant_t[size_row];
+
+    for (int i = 0; i < size_row; ++i)
+    {
+        //std::cout << "i = " << i << std::endl;
+        ants[i].visit_cities = new array;
+        ants[i].visit_cities->array = new int[size_column]{};
+        ants[i].visit_cities->size_array = size_row;
+        ants[i].count_visited_cities = 0;
+        ants[i].visited_way_length = 0;
+    }
+
+/*
+    for (int i = 0; i < size_row; ++i){
+        for (int j = 0; j < size_column; j++){
+            std::cout << ants[i].visit_cities->array[j] << " ";
+        }
+        std::cout << std::endl;
+        //std::cout << "ants[i].count_visited_cities = " << ants[i].count_visited_cities << std::endl;
+    }*/
+
+    return ants;
+}
+
+void copy_ant_route_to_short(short_route_t &shortest_route, array *visited_cities)
+{
+    for (int i = 0; i < (*visited_cities).size_array; i++){
+        shortest_route.short_route[i] = (*visited_cities).array[i];
+    }
+}
+
+void reset_ant_to_default(ant_t *ant)
+{
+    ant->count_visited_cities = 0;
+    ant->visited_way_length = 0;
+    for (int i = 1; i < (*ant).visit_cities->size_array; i++){
+        (*ant).visit_cities->array[i] = 0;
+    }
 }

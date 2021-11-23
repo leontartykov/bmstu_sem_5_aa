@@ -23,9 +23,14 @@ int main(int args, char *argv[])
     initialize_colony(&colony, &path);
     
     //int short_way_brute = find_short_way_by_brute_force(&cities, path.matrix);
-    //int short_way_ant = find_short_way_by_ant_algorithm(&path, &colony);
+    short_route_t shortest_route;
+    shortest_route.short_route = new int[path.size_row];
+    shortest_route.length_short_route = 0;
+
+    find_short_way_by_ant_algorithm(shortest_route, &path, &colony);
 
     //printf("short_way_brute = %d\n", short_way_brute);
+    printf("short_way_ant = %d\n", shortest_route.length_short_route);
 
     
     return 0;

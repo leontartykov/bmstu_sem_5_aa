@@ -4,7 +4,7 @@
 int **create_int_matrix(int size_row, int size_column)
 {
     int **matrix = nullptr;
-    matrix = new int *[size_row];
+    matrix = new int*[size_row];
 
     for (int i = 0; i < size_row; ++i){
         matrix[i] = new int[size_column]{};

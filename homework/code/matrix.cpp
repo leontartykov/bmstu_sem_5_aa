@@ -25,7 +25,7 @@ int solve_slay(double **matrix, int row, int column, int *count_null_elem)
         }
         else
         {
-            //разделить все элементы в строке на найденный элемент
+            //разделить все элементы в строке на найденный 	элемент
             for (int i = 0; i < column; i++)                                    //(14)
                 matrix[k][i] /= main_elem;                                      //(15)
 

@@ -37,12 +37,12 @@ struct ant_colony
 typedef struct short_route short_route_t;
 struct short_route
 {
-    int *short_route;
+    array short_route;
     int length_short_route;
 };
 
 ant_t *create_ants(int size_row, int size_column);
-void find_short_way_by_ant_algorithm(short_route_t &shortest_route, matrix_int_t *path,
+void find_short_way_by_ant_algorithm(short_route_t *shortest_route, matrix_int_t *path,
                                     ant_colony_t *colony);
 void initialize_colony(ant_colony_t *colony, matrix_int_t *path);
 

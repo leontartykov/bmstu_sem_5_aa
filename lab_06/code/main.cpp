@@ -12,7 +12,6 @@ int main(int args, char *argv[])
     matrix_int_t path;
 
     parser_file(argv[1], &path);
-    output_matrix(path.matrix, path.size_row, path.size_column);
 
     array_t cities;
     create_cities(&cities, path.size_row);
@@ -22,15 +21,34 @@ int main(int args, char *argv[])
     ant_colony_t colony;
     initialize_colony(&colony, &path);
     
-    //int short_way_brute = find_short_way_by_brute_force(&cities, path.matrix);
-    short_route_t shortest_route;
-    shortest_route.short_route = new int[path.size_row];
-    shortest_route.length_short_route = 0;
+    short_route_t shortest_route_ant, shortest_route_brute;
+    shortest_route_brute.short_route.array = nullptr;
+    shortest_route_brute.short_route.array = new int[path.size_row];
+    shortest_route_brute.short_route.size_array = path.size_row;
+    shortest_route_brute.length_short_route = 0;
 
-    find_short_way_by_ant_algorithm(shortest_route, &path, &colony);
+    shortest_route_ant.short_route.array = nullptr;
+    shortest_route_ant.short_route.array = new int[path.size_row];
+    shortest_route_ant.short_route.size_array = path.size_row;
+    shortest_route_ant.length_short_route = 0;
 
-    //printf("short_way_brute = %d\n", short_way_brute);
-    printf("short_way_ant = %d\n", shortest_route.length_short_route);
+    int short_way_brute = find_short_way_by_brute_force(&cities, &shortest_route_brute, path.matrix);
+
+    find_short_way_by_ant_algorithm(&shortest_route_ant, &path, &colony);
+
+    printf("short_way_brute = %d\n", short_way_brute);
+    std::cout << "(";
+    for (int i = 0; i < shortest_route_brute.short_route.size_array; i++){
+        std::cout <<  shortest_route_brute.short_route.array[i] << " ";
+    }
+    std::cout << ")" << std::endl;
+    
+    printf("short_way_ant = %d\n", shortest_route_ant.length_short_route);
+    std::cout << "(";
+    for (int i = 0; i < shortest_route_ant.short_route.size_array; i++){
+        std::cout <<  shortest_route_ant.short_route.array[i] << " ";
+    }
+    std::cout << ")" << std::endl;
 
     
     return 0;

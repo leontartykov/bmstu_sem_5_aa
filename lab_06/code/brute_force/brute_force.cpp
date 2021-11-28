@@ -3,10 +3,12 @@
 bool find_next_permutation(array_t *cities);
 void swap_elems_array(int *array, int index_first, int index_second);
 int find_way(array_t *cities, int **matrix);
+void copy_brute_route_to_short(short_route_t *shortest_route, array *visited_cities);
 
-int find_short_way_by_brute_force(array_t *cities, int **matrix)
+int find_short_way_by_brute_force(array_t *cities, short_route_t *shortest_route, int **matrix)
 {
-    output_cities(cities);
+    //std::cout << "FIND BRUTE" << std::endl;
+    //output_cities(cities);
     int short_length = 0, min_short_length = 0;
     int i = 0, min_i = 0;
 
@@ -16,11 +18,12 @@ int find_short_way_by_brute_force(array_t *cities, int **matrix)
 
     while (find_next_permutation(cities) == true)
     {
-        output_cities(cities);
+        //output_cities(cities);
         short_length = find_way(cities, matrix);
         //printf("short_length = %d\n", short_length);
         if (short_length < min_short_length){
             min_short_length = short_length;
+            copy_brute_route_to_short(shortest_route, cities);
             min_i = i;
         }
         
@@ -83,4 +86,11 @@ int find_way(array_t *cities, int **matrix)
     short_length += matrix[index_i][index_j];
 
     return short_length;
+}
+
+void copy_brute_route_to_short(short_route_t *shortest_route, array *visited_cities)
+{
+    for (int i = 0; i < (*visited_cities).size_array; i++){
+        (*shortest_route).short_route.array[i] = (*visited_cities).array[i];
+    }
 }

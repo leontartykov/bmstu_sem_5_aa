@@ -3,7 +3,7 @@ from os import write
 
 def measure_compares(dictionary):   
     write_full_search_data("code/data/compare_full_search.txt", dictionary, 1)
-    write_full_search_data("code/data/compare_full_search_back.txt", dictionary, -1)
+    write_full_search_back_data("code/data/compare_full_search_back.txt", dictionary, -1)
 
     list_sorted = list()
     write_binary_data("code/data/compare_binary_0_450.txt", 0, 450, dictionary, list_sorted)
@@ -34,6 +34,16 @@ def measure_compares(dictionary):
     write_sorted_data("code/data/compare_segment_sorted_1351_1800.txt", 1351, 1800, list_sorted)
     write_sorted_data("code/data/compare_segment_sorted_1801_2241.txt", 1801, 2241, list_sorted)
 
+
+def write_full_search_back_data(file_name, dictionary, direction):
+    if direction == 1:
+        start = 0; end = dictionary.len; step = 1
+    else:
+        start = dictionary.len; end = 0; step = -1
+    with open(file_name, "w") as file:
+        for i in range(start, end + step, step):
+            string = str(dictionary.len - i) + ' ' + str(i+1) + '\n'
+            file.write(string)
 
 def write_full_search_data(file_name, dictionary, direction):
     if direction == 1:

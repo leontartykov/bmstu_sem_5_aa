@@ -1,0 +1,260 @@
+\chapter{Технологический раздел}
+В данном разделе приведены листинги реализованных алгоритмов, требование к программному обеспечению и его тестирование.
+
+\section{Требования к программному обеспечению}
+Программа должна удовлетворять следующим требованиям:
+\begin{itemize}
+	\item на вход программе подается симметричная матрица стоимостей графа, количество дней жизни колонии, а также регулируемые параметры;
+	\item на вход программе подаются корректные данные;
+	\item на вход программа выдает массив кратчайшего пути и его длину этого пути;
+\end{itemize}
+
+
+\section{Выбор средств реализации}
+Для реализации алгоритмов в данной лабораторной работе был выбран язык программирования C++ \cite{c++}. Данный выбор обусловен тем, что он является компилируемым, что увеличивает скорость выполнения программ по сравнению с интерпретируемыми. В качестве среды разработки был использован Visual Studio Code\cite{vs}, так как в нем присутствуют инструменты для удобства написания и отладки кода. Выполнение замера процессорного времени осуществлено при помощи библиотеки chrono \cite{chrono}.
+
+\section{Листинги программ}
+\subsection{Полный перебор}
+Ниже представлены листинги разработанного модуля метода полного перебора.
+\begin{lstlisting}[label = brute_force, caption=Программный код алгоритма полного перебора.]
+int find_short_way_by_brute_force(array_t *cities, int **matrix)
+{
+	output_cities(cities);
+	int short_length = 0, min_short_length = 0;
+	int i = 0, min_i = 0;
+	
+	short_length = find_way(cities, matrix);
+	min_short_length = short_length;
+	i++;
+	
+	while (find_next_permutation(cities) == true)
+	{
+		output_cities(cities);
+		short_length = find_way(cities, matrix);
+		if (short_length < min_short_length){
+			min_short_length = short_length;
+			min_i = i;
+		}
+		
+		i++;
+	}
+	
+	return min_short_length;
+}
+\end{lstlisting}
+
+\subsection{Муравьиный алгоритм}
+На листинге представлен разработанного модуль муравьиного алгоритма:
+\newpage
+\begin{lstlisting}[label=ant_algorithm,caption=Программный код муравьиного алгоритма.]
+void find_short_way_by_ant_algorithm(short_route_t &shortest_route, matrix_int_t *path,
+ant_colony_t *colony)
+{
+	int ant_route_length = 0;
+	
+	(*colony).meta_data_colony.Q = calculate_Q(path);
+	
+	int t_max = (*colony).t_max;
+	int count_ants = (*path).size_row;
+	
+	generate_start_city_for_ants(colony->ants, count_ants);
+	int short_ant_route = (*colony).meta_data_colony.Q*2;
+	int index_last_city = 0;
+	
+	for (int t = 0; t < t_max; t++)
+	{
+		for (int i = 0; i < count_ants; i++)
+		{
+			index_last_city = i;
+			ant_route_length = get_route_from_ant(&colony->ants[i], &colony->pheromon,
+			&colony->attractiveness, &colony->meta_data_colony, path,
+			index_last_city);
+			
+			if (ant_route_length < short_ant_route)
+			{
+				shortest_route.length_short_route = ant_route_length;
+				copy_ant_route_to_short(shortest_route, colony->ants[i].visit_cities);
+			}            	
+		}
+
+		add_pheromone_route(colony, (*path).size_row);
+		evaporate_pheromon(&colony->pheromon, colony->meta_data_colony.koeff_evaporation,
+		colony->meta_data_colony.start_evaporation);
+		reset_ant_to_default(&colony->ants[i]);
+	}
+}
+\end{lstlisting}
+
+\section{Вспомогательные модули}
+\subsection{Полный перебор}
+На листингах представлены вспомогательные программные модули, которые используются в алгоритме полного перебора:
+\begin{lstlisting}[label=permutation,caption=Программный код нахождения следующей перестановки.]
+bool find_next_permutation(array_t *cities)
+{
+	int j = (*cities).size_array - 2;
+	while (j != -1 && (*cities).array[j] >= (*cities).array[j + 1]){
+		j--;
+	}
+	
+	if (j == -1)
+	return false;
+	
+	int k = (*cities).size_array - 1;
+	while ((*cities).array[j] >= (*cities).array[k]){
+		k--;
+	}
+	
+	swap_elems_array(cities->array, j, k);
+	int left = j + 1, right = (*cities).size_array - 1;
+	
+	while (left < right){
+		swap_elems_array(cities->array, left++, right--);
+	}
+	
+	return true;
+}
+\end{lstlisting}
+\subsection{Муравьиный алгоритм}
+На листингах представлены вспомогательные программные модули, которые используются в муравьином алгоритме:
+\newpage
+\begin{lstlisting}[label=Q_code, caption=Программный код вычисления параметра Q.]	
+int calculate_Q(matrix_int_t *path)
+{
+	int size_row = (*path).size_row;
+	int size_column = (*path).size_column;
+	int average_length = 0;
+	
+	for (int i = 0; i < size_row; i++){
+		for (int j = 0; j < i; j++){
+			average_length += (*path).matrix[i][j];
+		}
+	}
+	
+	average_length /= 2;
+	return average_length;
+}
+\end{lstlisting}
+
+\begin{lstlisting}[label=get_route, caption=Программный код вычисления маршрута каждого муравья.]	
+int get_route_from_ant(ant_t *ant, matrix_double_t *pheromons,
+matrix_double_t *attractivness, meta_t *meta_data_colony,
+matrix_int_t *paths, int index_last_city)
+{
+	int chosen_city;
+	int count_cities = ant->visit_cities->size_array;
+	double get_way_length = 0;
+
+	(*ant).count_visited_cities += 1;
+	int last_index_last_city = index_last_city;
+	
+	for (int i = 0; i < count_cities - 1; i++)
+	{
+		chosen_city = choose_next_city(&get_way_length, ant, paths, pheromons,
+		attractivness, last_index_last_city, *meta_data_colony);
+		last_index_last_city = chosen_city;
+		(*ant).visit_cities->array[i+1] = chosen_city;
+		(*ant).count_visited_cities += 1;
+		(*ant).visited_way_length += get_way_length;
+	}
+
+	int last_visited_city = (*ant).visit_cities->array[count_cities - 1];
+
+	(*ant).visited_way_length += paths->matrix[last_index_last_city][index_last_city];
+	return (*ant).visited_way_length;
+}
+\end{lstlisting}
+
+\begin{lstlisting}[label=next_city, caption=Программный код выбора муравьем следующего города.]
+int choose_next_city(double *get_way_length, ant_t *ant, matrix_int_t *paths,
+matrix_double_t *pheromons, matrix_double_t *attractiveness,
+int index_last_city, meta_t meta_data_colony)
+{
+	int count_cities = (*ant).visit_cities->size_array;
+	double denominator = 0, sum = 0;
+	int chosen_next_city;
+
+	for (int i = 0; i < count_cities; i++){
+		if (check_is_visited_city(i, ant->visit_cities, ant->count_visited_cities) == false)
+		{
+			sum = pow(pheromons->matrix[index_last_city][i], meta_data_colony.alpha) +
+			pow(attractiveness->matrix[index_last_city][i], meta_data_colony.beta);
+			denominator += sum;
+		}
+	}
+	
+	double *probability = new double[count_cities]{};
+	for (int i = 0; i < count_cities; i++)
+	{
+		if (check_is_visited_city(i, ant->visit_cities, ant->count_visited_cities) == false)
+		{
+			sum = pow(pheromons->matrix[index_last_city][i], meta_data_colony.alpha) +
+			pow(attractiveness->matrix[index_last_city][i], meta_data_colony.beta);
+			probability[i] = sum / denominator;
+		}
+	}
+	
+	chosen_next_city = get_value_from_fortuna_wheel(probability, count_cities);
+	
+	*get_way_length = paths->matrix[index_last_city][chosen_next_city];
+	return chosen_next_city;
+}
+\end{lstlisting}
+
+\begin{lstlisting}[label=fortuna_wheel, caption=Программный код выбора города случайным образом ("колесо фортуны").]
+int get_value_from_fortuna_wheel(double *probability, int count_cities)
+{
+	srand(static_cast<unsigned int>(time(0)));
+	double generated_probability = (double)(rand())/RAND_MAX;
+	
+	double sum = 0;
+	bool is_index_city_find = false;
+	int find_index = 0;
+	for (int i = 0; i < count_cities && is_index_city_find == false; i++){
+		sum += probability[i];
+		if (sum < generated_probability){
+			find_index++;
+		}
+		else{
+			find_index = i;
+			is_index_city_find = true;
+		}
+	}
+	
+	return find_index; 
+	
+}
+\end{lstlisting}
+
+\section{Тестирование}
+Для тестирования используется метод черного ящика. В данном разделе приведена таблица \ref{table:ref1}, в которой указаны тесты:
+
+\begin{table}[ht!]
+	\centering
+	\captionsetup{singlelinecheck = false, justification=raggedright}
+	\caption{Таблица тестов}
+	\label{table:ref1}
+	\begin{tabular}{|c|c|c|}
+		\hline
+		№ & Матрица  &    Ожидаемый результат\\\hline
+		1 & $\begin{pmatrix}
+			0 & 5 & 4 & 8 & 3 \\
+			5 & 0 & 6 & 7 & 9 \\
+			4 & 6 & 0 & 5 & 5 \\
+			8 & 7 & 5 & 0 & 4 \\
+			3 & 9 & 5 & 4 & 0 
+			\end{pmatrix}$				 & 30
+		\\ \hline
+		2 & $\begin{pmatrix}
+			0 & 6 & 8 & 1 \\
+			6 & 0 & 3 & 5 \\
+			8 & 3 & 0 & 9 \\
+			1 & 5 & 9 & 0 \\
+		\end{pmatrix}$	 				& 17
+		\\ \hline
+	\end{tabular}
+\end{table}
+	Для метода "грубой силы" и муравьиного алгоритма данные тесты пройдены успешно.
+	
+\section{Вывод}
+В данном разделе был выбран язык программирования, среда разработки, приведены листинги модулей. Было успешно проведено их тестирование методом черного ящика по таблице \ref{table:ref1}. 
+

@@ -1,0 +1,74 @@
+\addcontentsline{toc}{chapter}{Приложение А}
+\begin{landscape}
+
+\thispagestyle{mylandscape} %Call our predefined page t
+\counterwithout{figure}{chapter}
+\counterwithout{figure}{section}
+
+\captionsetup{singlelinecheck = false, justification=centering}
+\begin{center}
+	\begin{figure}[H]
+		\centering
+		\begin{tikzpicture}
+			\begin{axis}[%
+				scale only axis,
+				height=0.2\textheight,
+				xmin=0, xmax = 2241,
+				ymin=0, ymax = 2241,
+				xtick distance = 500,
+				width = 1.4\textwidth,
+				bar width = 0.5pt,
+				axis on top,
+				]
+				\addplot[
+				ybar,
+				bar shift=0in,
+				fill=orange,
+				draw=orange]
+				plot file {data/compare_full_search.txt};
+				\addplot[purple,sharp plot, dashed, update limits=false]
+				coordinates {(0,1120) (2241,1121)} node[above] at (axis cs:250,1120.1) {mid};
+				\addplot[purple,sharp plot, dashed, update limits=false]
+				coordinates {(0,2241) (2241,2241)} node[below] at (axis cs:250,2241.1) {max};
+				\addplot[purple,sharp plot, dashed, update limits=false]
+				coordinates {(0,1) (2241,1)} node[above] at (axis cs:250,1.1) {min};
+			\end{axis}
+		\end{tikzpicture}
+		\caption{Гистограмма количества сравнений на каждый ключ}
+		\label{fig:full_search}
+	\end{figure}
+\end{center}
+
+\begin{center}
+	\begin{figure}[H]
+		\centering
+		\begin{tikzpicture}
+			\begin{axis}[%
+				scale only axis,
+				height=0.2\textheight,
+				xmin=0, xmax = 2241,
+				ymin=0, ymax = 2241,
+				xtick distance = 500,
+				width = 1.4\textwidth,
+				bar width = 0.5pt,
+				axis on top,
+				]
+				\addplot[
+				ybar,
+				bar shift=0in,
+				fill=orange,
+				draw=orange]
+				plot file {data/compare_full_search_back.txt};
+				\addplot[purple,sharp plot, dashed, update limits=false]
+				coordinates {(0,1120) (2241,1121)} node[above] at (axis cs:250,1120.1) {mid};
+				\addplot[purple,sharp plot, dashed, update limits=false]
+				coordinates {(0,2241) (2241,2241)} node[below] at (axis cs:250,2241.1) {max};
+				\addplot[purple,sharp plot, dashed, update limits=false]
+				coordinates {(0,1) (2241,1)} node[above] at (axis cs:250,1.1) {min};
+			\end{axis}
+		\end{tikzpicture}
+		\caption{Гистограмма количества сравнений на каждый ключ по убыванию.}
+		\label{fig:full_search_back}
+	\end{figure}
+\end{center}
+\end{landscape}

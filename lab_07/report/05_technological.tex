@@ -1,0 +1,93 @@
+\chapter{Технологический раздел}
+В данном разделе приведены листинги реализованных алгоритмов, требование к программному обеспечению и его тестирование.
+
+\section{Требования к программному обеспечению}
+Программа должна удовлетворять следующим требованиям:
+\begin{itemize}
+	\item на вход программе подается имя файла, откуда считывается отрывок текста;
+	\item на вход программе подаются корректные данные;
+	\item на выход программа выдает найденное значение по ключу или сообщение об ошибке.
+\end{itemize}
+
+
+\section{Выбор средств реализации}
+Для реализации алгоритмов в данной лабораторной работе был выбран язык программирования Python 3.9.7\cite{python3}. В качестве среды разработки был использован Visual Studio Code\cite{vs}, так как в нем присутствуют инструменты для удобства написания и отладки кода.
+
+\section{Листинги программ}
+Ниже представлены листинг разработанного модуля метода полного перебора.
+\newpage
+\begin{lstlisting}[label = full_search, caption=Программный код алгоритма полного перебора.]
+def find_by_full_search(self, word):
+	is_find_key = False
+	value = 0
+	count_compares = 0
+	for key in self.dictionary.keys():
+		if is_find_key == True:
+			break
+		if key == word:
+			is_find_key = True
+			value = self.dictionary[key]
+		count_compares += 1
+	return value, count_compares
+\end{lstlisting}
+
+Ниже представлены листинг разработанного модуля метода бинарного поиска.
+\begin{lstlisting}[label = binary_search, caption=Программный код алгоритма полного перебора.]
+def find_by_binary_search(self, word, dictionary=None):
+	if dictionary == None:
+		dictionary = self.sorted_dictionary
+		left = 0; right = self.len - 1
+	else:
+		left = 0; right = len(dictionary) - 1
+
+	is_find = False; value = 0
+	list_dictionary = list(dictionary) 
+	count_compares = 0
+	while is_find == False and right >= left:
+		middle = (left + right) // 2
+		key = list_dictionary[middle]
+		if key == word:
+			is_find = True
+			value = dictionary.get(key)
+		elif key > word:
+			right = middle - 1
+		else:
+			left = middle + 1
+		count_compares += 1
+	return value, count_compares
+\end{lstlisting}
+\newpage
+Ниже представлены листинг разработанного модуля сегментного разбиения с бинарным поиском.
+\begin{lstlisting}[label = segment_binary_search, caption=Программный код алгоритма сегментного разбиения с бинарным поиском.]
+def find_by_segment_search(self, word):
+	count_compares = 0
+	count_segments = len(self.segment_dictionary)
+	result = 0; count_companies = 0
+	for i in range(count_segments):
+		if word[0] == list(self.segment_dictionary[i])[0][0]:
+			result, binary_search_compares = self.find_by_binary_search(word, self.segment_dictionary[i])
+			count_compares += binary_search_compares
+			break
+	return result, count_compares
+\end{lstlisting}
+
+\section{Тестирование ПО}
+Результаты тестирования ПО приведены в таблице \ref{table:testing}. 
+\begin{table}[H]
+	\captionsetup{singlelinecheck = false, justification=raggedleft}
+	\caption{Тестирование ПО}
+	\begin{center}
+		\begin{tabular}{|c|c|c|}
+			\hline
+			Входные данные & Ожидаемый результат  & Результат \\ \hline
+			and            & 331                  & 331       \\ \hline
+			together       & 1                    & 1         \\ \hline
+			1         	   & 2                    & 2         \\ \hline
+			wednesday?     & not found            & not found \\ \hline
+		\end{tabular}
+	\end{center}
+	\label{table:testing}
+\end{table}
+
+\section{Вывод}
+Было написано и протестировано программное обеспечение для решения поставленной задачи.

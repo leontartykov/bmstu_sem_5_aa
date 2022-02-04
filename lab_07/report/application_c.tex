@@ -1,0 +1,340 @@
+\addcontentsline{toc}{chapter}{Приложение В}
+\begin{landscape}
+	
+	\thispagestyle{mylandscape} %Call our predefined page t
+	\counterwithout{figure}{chapter}
+	\counterwithout{figure}{section}
+	
+	\captionsetup{singlelinecheck = false, justification=centering}
+	\begin{center}
+		\begin{figure}[H]
+			\centering
+			\begin{tikzpicture}
+				\begin{axis}[%
+					scale only axis,
+					height=0.24\textheight,
+					xmin=0, xmax = 450,
+					ymin=0, ymax = 15,
+					width = 1.4\textwidth,
+					bar width = 0.5pt,
+					xtick distance = 50,
+					axis on top,
+					]
+					\addplot[
+					ybar,
+					bar shift=0in,
+					fill=orange,
+					draw=orange]
+					plot file {data/compare_segment_0_450.txt};
+					\addplot[purple,sharp plot, dashed, update limits=false]
+					coordinates {(0,7.5) (450,7.5)} node[above] at (axis cs:250,7.51) {mid};
+					\addplot[purple,sharp plot, dashed, update limits=false]
+					coordinates {(0,15) (450,15)} node[below] at (axis cs:250,15.1) {max};
+					\addplot[purple,sharp plot, dashed, update limits=false]
+					coordinates {(0,1) (450,1)} node[above] at (axis cs:250,1.1) {min};
+				\end{axis}
+			\end{tikzpicture}
+			\caption{Гистограмма количества сравнений на каждый ключ (отсортировано по алфавиту, ключи 0 -- 450)}
+			\label{fig:brute-alpth2}
+		\end{figure}
+	\end{center}
+	
+	\captionsetup{singlelinecheck = false, justification=centering}
+	\begin{center}
+		\begin{figure}[H]
+			\centering
+			\begin{tikzpicture}
+				\begin{axis}[%
+					scale only axis,
+					height=0.24\textheight,
+					xmin=451, xmax = 900,
+					ymin=0, ymax = 15,
+					width = 1.4\textwidth,
+					bar width = 0.5pt,
+					xtick distance = 50,
+					axis on top,
+					]
+					\addplot[
+					ybar,
+					bar shift=0in,
+					fill=orange,
+					draw=orange]
+					plot file {data/compare_segment_451_900.txt};
+					\addplot[purple,sharp plot, dashed, update limits=false]
+					coordinates {(451,7.5) (900,7.5)} node[above] at (axis cs:250,7.51) {mid};
+					\addplot[purple,sharp plot, dashed, update limits=false]
+					coordinates {(451,15) (900,15)} node[below] at (axis cs:250,15.1) {max};
+					\addplot[purple,sharp plot, dashed, update limits=false]
+					coordinates {(451,1) (900,1)} node[above] at (axis cs:250,1.1) {min};
+				\end{axis}
+			\end{tikzpicture}
+			\caption{Гистограмма количества сравнений на каждый ключ (отсортировано по алфавиту, ключи 451 -- 900)}
+			\label{fig:brute-alpth2}
+		\end{figure}
+	\end{center}
+	
+	\begin{center}
+		\begin{figure}[H]
+			\centering
+			\begin{tikzpicture}
+				\begin{axis}[%
+					scale only axis,
+					height=0.24\textheight,
+					xmin=901, xmax = 1350,
+					ymin=0, ymax = 15,
+					width = 1.4\textwidth,
+					bar width = 0.5pt,
+					xtick distance = 50,
+					axis on top,
+					]
+					\addplot[
+					ybar,
+					bar shift=0in,
+					fill=orange,
+					draw=orange]
+					plot file {data/compare_segment_901_1350.txt};
+					\addplot[purple,sharp plot, dashed, update limits=false]
+					coordinates {(901,7.5) (1350,7.5)} node[above] at (axis cs:250,7.51) {mid};
+					\addplot[purple,sharp plot, dashed, update limits=false]
+					coordinates {(901,15) (1350,15)} node[below] at (axis cs:250,15.1) {max};
+					\addplot[purple,sharp plot, dashed, update limits=false]
+					coordinates {(901,1) (1350,1)} node[above] at (axis cs:250,1.1) {min};
+				\end{axis}
+			\end{tikzpicture}
+			\caption{Гистограмма количества сравнений на каждый ключ (отсортировано по алфавиту, ключи 901 -- 1350)}
+			\label{fig:brute-alpth2}
+		\end{figure}
+	\end{center}
+	
+	\begin{center}
+		\begin{figure}[H]
+			\centering
+			\begin{tikzpicture}
+				\begin{axis}[%
+					scale only axis,
+					height=0.24\textheight,
+					xmin=1351, xmax = 1800,
+					ymin=0, ymax = 15,
+					width = 1.4\textwidth,
+					bar width = 0.5pt,
+					xtick distance = 50,
+					axis on top,
+					]
+					\addplot[
+					ybar,
+					bar shift=0in,
+					fill=orange,
+					draw=orange]
+					plot file {data/compare_segment_1351_1800.txt};
+					\addplot[purple,sharp plot, dashed, update limits=false]
+					coordinates {(1351,7.5) (1800,7.5)} node[above] at (axis cs:250,7.51) {mid};
+					\addplot[purple,sharp plot, dashed, update limits=false]
+					coordinates {(1351,15) (1800,15)} node[below] at (axis cs:250,15.1) {max};
+					\addplot[purple,sharp plot, dashed, update limits=false]
+					coordinates {(1351,1) (1800,1)} node[above] at (axis cs:250,1.1) {min};
+				\end{axis}
+			\end{tikzpicture}
+			\caption{Гистограмма количества сравнений на каждый ключ (отсортировано по алфавиту, ключи 1351 -- 1800)}
+			\label{fig:brute-alpth2}
+		\end{figure}
+	\end{center}
+	
+	\begin{center}
+		\begin{figure}[H]
+			\centering
+			\begin{tikzpicture}
+				\begin{axis}[%
+					scale only axis,
+					height=0.24\textheight,
+					xmin=1801, xmax = 2241,
+					ymin=0, ymax = 15,
+					width = 1.4\textwidth,
+					bar width = 0.5pt,
+					xtick distance = 50,
+					axis on top,
+					]
+					\addplot[
+					ybar,
+					bar shift=0in,
+					fill=orange,
+					draw=orange]
+					plot file {data/compare_segment_1801_2241.txt};
+					\addplot[purple,sharp plot, dashed, update limits=false]
+					coordinates {(1801,7.5) (2241,7.5)} node[above] at (axis cs:250,7.51) {mid};
+					\addplot[purple,sharp plot, dashed, update limits=false]
+					coordinates {(1801,15) (2241,15)} node[below] at (axis cs:250,15.1) {max};
+					\addplot[purple,sharp plot, dashed, update limits=false]
+					coordinates {(1801,1) (2241,1)} node[above] at (axis cs:250,1.1) {min};
+				\end{axis}
+			\end{tikzpicture}
+			\caption{Гистограмма количества сравнений на каждый ключ (отсортировано по алфавиту, ключи 1801 -- 2241)}
+			\label{fig:brute-alpth2}
+		\end{figure}
+	\end{center}
+	
+	\begin{center}
+		\begin{figure}[H]
+			\centering
+			\begin{tikzpicture}
+				\begin{axis}[%
+					scale only axis,
+					height=0.24\textheight,
+					xmin=0, xmax = 450,
+					ymin=0, ymax = 15,
+					width = 1.4\textwidth,
+					bar width = 0.5pt,
+					xtick distance = 50,
+					axis on top,
+					]
+					\addplot[
+					ybar,
+					bar shift=0in,
+					fill=orange,
+					draw=orange]
+					plot file {data/compare_segment_sorted_0_450.txt};
+					\addplot[purple,sharp plot, dashed, update limits=false]
+					coordinates {(0,7.5) (450,7.5)} node[above] at (axis cs:250,7.51) {mid};
+					\addplot[purple,sharp plot, dashed, update limits=false]
+					coordinates {(0,15) (450,15)} node[below] at (axis cs:250,15.1) {max};
+					\addplot[purple,sharp plot, dashed, update limits=false]
+					coordinates {(0,1) (450,1)} node[above] at (axis cs:250,1.1) {min};
+				\end{axis}
+			\end{tikzpicture}
+			\caption{Гистограмма количества сравнений на каждый ключ (отсортировано по алфавиту, ключи 0 -- 450)}
+			\label{fig:brute-alpth2}
+		\end{figure}
+	\end{center}
+	
+	\captionsetup{singlelinecheck = false, justification=centering}
+	\begin{center}
+		\begin{figure}[H]
+			\centering
+			\begin{tikzpicture}
+				\begin{axis}[%
+					scale only axis,
+					height=0.24\textheight,
+					xmin=451, xmax = 900,
+					ymin=0, ymax = 15,
+					width = 1.4\textwidth,
+					bar width = 0.5pt,
+					xtick distance = 50,
+					axis on top,
+					]
+					\addplot[
+					ybar,
+					bar shift=0in,
+					fill=orange,
+					draw=orange]
+					plot file {data/compare_segment_sorted_451_900.txt};
+					\addplot[purple,sharp plot, dashed, update limits=false]
+					coordinates {(451,7.5) (900,7.5)} node[above] at (axis cs:250,7.51) {mid};
+					\addplot[purple,sharp plot, dashed, update limits=false]
+					coordinates {(451,15) (900,15)} node[below] at (axis cs:250,15.1) {max};
+					\addplot[purple,sharp plot, dashed, update limits=false]
+					coordinates {(451,1) (900,1)} node[above] at (axis cs:250,1.1) {min};
+				\end{axis}
+			\end{tikzpicture}
+			\caption{Гистограмма количества сравнений на каждый ключ (отсортировано по алфавиту, ключи 451 -- 900)}
+			\label{fig:brute-alpth2}
+		\end{figure}
+	\end{center}
+	
+	\begin{center}
+		\begin{figure}[H]
+			\centering
+			\begin{tikzpicture}
+				\begin{axis}[%
+					scale only axis,
+					height=0.24\textheight,
+					xmin=901, xmax = 1350,
+					ymin=0, ymax = 15,
+					width = 1.4\textwidth,
+					bar width = 0.5pt,
+					xtick distance = 50,
+					axis on top,
+					]
+					\addplot[
+					ybar,
+					bar shift=0in,
+					fill=orange,
+					draw=orange]
+					plot file {data/compare_segment_sorted_901_1350.txt};
+					\addplot[purple,sharp plot, dashed, update limits=false]
+					coordinates {(901,7.5) (1350,7.5)} node[above] at (axis cs:250,7.51) {mid};
+					\addplot[purple,sharp plot, dashed, update limits=false]
+					coordinates {(901,15) (1350,15)} node[below] at (axis cs:250,15.1) {max};
+					\addplot[purple,sharp plot, dashed, update limits=false]
+					coordinates {(901,1) (1350,1)} node[above] at (axis cs:250,1.1) {min};
+				\end{axis}
+			\end{tikzpicture}
+			\caption{Гистограмма количества сравнений на каждый ключ (отсортировано по алфавиту, ключи 901 -- 1350)}
+			\label{fig:brute-alpth2}
+		\end{figure}
+	\end{center}
+	
+	\begin{center}
+		\begin{figure}[H]
+			\centering
+			\begin{tikzpicture}
+				\begin{axis}[%
+					scale only axis,
+					height=0.24\textheight,
+					xmin=1351, xmax = 1800,
+					ymin=0, ymax = 15,
+					width = 1.4\textwidth,
+					bar width = 0.5pt,
+					xtick distance = 50,
+					axis on top,
+					]
+					\addplot[
+					ybar,
+					bar shift=0in,
+					fill=orange,
+					draw=orange]
+					plot file {data/compare_segment_sorted_1351_1800.txt};
+					\addplot[purple,sharp plot, dashed, update limits=false]
+					coordinates {(1351,7.5) (1800,7.5)} node[above] at (axis cs:250,7.51) {mid};
+					\addplot[purple,sharp plot, dashed, update limits=false]
+					coordinates {(1351,15) (1800,15)} node[below] at (axis cs:250,15.1) {max};
+					\addplot[purple,sharp plot, dashed, update limits=false]
+					coordinates {(1351,1) (1800,1)} node[above] at (axis cs:250,1.1) {min};
+				\end{axis}
+			\end{tikzpicture}
+			\caption{Гистограмма количества сравнений на каждый ключ (отсортировано по алфавиту, ключи 1351 -- 1800)}
+			\label{fig:brute-alpth2}
+		\end{figure}
+	\end{center}
+	
+	\begin{center}
+		\begin{figure}[H]
+			\centering
+			\begin{tikzpicture}
+				\begin{axis}[%
+					scale only axis,
+					height=0.24\textheight,
+					xmin=1801, xmax = 2241,
+					ymin=0, ymax = 15,
+					width = 1.4\textwidth,
+					bar width = 0.5pt,
+					xtick distance = 50,
+					axis on top,
+					]
+					\addplot[
+					ybar,
+					bar shift=0in,
+					fill=orange,
+					draw=orange]
+					plot file {data/compare_segment_sorted_1801_2241.txt};
+					\addplot[purple,sharp plot, dashed, update limits=false]
+					coordinates {(1801,7.5) (2241,7.5)} node[above] at (axis cs:250,7.51) {mid};
+					\addplot[purple,sharp plot, dashed, update limits=false]
+					coordinates {(1801,15) (2241,15)} node[below] at (axis cs:250,15.1) {max};
+					\addplot[purple,sharp plot, dashed, update limits=false]
+					coordinates {(1801,1) (2241,1)} node[above] at (axis cs:250,1.1) {min};
+				\end{axis}
+			\end{tikzpicture}
+			\caption{Гистограмма количества сравнений на каждый ключ (отсортировано по алфавиту, ключи 1801 -- 2241)}
+			\label{fig:brute-alpth2}
+		\end{figure}
+	\end{center}
+\end{landscape}

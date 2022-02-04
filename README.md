@@ -8,6 +8,9 @@
 | [Lab 03](https://github.com/DeadlyHunter38/bmstu_sem_5_aa/tree/master/lab_03)| <p align="left">Алгоритмы сортировки<p>| ✅
 | [Lab 04](https://github.com/DeadlyHunter38/bmstu_sem_5_aa/tree/master/lab_04)| <p align="left">Параллельное программирование<p>| ✅
 | [ДЗ](https://github.com/DeadlyHunter38/bmstu_sem_5_aa/tree/master/homework)| <p align="left">Графовые модели программы<p>| ✅
+| [Lab 05](https://github.com/DeadlyHunter38/bmstu_sem_5_aa/tree/master/lab_05)| <p align="left">Конвейеры вычисления<p>| ✅
+| [Lab 06](https://github.com/DeadlyHunter38/bmstu_sem_5_aa/tree/master/lab_06)| <p align="left">Муравьиный алгоритм<p>| ✅
+| [Lab 07](https://github.com/DeadlyHunter38/bmstu_sem_5_aa/tree/master/lab_07)| <p align="left">Поиск в словаре<p>| ✅
 
 ### Обозначения:
 

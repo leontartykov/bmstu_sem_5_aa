@@ -1,0 +1,35 @@
+\chapter{Исследовательская часть}
+В данном разделе будет проведены испытания программы и проведен анализ полученных данных.
+\section{Эксперимент}
+В результате работы программы был составлен лог:
+\begin{center}
+	\captionsetup{justification=raggedright,singlelinecheck=off}
+	\begin{lstlisting}[label=brute,caption = Экспериментальные данные] 
+		step: 0 | item: 0 | time: 3 (3) | value: HgUeyNFXICSxgWfQUWNOVrKPEGxPRYtwyycpvkfMNmksWrnKcF
+		step: 1 | item: 0 | time: 1056 (1053) | value: IhVfzOGYJDTyhXgRVXOPWsLQFHyQSZuxzzdqwlgNOnltXsoLdG
+		step: 0 | item: 1 | time: 2061 (1005) | value: TSySAPofZCeUPAOgOyFBPJRIYmeWnrpxjLoAwxhsCXosZvtDnY
+		step: 1 | item: 1 | time: 3073 (1012) | value: UTzTBQpgADfVQBPhPzGCQKSJZnfXosqykMpBxyitDYptAwuEoZ
+		step: 0 | item: 2 | time: 4072 (999) | value: YFxSnkfUXRBngoktYNouzrdItijayPSmSjFGbAoLYNRdpsTsWD
+		step: 2 | item: 0 | time: 4072 (999) | value: iHvFZogyjdtYHxGrvxopwSlqfhYqszUXZZDQWLGnoNLTxSOlDg
+		step: 1 | item: 2 | time: 5083 (1011) | value: ZGyTolgVYSCohpluZOpvaseJujkbzQTnTkGHcBpMZOSeqtUtXE
+		step: 3 | item: 0 | time: 5083 (1011) | value: hYqszUXZZDQWLGnoNLTxSOlDgiHvFZogyjdtYHxGrvxopwSlqf
+		step: 0 | item: 3 | time: 6083 (1000) | value: zoZnWQjVWXRbDGlgUbbrTHspOGgKuDOObxEaFtueZhlUgejQJn
+		step: 1 | item: 3 | time: 7097 (1014) | value: apAoXRkWXYScEHmhVccsUItqPHhLvEPPcyFbGuvfAimVhfkRKo
+		step: 2 | item: 1 | time: 8091 (994) | value: utZtbqPGadFvqbpHpZgcqksjzNFxOSQYKmPbXYITdyPTaWUeOz
+		step: 0 | item: 4 | time: 8091 (994) | value: EQxeJrZAULCHFmiwOIyXUnSsSTkqCzEuMrczjpIneDSRAYmABZ
+		step: 1 | item: 4 | time: 9107 (1016) | value: FRyfKsABVMDIGnjxPJzYVoTtTUlrDaFvNsdakqJofETSBZnBCA
+		step: 2 | item: 2 | time: 11106 (1999) | value: zgYtOLGvyscOHPLUzoPVASEjUJKBZqtNtKghCbPmzosEQTuTxe
+		step: 2 | item: 3 | time: 14109 (3003) | value: APaOxrKwxysCehMHvCCSuiTQphHlVeppCYfBgUVFaIMvHFKrkO
+		step: 2 | item: 4 | time: 17126 (3017) | value: frYFkSabvmdigNJXpjZyvOtTtuLRdAfVnSDAKQjOFetsbzNbca
+		step: 3 | item: 1 | time: 18138 (1012) | value: NFxOSQYKmPbXYITdyPTaWUeOzutZtbqPGadFvqbpHpZgcqksjz
+		step: 3 | item: 2 | time: 19150 (1012) | value: JKBZqtNtKghCbPmzosEQTuTxezgYtOLGvyscOHPLUzoPVASEjU
+		step: 3 | item: 3 | time: 20163 (1013) | value: hHlVeppCYfBgUVFaIMvHFKrkOAPaOxrKwxysCehMHvCCSuiTQp
+		step: 3 | item: 4 | time: 21175 (1012) | value: uLRdAfVnSDAKQjOFetsbzNbcafrYFkSabvmdigNJXpjZyvOtTt
+	\end{lstlisting}
+\end{center}
+Полученный файл состоит из записей, отсортированных по времени по возрастанию с начала запуска приложения. В первом столбце указан номер конвейера, во втором столбце  — номер текущего элемента, затем время с начала работы программы и время выполнения данного этапа в миллисекундах, а также значение хеша на текущем этапе.
+По листингу можно проследить выполнение каждого этапа и изменение значений хеша при обработке на каждой из лент. Также можно проследить, что обработка выполняется параллельно. Например, 2 линия не ждет полного завершения работы первой прежде чем начать работу, а начинает выполнение как только в очередь поступает первый элемент.
+
+\section{Вывод}
+Так как обработка на каждой линии занимает разное кол-во времени, в листинге можно увидеть, насколько она эффективнее. Если бы мы обрабатывали каждый элемент последовательно то потребовалось бы (1000 + 3000 + 1500) * 5 = 27500 миллисекунд. Однако алгоритм выполнился за 21175 миллисекунд, что дает выигрыш в 6.5 секунд. 
+Также как можно видеть из логов каждый следующий этап обработки зависит от предыдущего, следовательно миномальное время работа алгоритма будет зависить от времени первого потока.
